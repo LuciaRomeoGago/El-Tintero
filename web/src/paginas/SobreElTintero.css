@@ -1,0 +1,2585 @@
+/* hero */
+.p3-hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 64px;
+  padding: 47px 96px 74px 128px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-hero__renglones {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+}
+
+.p3-hero__margen {
+  position: absolute;
+  left: 96px;
+  top: 0px;
+  bottom: 0px;
+  width: 1.5px;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+}
+
+.p3-hero__texto {
+  width: 620px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 105px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p3-hero__sobre-el-tintero {
+  height: 34px;
+  flex-shrink: 0;
+  width: 156px;
+  max-width: 100%;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.p3-hero__titulo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: inherit;
+}
+
+.p3-hero__desde-2001 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-hero__l2 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p3-hero__en {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-hero__resaltador {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: linear-gradient(92deg, rgb(204 255 0 / 0) 0%, rgb(204 255 0 / 0.62) 3%, rgb(204 255 0 / 0.5) 6%, rgb(204 255 0 / 0.5) 93%, rgb(204 255 0 / 0.62) 96%, rgb(204 255 0 / 0) 99%);
+  border-radius: 3px;
+  transform: rotate(1.3deg);
+  margin: 2.32px 0.76px;
+}
+
+.p3-hero__tandil {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 68px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-hero__el-tintero-nacio-como-un-lugar {
+  height: 158px;
+  flex-shrink: 0;
+  width: 580px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.p3-hero__cartel {
+  width: 520px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 600px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p3-hero__polaroid-el-cartel-rojo-de-el-tintero {
+  position: absolute;
+  left: 150px;
+  top: 10px;
+  width: 324px;
+  height: 539px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(-3deg);
+  transform-origin: 0 0;
+}
+
+.p3-hero__foto-el-cartel-rojo-de-el-tintero {
+  height: 480px;
+  flex-shrink: 0;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-hero__renglones-2 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-01e6fa794e.jpg);
+  background-repeat: no-repeat;
+  background-size: 125.361% 130.584%;
+  background-position: 12.235% 28.893%;
+}
+
+.p3-hero__el-cartel-de-siempre {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  text-align: right;
+  margin: 0;
+  position: relative;
+}
+
+.p3-hero__cinta {
+  position: absolute;
+  left: 119px;
+  top: -12px;
+  width: 86px;
+  height: 26px;
+  box-sizing: border-box;
+  background-color: rgb(255 245 199 / 0.75);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.p3-hero__polaroid-clase-de-2009 {
+  position: absolute;
+  left: 0px;
+  top: 360px;
+  width: 284px;
+  height: 259px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(7deg);
+  transform-origin: 0 0;
+}
+
+.p3-hero__foto-clase-de-2009 {
+  height: 200px;
+  flex-shrink: 0;
+  width: 260px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-hero__renglones-3 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-3df3e43873.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p3-hero__n2009 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .p3-hero {
+    gap: 32px;
+    padding: 56px 20px 56px 20px;
+    justify-content: unset;
+    flex-direction: column;
+    order: 0;
+  }
+
+  .p3-hero__margen {
+    left: 12px;
+    bottom: -0.21px;
+  }
+
+  .p3-hero__texto {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    padding: 28px 0px 0px 0px;
+    align-self: stretch;
+  }
+
+  .p3-hero__sobre-el-tintero {
+    height: 55px;
+    width: unset;
+    max-width: unset;
+    white-space: unset;
+    align-self: stretch;
+  }
+
+  .p3-hero__desde-2001 {
+    font-size: 45px;
+  }
+
+  .p3-hero__en {
+    font-size: 45px;
+  }
+
+  .p3-hero__resaltador {
+    margin: 1.6px 0.5px;
+  }
+
+  .p3-hero__tandil {
+    font-size: 45px;
+  }
+
+  .p3-hero__el-tintero-nacio-como-un-lugar {
+    height: 206.79px;
+    width: unset;
+    max-width: unset;
+    font-size: 16px;
+    align-self: stretch;
+  }
+
+  .p3-hero__cartel {
+    width: 235.58px;
+    flex-shrink: 0;
+    min-width: unset;
+    height: 403.85px;
+    max-width: 100%;
+  }
+
+  .p3-hero__polaroid-el-cartel-rojo-de-el-tintero {
+    left: 100.96px;
+    top: 6.73px;
+    width: 218.08px;
+    height: 362.31px;
+    gap: 6.73px;
+    padding: 8.08px 8.08px 9.42px 8.08px;
+    box-shadow: 0px 8.08px 16.15px -4.04px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-hero__foto-el-cartel-rojo-de-el-tintero {
+    height: 323.08px;
+    width: 201.92px;
+    border-radius: 1.35px;
+  }
+
+  .p3-hero__el-cartel-de-siempre {
+    font-size: 11.44px;
+  }
+
+  .p3-hero__cinta {
+    left: 80.1px;
+    top: -8.08px;
+    width: 57.88px;
+    height: 17.5px;
+  }
+
+  .p3-hero__polaroid-clase-de-2009 {
+    left: -0.06px;
+    top: 242.31px;
+    width: 191.15px;
+    height: 173.85px;
+    gap: 6.73px;
+    padding: 8.08px 8.08px 9.42px 8.08px;
+    box-shadow: 0px 8.08px 16.15px -4.04px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-hero__foto-clase-de-2009 {
+    height: 134.62px;
+    width: 175px;
+    border-radius: 1.35px;
+  }
+
+  .p3-hero__n2009 {
+    font-size: 11.44px;
+  }
+}
+
+
+/* pila */
+.p3-pila {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  --solape: -28px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__recorrido {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 65px 128px 86px 128px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+}
+
+.p3-pila__encabezado {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__el-recorrido {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p3-pila__tres-direcciones-y-una-pausa {
+  width: 720px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__linea-de-tiempo {
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__montiel-566 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__t {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p3-pila__punto {
+  width: 18px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--hoja-nota-amarilla);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.p3-pila__rectangle {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 1.5px;
+  box-sizing: border-box;
+  background-color: rgb(22 21 15 / 0.25);
+}
+
+.p3-pila__n2001 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.p3-pila__montiel-566-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__entre-san-martin-y-pinto-las {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-pila__chacabuco-1163 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__t-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p3-pila__punto-2 {
+  width: 18px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--apoyo-menta);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.p3-pila__rectangle-2 {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 1.5px;
+  box-sizing: border-box;
+  background-color: rgb(22 21 15 / 0.25);
+}
+
+.p3-pila__despues {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.p3-pila__chacabuco-1163-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__entre-montevideo-y-las-heras {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-pila__chacabuco-1180 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__t-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p3-pila__punto-3 {
+  width: 18px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--apoyo-celeste);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.p3-pila__rectangle-3 {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 1.5px;
+  box-sizing: border-box;
+  background-color: rgb(22 21 15 / 0.25);
+}
+
+.p3-pila__luego {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.p3-pila__chacabuco-1180-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__cruzando-la-calle-la-ultima-s {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p3-pila__la-pausa {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__t-4 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p3-pila__punto-4 {
+  width: 18px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--hoja-nota-rosa);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.p3-pila__rectangle-4 {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 1.5px;
+  box-sizing: border-box;
+  background-color: rgb(22 21 15 / 0.25);
+}
+
+.p3-pila__n2020 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.p3-pila__la-pausa-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__cerro-durante-la-cuarentena-y {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-pila__la-vuelta {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila__t-5 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p3-pila__punto-5 {
+  width: 18px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.p3-pila__rectangle-5 {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 1.5px;
+  box-sizing: border-box;
+  background-color: rgb(22 21 15 / 0.25);
+}
+
+.p3-pila__ahora {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.p3-pila__la-vuelta-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__presencial-y-online-con-reser {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-pila__las-clases-de-antes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 56px 128px 72px 128px;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 26px 26px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.p3-pila__renglones {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-059d4638fa.png);
+  background-repeat: repeat;
+  background-size: 24px 24px;
+}
+
+.p3-pila__encabezado-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p3-pila__las-clases-de-antes-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p3-pila__mesas-largas-carpetas-abierta {
+  width: 760px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  text-align: center;
+  margin: 0;
+}
+
+.p3-pila__algunas-fotos-de-las-clases-en {
+  width: 620px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--texto-secundario);
+  text-align: center;
+  margin: 0;
+}
+
+.p3-pila__muro {
+  height: 620px;
+  flex-shrink: 0;
+  width: 1184px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p3-pila__polaroid-clase-en-la-mesa-larga {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  width: 324px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__foto-clase-en-la-mesa-larga {
+  height: 225px;
+  flex-shrink: 0;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila__renglones-2 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-7fca83d33c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p3-pila__n2009 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__polaroid-docente-explicando-a-dos-alumnos {
+  position: absolute;
+  left: 330px;
+  top: 0px;
+  width: 324px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(-3deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__foto-docente-explicando-a-dos-alumnos {
+  height: 225px;
+  flex-shrink: 0;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila__renglones-3 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-8e534bfdc6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 200.091%;
+  background-position: 0% 36.964%;
+}
+
+.p3-pila__quimica-creo {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__polaroid-grupo-de-secundaria {
+  position: absolute;
+  left: 650px;
+  top: 40px;
+  width: 324px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(2deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__foto-grupo-de-secundaria {
+  height: 225px;
+  flex-shrink: 0;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila__renglones-4 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-0e66f961dd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p3-pila__x {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.p3-pila__cinta {
+  position: absolute;
+  left: 119px;
+  top: -12px;
+  width: 86px;
+  height: 26px;
+  box-sizing: border-box;
+  background-color: rgb(255 245 199 / 0.75);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__polaroid-preparando-las-materias {
+  position: absolute;
+  left: 940px;
+  top: 10px;
+  width: 284px;
+  height: 459px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(-4deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__foto-preparando-las-materias {
+  height: 400px;
+  flex-shrink: 0;
+  width: 260px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila__renglones-5 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-70503d791c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p3-pila__y-seguimos {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila__polaroid-clase-en-la-mesa-redonda {
+  position: absolute;
+  left: 120px;
+  top: 330px;
+  width: 324px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(-2deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__foto-clase-en-la-mesa-redonda {
+  height: 225px;
+  flex-shrink: 0;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila__renglones-6 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-d14a8b45cd.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p3-pila__x-2 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.p3-pila__cinta-2 {
+  position: absolute;
+  left: 119px;
+  top: -12px;
+  width: 86px;
+  height: 26px;
+  box-sizing: border-box;
+  background-color: rgb(255 245 199 / 0.75);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__polaroid-clase-individual {
+  position: absolute;
+  left: 470px;
+  top: 350px;
+  width: 324px;
+  height: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila__foto-clase-individual {
+  height: 225px;
+  flex-shrink: 0;
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila__renglones-7 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-bbca283b0e.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 236.957%;
+  background-position: 0% 37.327%;
+}
+
+.p3-pila__uno-a-uno {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila > * + * {
+  margin-top: var(--solape);
+}
+
+@media (max-width: 1023px) {
+  .p3-pila {
+    --solape: -26px;
+    order: 1;
+  }
+
+  .p3-pila__recorrido {
+    gap: 32px;
+    padding: 56px 20px 82px 20px;
+  }
+
+  .p3-pila__encabezado {
+    align-self: stretch;
+  }
+
+  .p3-pila__tres-direcciones-y-una-pausa {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p3-pila__linea-de-tiempo {
+    flex-direction: column;
+  }
+
+  .p3-pila__montiel-566 {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila__chacabuco-1163 {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila__chacabuco-1180 {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila__la-pausa {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila__la-vuelta {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila__presencial-y-online-con-reser {
+    white-space: nowrap;
+  }
+
+  .p3-pila__las-clases-de-antes {
+    gap: 32px;
+    padding: 56px 20px 56px 20px;
+    box-shadow: 0px -12px 36px 0px rgb(0 0 0 / 0.1);
+  }
+
+  .p3-pila__mesas-largas-carpetas-abierta {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p3-pila__algunas-fotos-de-las-clases-en {
+    width: unset;
+    max-width: unset;
+    font-size: 16px;
+    line-height: 1.65;
+    align-self: stretch;
+  }
+
+  .p3-pila__muro {
+    height: 183.28px;
+    width: 350px;
+  }
+
+  .p3-pila__polaroid-clase-en-la-mesa-larga {
+    left: 5.93px;
+    top: 8.87px;
+    width: 95.78px;
+    height: 84.15px;
+    gap: 2.96px;
+    padding: 3.55px 3.55px 4.14px 3.55px;
+    box-shadow: 0px 3.55px 7.09px -1.77px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila__foto-clase-en-la-mesa-larga {
+    height: 66.51px;
+    width: 88.68px;
+    border-radius: 0.59px;
+  }
+
+  .p3-pila__n2009 {
+    font-size: 5.03px;
+  }
+
+  .p3-pila__polaroid-docente-explicando-a-dos-alumnos {
+    left: 97.55px;
+    width: 95.78px;
+    height: 84.15px;
+    gap: 2.96px;
+    padding: 3.55px 3.55px 4.14px 3.55px;
+    box-shadow: 0px 3.55px 7.09px -1.77px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila__foto-docente-explicando-a-dos-alumnos {
+    height: 66.51px;
+    width: 88.68px;
+    border-radius: 0.59px;
+  }
+
+  .p3-pila__quimica-creo {
+    font-size: 5.03px;
+  }
+
+  .p3-pila__polaroid-grupo-de-secundaria {
+    left: 192.15px;
+    top: 11.82px;
+    width: 95.78px;
+    height: 84.15px;
+    gap: 2.96px;
+    padding: 3.55px 3.55px 4.14px 3.55px;
+    box-shadow: 0px 3.55px 7.09px -1.77px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila__foto-grupo-de-secundaria {
+    height: 66.51px;
+    width: 88.68px;
+    border-radius: 0.59px;
+  }
+
+  .p3-pila__x {
+    font-size: 5.03px;
+  }
+
+  .p3-pila__cinta {
+    left: 35.18px;
+    top: -3.55px;
+    width: 25.42px;
+    height: 7.69px;
+  }
+
+  .p3-pila__polaroid-preparando-las-materias {
+    left: 277.87px;
+    top: 2.96px;
+    width: 83.95px;
+    height: 135.89px;
+    gap: 2.96px;
+    padding: 3.55px 3.55px 4.14px 3.55px;
+    box-shadow: 0px 3.55px 7.09px -1.77px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila__foto-preparando-las-materias {
+    height: 118.24px;
+    width: 76.86px;
+    border-radius: 0.59px;
+  }
+
+  .p3-pila__y-seguimos {
+    font-size: 5.03px;
+  }
+
+  .p3-pila__polaroid-clase-en-la-mesa-redonda {
+    left: 35.47px;
+    top: 97.55px;
+    width: 95.78px;
+    height: 84.15px;
+    gap: 2.96px;
+    padding: 3.55px 3.55px 4.14px 3.55px;
+    box-shadow: 0px 3.55px 7.09px -1.77px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila__foto-clase-en-la-mesa-redonda {
+    height: 66.51px;
+    width: 88.68px;
+    border-radius: 0.59px;
+  }
+
+  .p3-pila__x-2 {
+    font-size: 5.03px;
+  }
+
+  .p3-pila__cinta-2 {
+    left: 35.18px;
+    top: -3.55px;
+    width: 25.42px;
+    height: 7.69px;
+  }
+
+  .p3-pila__polaroid-clase-individual {
+    left: 138.95px;
+    top: 103.46px;
+    width: 95.78px;
+    height: 84.15px;
+    gap: 2.96px;
+    padding: 3.55px 3.55px 4.14px 3.55px;
+    box-shadow: 0px 3.55px 7.09px -1.77px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila__foto-clase-individual {
+    height: 66.51px;
+    width: 88.68px;
+    border-radius: 0.59px;
+  }
+
+  .p3-pila__uno-a-uno {
+    font-size: 5.03px;
+  }
+}
+
+
+/* frase */
+.p3-frase {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 96px 128px 96px 128px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+}
+
+.p3-frase__q {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p3-frase__que-no-te-quede-nada-en-el {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-frase__resaltador {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: linear-gradient(92deg, rgb(204 255 0 / 0) 0%, rgb(204 255 0 / 0.62) 3%, rgb(204 255 0 / 0.5) 6%, rgb(204 255 0 / 0.5) 93%, rgb(204 255 0 / 0.62) 96%, rgb(204 255 0 / 0) 99%);
+  border-radius: 3px;
+  transform: rotate(1deg);
+  margin: 1.37px 0.45px;
+}
+
+.p3-frase__tintero {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-frase__lo-que-siempre-decimos-antes-d {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .p3-frase {
+    padding: 56px 20px 56px 20px;
+    order: 2;
+  }
+
+  .p3-frase__q {
+    gap: 6px;
+    align-self: stretch;
+    flex-direction: column;
+  }
+
+  .p3-frase__que-no-te-quede-nada-en-el {
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    text-align: center;
+  }
+
+  .p3-frase__resaltador {
+    margin: 0.97px 0.3px;
+  }
+
+  .p3-frase__tintero {
+    font-size: 32px;
+  }
+
+  .p3-frase__lo-que-siempre-decimos-antes-d {
+    white-space: unset;
+    align-self: stretch;
+    text-align: center;
+  }
+}
+
+
+/* equipo */
+.p3-equipo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding: 36px 128px 120px 128px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+}
+
+.p3-equipo__encabezado {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.p3-equipo__t {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__equipo {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p3-equipo__quienes-ensenan {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__docentes-de-cada-area-coordin {
+  width: 420px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-equipo__grilla {
+  align-self: stretch;
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__sandra-gago {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__foto {
+  height: 330px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(/img/img-60d7499f27.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p3-equipo__frame {
+  height: 8px;
+  flex-shrink: 0;
+  width: 1px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p3-equipo__sandra-gago-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__fundadora-y-coordinacion {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-equipo__laura-m {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__foto-2 {
+  height: 330px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(/img/img-88f2e622f0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p3-equipo__frame-2 {
+  height: 8px;
+  flex-shrink: 0;
+  width: 1px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p3-equipo__docente-de-matematica-y-fisica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__secundaria-terciario-e-ingres {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-equipo__fausto-i {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__foto-3 {
+  height: 330px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url(/img/img-0e77fafbc0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p3-equipo__frame-3 {
+  height: 8px;
+  flex-shrink: 0;
+  width: 1px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p3-equipo__docente-de-matematica-y-fisica-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__secundaria-terciario-e-ingres-2 {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-equipo__pollo-s {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__foto-4 {
+  height: 330px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(/img/img-a71f7146f8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p3-equipo__frame-4 {
+  height: 8px;
+  flex-shrink: 0;
+  width: 1px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p3-equipo__docente-de-lengua-y-literatura {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__primaria-y-secundaria {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-equipo__carolina-t {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__foto-5 {
+  height: 330px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  background-image: url(/img/img-8843ffa355.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p3-equipo__frame-5 {
+  height: 8px;
+  flex-shrink: 0;
+  width: 1px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p3-equipo__docente-de-ingles {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__todos-los-niveles {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-equipo__almendra-s {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__foto-6 {
+  height: 330px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url(/img/img-81af22a961.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p3-equipo__frame-6 {
+  height: 8px;
+  flex-shrink: 0;
+  width: 1px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p3-equipo__docente-de-matematica-y-fisica-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__secundaria-terciario-e-ingres-3 {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-equipo__chico-p {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-equipo__foto-7 {
+  height: 330px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-image: url(/img/img-3ea4606aca.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p3-equipo__frame-7 {
+  height: 8px;
+  flex-shrink: 0;
+  width: 1px;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p3-equipo__docente-de-matematica-y-fisica-4 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-equipo__secundaria-terciario-e-ingres-4 {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .p3-equipo {
+    gap: 32px;
+    padding: 56px 20px 56px 20px;
+    order: 3;
+  }
+
+  .p3-equipo__encabezado {
+    justify-content: unset;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .p3-equipo__t {
+    align-self: stretch;
+  }
+
+  .p3-equipo__quienes-ensenan {
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p3-equipo__docentes-de-cada-area-coordin {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__grilla {
+    flex-direction: column;
+  }
+
+  .p3-equipo__sandra-gago {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__foto {
+    flex-shrink: unset;
+    background-size: 141.235% 155.425%;
+    background-position: 99.679% 38.912%;
+  }
+
+  .p3-equipo__fundadora-y-coordinacion {
+    white-space: nowrap;
+  }
+
+  .p3-equipo__laura-m {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__foto-2 {
+    flex-shrink: unset;
+    background-size: 116.413% 147.633%;
+    background-position: 47.882% 57.605%;
+  }
+
+  .p3-equipo__secundaria-terciario-e-ingres {
+    white-space: nowrap;
+  }
+
+  .p3-equipo__fausto-i {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__foto-3 {
+    flex-shrink: unset;
+  }
+
+  .p3-equipo__secundaria-terciario-e-ingres-2 {
+    white-space: nowrap;
+  }
+
+  .p3-equipo__pollo-s {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__foto-4 {
+    flex-shrink: unset;
+    background-size: 122.121% 154.872%;
+    background-position: 49.239% 71.145%;
+  }
+
+  .p3-equipo__carolina-t {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__foto-5 {
+    flex-shrink: unset;
+    background-size: 114.893% 129.472%;
+    background-position: 63.33% 49.635%;
+  }
+
+  .p3-equipo__todos-los-niveles {
+    white-space: nowrap;
+  }
+
+  .p3-equipo__almendra-s {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__foto-6 {
+    flex-shrink: unset;
+  }
+
+  .p3-equipo__secundaria-terciario-e-ingres-3 {
+    white-space: nowrap;
+  }
+
+  .p3-equipo__chico-p {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-equipo__foto-7 {
+    flex-shrink: unset;
+  }
+
+  .p3-equipo__secundaria-terciario-e-ingres-4 {
+    white-space: nowrap;
+  }
+}
+
+
+/* pila-2 */
+.p3-pila-2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  --solape: -28px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila-2__los-de-antes {
+  align-self: stretch;
+  display: flex;
+  gap: 64px;
+  padding: 29px 128px 102px 128px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+}
+
+.p3-pila-2__texto {
+  width: 440px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila-2__los-que-pasaron {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p3-pila-2__docentes-que-hicieron-el-tinte {
+  width: 440px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila-2__profesoras-y-profesores-de-his {
+  width: 420px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p3-pila-2__fotos-docentes {
+  width: 640px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 420px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p3-pila-2__polaroid-docentes-del-instituto {
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  width: 364px;
+  height: 299px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila-2__foto-docentes-del-instituto {
+  height: 240px;
+  flex-shrink: 0;
+  width: 340px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila-2__renglones {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-161174752d.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 141.667%;
+  background-position: 0% 26.328%;
+}
+
+.p3-pila-2__x {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.p3-pila-2__cinta {
+  position: absolute;
+  left: 139px;
+  top: -12px;
+  width: 86px;
+  height: 26px;
+  box-sizing: border-box;
+  background-color: rgb(255 245 199 / 0.75);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila-2__polaroid-profesoras-en-la-biblioteca {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  width: 344px;
+  height: 289px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(-4deg);
+  transform-origin: 0 0;
+}
+
+.p3-pila-2__foto-profesoras-en-la-biblioteca {
+  height: 230px;
+  flex-shrink: 0;
+  width: 320px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p3-pila-2__renglones-2 {
+  position: absolute;
+  left: -19.08px;
+  right: -49.24px;
+  top: 3.28px;
+  bottom: -52.38px;
+  box-sizing: border-box;
+  background-image: url(/img/img-79466a6148.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p3-pila-2__x-2 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p3-pila-2__cierre {
+  align-self: stretch;
+  display: flex;
+  gap: 48px;
+  padding: 88px 128px 88px 128px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-tinta-azul);
+  border-radius: 26px 26px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.p3-pila-2__t {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila-2__proximo-paso {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--acento-resaltador);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p3-pila-2__reserva-una-clase-o-escribinos {
+  width: 620px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.p3-pila-2__que-no-te-quede-nada-en-el-ti {
+  display: none;
+}
+
+.p3-pila-2__botones {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p3-pila-2__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.p3-pila-2__boton-sobre-oscuro {
+  display: flex;
+}
+
+.p3-pila-2 > * + * {
+  margin-top: var(--solape);
+}
+
+@media (max-width: 1023px) {
+  .p3-pila-2 {
+    --solape: -26px;
+    order: 4;
+  }
+
+  .p3-pila-2__los-de-antes {
+    gap: 32px;
+    padding: 56px 20px 82px 20px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .p3-pila-2__texto {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila-2__docentes-que-hicieron-el-tinte {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p3-pila-2__profesoras-y-profesores-de-his {
+    width: unset;
+    max-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila-2__fotos-docentes {
+    width: 191.41px;
+    flex-shrink: 0;
+    min-width: unset;
+    height: 229.69px;
+    max-width: 100%;
+  }
+
+  .p3-pila-2__polaroid-docentes-del-instituto {
+    left: 0.02px;
+    top: 16.41px;
+    width: 199.06px;
+    height: 163.94px;
+    gap: 5.47px;
+    padding: 6.56px 6.56px 7.66px 6.56px;
+    box-shadow: 0px 6.56px 13.13px -3.28px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila-2__foto-docentes-del-instituto {
+    height: 131.25px;
+    width: 185.94px;
+    border-radius: 1.09px;
+  }
+
+  .p3-pila-2__x {
+    font-size: 9.3px;
+  }
+
+  .p3-pila-2__cinta {
+    left: 76.02px;
+    top: -6.56px;
+    width: 47.03px;
+    height: 14.22px;
+  }
+
+  .p3-pila-2__polaroid-profesoras-en-la-biblioteca {
+    left: 164.06px;
+    top: 82.03px;
+    width: 188.13px;
+    height: 158.47px;
+    gap: 5.47px;
+    padding: 6.56px 6.56px 7.66px 6.56px;
+    box-shadow: 0px 6.56px 13.13px -3.28px rgb(23 20 15 / 0.16);
+  }
+
+  .p3-pila-2__foto-profesoras-en-la-biblioteca {
+    height: 125.78px;
+    width: 175px;
+    border-radius: 1.09px;
+  }
+
+  .p3-pila-2__renglones-2 {
+    left: -10.44px;
+    right: -26.93px;
+    top: 1.79px;
+    bottom: -28.65px;
+  }
+
+  .p3-pila-2__x-2 {
+    font-size: 9.3px;
+  }
+
+  .p3-pila-2__cierre {
+    gap: 32px;
+    padding: 40px 20px 40px 20px;
+    justify-content: unset;
+    align-items: flex-start;
+    box-shadow: 0px -12px 36px 0px rgb(0 0 0 / 0.1);
+    flex-direction: column;
+  }
+
+  .p3-pila-2__t {
+    align-self: stretch;
+  }
+
+  .p3-pila-2__reserva-una-clase-o-escribinos {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p3-pila-2__que-no-te-quede-nada-en-el-ti {
+    display: block;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: var(--apoyo-celeste);
+    margin: 0;
+  }
+
+  .p3-pila-2__botones {
+    align-self: stretch;
+    flex-direction: column;
+  }
+
+  .p3-pila-2__boton {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p3-pila-2__boton-sobre-oscuro {
+    align-self: stretch;
+  }
+}

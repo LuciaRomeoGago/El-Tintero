@@ -1,0 +1,14 @@
+/* Pestañas de Niveles: un solo fondo que se desliza (el de la pestaña activa en Figma) */
+.p2-hero__pestanas { position: relative; }
+.p2-hero__pestanas > .pestana { background: none; border: 0; margin: 0; cursor: pointer; position: relative; z-index: 1; }
+.p2-hero__pestanas > .pestana > span { display: block; color: var(--base-tinta); transition: color .35s var(--curva); }
+.p2-hero__pestanas > .pestana--activa > span { color: var(--base-hoja); }
+.p2-hero__pestanas > .pestana:focus-visible { outline: 2px solid var(--base-tinta-azul); outline-offset: 2px; border-radius: 999px; }
+.pestanas__indicador {
+  position: absolute; z-index: 0; border-radius: 999px; background: var(--base-tinta);
+  transition: left .45s var(--curva), top .45s var(--curva), width .45s var(--curva), height .45s var(--curva);
+}
+/* antes de medir (página pre-armada) la pestaña activa lleva su propio fondo */
+.p2-hero__pestanas:not(.medido) .pestanas__indicador { display: none; }
+.p2-hero__pestanas:not(.medido) > .pestana--activa { background: var(--base-tinta); }
+@media (prefers-reduced-motion: reduce) { .pestanas__indicador { transition: none; } }

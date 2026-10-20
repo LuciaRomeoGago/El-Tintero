@@ -1,0 +1,4983 @@
+/* hero */
+.p1-hero {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 56px;
+  padding: 63px 96px 96px 128px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-hero__renglones {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+}
+
+.p1-hero__margen {
+  position: absolute;
+  left: 96px;
+  top: 0px;
+  bottom: 0px;
+  width: 1.5px;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+}
+
+.p1-hero__texto {
+  width: 600px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 75px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p1-hero__que-ofrecemos {
+  width: 135px;
+  max-width: 100%;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p1-hero__titulo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: inherit;
+}
+
+.p1-hero__clases-que-se-adaptan {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-hero__l2 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p1-hero__a-lo-que-te {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-hero__resaltador {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: linear-gradient(93deg, rgb(204 255 0 / 0) 0%, rgb(204 255 0 / 0.62) 3%, rgb(204 255 0 / 0.5) 6%, rgb(204 255 0 / 0.5) 93%, rgb(204 255 0 / 0.62) 96%, rgb(204 255 0 / 0) 99%);
+  border-radius: 3px;
+  transform: rotate(1.3deg);
+  margin: 1.9px 0.72px;
+}
+
+.p1-hero__cuesta {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 64px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-hero__una-materia-que-se-complico-u {
+  height: 103px;
+  flex-shrink: 0;
+  width: 560px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.p1-hero__botones {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-hero__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.p1-hero__boton-2 {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.p1-hero__collage {
+  width: 600px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 560px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p1-hero__foto-docente-ayudando-a-una-alumna {
+  position: absolute;
+  left: 150px;
+  top: 0px;
+  width: 430px;
+  height: 520px;
+  box-sizing: border-box;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.p1-hero__renglones-2 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-8bfb9c9770.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p1-hero__polaroid-docente-ayudando-a-una-alumna {
+  display: none;
+}
+
+.p1-hero__foto-docente-ayudando-a-una-alumna-2 {
+  display: none;
+}
+
+.p1-hero__renglones-3 {
+  display: none;
+}
+
+.p1-hero__polaroid-pizarron-de-matematica {
+  position: absolute;
+  left: 0px;
+  top: 250px;
+  width: 244px;
+  height: 329px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px 12px 14px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+  transform: rotate(6deg);
+  transform-origin: 0 0;
+}
+
+.p1-hero__foto-pizarron-de-matematica {
+  height: 270px;
+  flex-shrink: 0;
+  width: 220px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.p1-hero__renglones-4 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-7b7ccdf805.jpg);
+  background-repeat: no-repeat;
+  background-size: 123.068% 141.833%;
+  background-position: 107.036% 40.363%;
+}
+
+.p1-hero__asi-se-ve-una-clase {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.p1-hero__cinta {
+  position: absolute;
+  left: 79px;
+  top: -12px;
+  width: 86px;
+  height: 26px;
+  box-sizing: border-box;
+  background-color: rgb(255 245 199 / 0.75);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.p1-hero__grupos-de-hasta-6 {
+  position: absolute;
+  left: 330px;
+  top: 500px;
+  white-space: nowrap;
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .p1-hero {
+    gap: 32px;
+    padding: 40px 20px 40px 20px;
+    justify-content: unset;
+    flex-direction: column;
+    order: 0;
+  }
+
+  .p1-hero__renglones {
+    bottom: -0.28px;
+  }
+
+  .p1-hero__margen {
+    left: 12px;
+    bottom: -0.28px;
+  }
+
+  .p1-hero__texto {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    padding: 3px 0px 0px 0px;
+    align-self: stretch;
+  }
+
+  .p1-hero__clases-que-se-adaptan {
+    font-size: 42px;
+    align-self: stretch;
+  }
+
+  .p1-hero__l2 {
+    align-items: flex-start;
+    align-self: stretch;
+    flex-direction: column;
+  }
+
+  .p1-hero__a-lo-que-te {
+    font-size: 42px;
+    align-self: stretch;
+  }
+
+  .p1-hero__resaltador {
+    margin: 1.33px 0.47px;
+    width: 117.42px;
+    max-width: 100%;
+  }
+
+  .p1-hero__cuesta {
+    font-size: 42px;
+  }
+
+  .p1-hero__una-materia-que-se-complico-u {
+    height: 158px;
+    width: unset;
+    max-width: unset;
+    font-size: 16px;
+    align-self: stretch;
+  }
+
+  .p1-hero__botones {
+    align-self: stretch;
+    flex-direction: column;
+  }
+
+  .p1-hero__boton {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-hero__boton-2 {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-hero__collage {
+    width: 350px;
+    flex-shrink: 0;
+    min-width: unset;
+    max-width: 100%;
+  }
+
+  .p1-hero__foto-docente-ayudando-a-una-alumna {
+    display: none;
+  }
+
+  .p1-hero__renglones-2 {
+    display: none;
+  }
+
+  .p1-hero__polaroid-docente-ayudando-a-una-alumna {
+    display: flex;
+    position: absolute;
+    left: 96px;
+    top: -6.87px;
+    width: 260px;
+    height: 312px;
+    flex-direction: column;
+    padding: 12px 12px 14px 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    box-shadow: 0px 12px 24px -6px rgb(23 20 15 / 0.16);
+    transform: rotate(-2deg);
+    transform-origin: 0 0;
+  }
+
+  .p1-hero__foto-docente-ayudando-a-una-alumna-2 {
+    display: block;
+    height: 286px;
+    flex-shrink: 0;
+    width: 236px;
+    max-width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--hoja-cartulina);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .p1-hero__renglones-3 {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    background-image: url(/img/img-8bfb9c9770.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .p1-hero__polaroid-pizarron-de-matematica {
+    left: 24.92px;
+    top: 137.5px;
+    width: 236.88px;
+    height: 330.09px;
+  }
+
+  .p1-hero__grupos-de-hasta-6 {
+    left: 109.01px;
+    top: 490.55px;
+    width: 275.99px;
+    height: 19.26px;
+  }
+}
+
+
+/* pila */
+.p1-pila {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  --solape: -66px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__como-es-una-clase {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding: 112px 128px 140px 128px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+}
+
+.p1-pila__encabezado {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__como-es-una-clase-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p1-pila__tres-momentos-siempre-los-mis {
+  width: 720px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__asi-trabajamos-en-cualquier-ni {
+  width: 620px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__momentos {
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__entender-que-pasa {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__foto-apuntes-y-carpeta {
+  height: 300px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p1-pila__renglones {
+  position: absolute;
+  left: 0px;
+  right: -0.33px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-8e534bfdc6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 189.586%;
+  background-position: 0% 35.803%;
+}
+
+.p1-pila__t {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.p1-pila__n01 {
+  white-space: nowrap;
+  opacity: 0.25;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 1;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__entender-que-pasa-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__el-docente-mira-la-carpeta-la {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__primero-escuchar {
+  white-space: nowrap;
+  transform: rotate(2deg);
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--hoja-lapiz-rojo);
+  margin: 2.1px 0.36px;
+}
+
+.p1-pila__practicar-juntos {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__foto-docente-con-alumnos-en-la-mesa {
+  height: 300px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p1-pila__renglones-2 {
+  position: absolute;
+  left: 0px;
+  right: -0.33px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-f0ea60f7a2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p1-pila__t-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.p1-pila__n02 {
+  white-space: nowrap;
+  opacity: 0.25;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 1;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__practicar-juntos-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__ejercicios-lectura-o-repaso-c {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__sin-verguenza {
+  white-space: nowrap;
+  transform: rotate(2deg);
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--hoja-lapiz-rojo);
+  margin: 1.69px 0.37px;
+}
+
+.p1-pila__salir-con-un-plan {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__foto-alumna-con-su-prueba {
+  height: 300px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.p1-pila__renglones-3 {
+  position: absolute;
+  left: 0px;
+  right: -0.33px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-b9aa96e1c0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p1-pila__t-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.p1-pila__n03 {
+  white-space: nowrap;
+  opacity: 0.25;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 40px;
+  line-height: 1;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__salir-con-un-plan-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__te-llevas-que-repasar-en-casa {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__y-con-la-nota {
+  white-space: nowrap;
+  transform: rotate(2deg);
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--hoja-lapiz-rojo);
+  margin: 2.05px 0.37px;
+}
+
+.p1-pila__materias-y-docentes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding: 42px 128px 57px 128px;
+  align-items: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 26px 26px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.p1-pila__renglones-4 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0.35px;
+  bottom: -0.35px;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+  border-radius: 26px 26px 0px 0px;
+}
+
+.p1-pila__margen {
+  position: absolute;
+  left: 96px;
+  top: 0.35px;
+  bottom: -0.35px;
+  width: 1px;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+}
+
+.p1-pila__encabezado-2 {
+  height: 184px;
+  flex-shrink: 0;
+  width: 760px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p1-pila__materias-y-docentes-2 {
+  position: absolute;
+  left: 0px;
+  top: 27px;
+  width: 189px;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p1-pila__cada-materia-con-quien-la-sab {
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  width: 760px;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__estas-son-las-materias-de-la-r {
+  position: absolute;
+  left: 0px;
+  top: 110px;
+  width: 620px;
+  height: 72px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.p1-pila__grilla {
+  height: 311px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p1-pila__primaria {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 381px;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px 26px 28px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 16px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+}
+
+.p1-pila__arriba {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p1-pila__color {
+  width: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--hoja-nota-rosa);
+  border-radius: 999px;
+}
+
+.p1-pila__primaria-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__todas-las-materias-del-grado {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__materias {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 6px;
+  column-gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__chip {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__practicas-del-lenguaje {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__matematica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-3 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__ciencias-naturales {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__ciencias-sociales {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-5 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__ingles {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-6 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__tareas-y-carpetas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__docente {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  padding: 14px 0px 0px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.p1-pila__foto-laura-m {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url(/img/img-88f2e622f0.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+}
+
+.p1-pila__t-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__laura-m {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__docente-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__matematica-y-fisica {
+  position: absolute;
+  left: 401px;
+  top: 0px;
+  width: 381px;
+  height: 277px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px 26px 28px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 16px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+}
+
+.p1-pila__arriba-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p1-pila__color-2 {
+  width: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--apoyo-menta);
+  border-radius: 999px;
+}
+
+.p1-pila__matematica-y-fisica-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__de-1-ano-al-ingreso {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__materias-2 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 6px;
+  column-gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__chip-7 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__matematica-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-8 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__algebra {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-9 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__analisis-matematico-i {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-10 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__fisica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-11 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__estadistica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-12 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__geometria {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__docente-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  padding: 14px 0px 0px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.p1-pila__foto-carolina-t {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url(/img/img-8843ffa355.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+}
+
+.p1-pila__t-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__carolina-t {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__docente-4 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__biologia-y-ciencias-naturales {
+  position: absolute;
+  left: 802px;
+  top: 0px;
+  width: 381px;
+  height: 311px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 28px 26px 28px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 16px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+}
+
+.p1-pila__arriba-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p1-pila__color-3 {
+  width: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--apoyo-celeste);
+  border-radius: 999px;
+}
+
+.p1-pila__biologia-y-ciencias-naturales-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__de-secundaria-al-ingreso-a-vet {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__materias-3 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 6px;
+  column-gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__chip-13 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__biologia {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-14 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__quimica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-15 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__biologia-celular {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-16 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__anatomia-basica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-17 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__ingreso-a-veterinaria {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__chip-18 {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 11px 6px 11px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 4px;
+}
+
+.p1-pila__fisicoquimica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.p1-pila__docente-5 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  padding: 14px 0px 0px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.p1-pila__foto-pollo-s {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url(/img/img-a71f7146f8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+}
+
+.p1-pila__t-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila__pollo-s {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila__docente-6 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila__otras {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p1-pila__tambien-segun-docentes-dispon {
+  width: 280px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 39px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.p1-pila__chip-19 {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 4px;
+}
+
+.p1-pila__lengua-y-literatura {
+  width: 120px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p1-pila__chip-20 {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 4px;
+}
+
+.p1-pila__ingles-2 {
+  width: 38px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p1-pila__chip-21 {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 4px;
+}
+
+.p1-pila__historia {
+  width: 49px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p1-pila__chip-22 {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 4px;
+}
+
+.p1-pila__geografia {
+  width: 61px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p1-pila__chip-23 {
+  display: flex;
+  flex-direction: column;
+  padding: 7px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 4px;
+}
+
+.p1-pila__tecnicas-de-estudio {
+  width: 120px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p1-pila__encabezado-3 {
+  display: none;
+}
+
+.p1-pila__como-es-una-clase-3 {
+  display: none;
+}
+
+.p1-pila__tres-momentos-siempre-los-mis-2 {
+  display: none;
+}
+
+.p1-pila__asi-trabajamos-en-cualquier-ni-2 {
+  display: none;
+}
+
+.p1-pila__momentos-2 {
+  display: none;
+}
+
+.p1-pila__entender-que-pasa-3 {
+  display: none;
+}
+
+.p1-pila__foto-apuntes-y-carpeta-2 {
+  display: none;
+}
+
+.p1-pila__renglones-5 {
+  display: none;
+}
+
+.p1-pila__t-7 {
+  display: none;
+}
+
+.p1-pila__n01-2 {
+  display: none;
+}
+
+.p1-pila__entender-que-pasa-4 {
+  display: none;
+}
+
+.p1-pila__el-docente-mira-la-carpeta-la-2 {
+  display: none;
+}
+
+.p1-pila__primero-escuchar-2 {
+  display: none;
+}
+
+.p1-pila__practicar-juntos-3 {
+  display: none;
+}
+
+.p1-pila__foto-docente-con-alumnos-en-la-mesa-2 {
+  display: none;
+}
+
+.p1-pila__renglones-6 {
+  display: none;
+}
+
+.p1-pila__t-8 {
+  display: none;
+}
+
+.p1-pila__n02-2 {
+  display: none;
+}
+
+.p1-pila__practicar-juntos-4 {
+  display: none;
+}
+
+.p1-pila__ejercicios-lectura-o-repaso-c-2 {
+  display: none;
+}
+
+.p1-pila__sin-verguenza-2 {
+  display: none;
+}
+
+.p1-pila__salir-con-un-plan-3 {
+  display: none;
+}
+
+.p1-pila__foto-alumna-con-su-prueba-2 {
+  display: none;
+}
+
+.p1-pila__renglones-7 {
+  display: none;
+}
+
+.p1-pila__t-9 {
+  display: none;
+}
+
+.p1-pila__n03-2 {
+  display: none;
+}
+
+.p1-pila__salir-con-un-plan-4 {
+  display: none;
+}
+
+.p1-pila__te-llevas-que-repasar-en-casa-2 {
+  display: none;
+}
+
+.p1-pila__y-con-la-nota-2 {
+  display: none;
+}
+
+.p1-pila > * + * {
+  margin-top: var(--solape);
+}
+
+@media (max-width: 1023px) {
+  .p1-pila {
+    --solape: unset;
+    gap: 32px;
+    padding: 21px 20px 21px 20px;
+    background-color: var(--base-hoja);
+    order: 1;
+  }
+
+  .p1-pila__como-es-una-clase {
+    display: none;
+  }
+
+  .p1-pila__encabezado {
+    display: none;
+  }
+
+  .p1-pila__como-es-una-clase-2 {
+    display: none;
+  }
+
+  .p1-pila__tres-momentos-siempre-los-mis {
+    display: none;
+  }
+
+  .p1-pila__asi-trabajamos-en-cualquier-ni {
+    display: none;
+  }
+
+  .p1-pila__momentos {
+    display: none;
+  }
+
+  .p1-pila__entender-que-pasa {
+    display: none;
+  }
+
+  .p1-pila__foto-apuntes-y-carpeta {
+    display: none;
+  }
+
+  .p1-pila__renglones {
+    display: none;
+  }
+
+  .p1-pila__t {
+    display: none;
+  }
+
+  .p1-pila__n01 {
+    display: none;
+  }
+
+  .p1-pila__entender-que-pasa-2 {
+    display: none;
+  }
+
+  .p1-pila__el-docente-mira-la-carpeta-la {
+    display: none;
+  }
+
+  .p1-pila__primero-escuchar {
+    display: none;
+  }
+
+  .p1-pila__practicar-juntos {
+    display: none;
+  }
+
+  .p1-pila__foto-docente-con-alumnos-en-la-mesa {
+    display: none;
+  }
+
+  .p1-pila__renglones-2 {
+    display: none;
+  }
+
+  .p1-pila__t-2 {
+    display: none;
+  }
+
+  .p1-pila__n02 {
+    display: none;
+  }
+
+  .p1-pila__practicar-juntos-2 {
+    display: none;
+  }
+
+  .p1-pila__ejercicios-lectura-o-repaso-c {
+    display: none;
+  }
+
+  .p1-pila__sin-verguenza {
+    display: none;
+  }
+
+  .p1-pila__salir-con-un-plan {
+    display: none;
+  }
+
+  .p1-pila__foto-alumna-con-su-prueba {
+    display: none;
+  }
+
+  .p1-pila__renglones-3 {
+    display: none;
+  }
+
+  .p1-pila__t-3 {
+    display: none;
+  }
+
+  .p1-pila__n03 {
+    display: none;
+  }
+
+  .p1-pila__salir-con-un-plan-2 {
+    display: none;
+  }
+
+  .p1-pila__te-llevas-que-repasar-en-casa {
+    display: none;
+  }
+
+  .p1-pila__y-con-la-nota {
+    display: none;
+  }
+
+  .p1-pila__materias-y-docentes {
+    display: none;
+  }
+
+  .p1-pila__renglones-4 {
+    display: none;
+  }
+
+  .p1-pila__margen {
+    display: none;
+  }
+
+  .p1-pila__encabezado-2 {
+    display: none;
+  }
+
+  .p1-pila__materias-y-docentes-2 {
+    display: none;
+  }
+
+  .p1-pila__cada-materia-con-quien-la-sab {
+    display: none;
+  }
+
+  .p1-pila__estas-son-las-materias-de-la-r {
+    display: none;
+  }
+
+  .p1-pila__grilla {
+    display: none;
+  }
+
+  .p1-pila__primaria {
+    display: none;
+  }
+
+  .p1-pila__arriba {
+    display: none;
+  }
+
+  .p1-pila__color {
+    display: none;
+  }
+
+  .p1-pila__primaria-2 {
+    display: none;
+  }
+
+  .p1-pila__todas-las-materias-del-grado {
+    display: none;
+  }
+
+  .p1-pila__materias {
+    display: none;
+  }
+
+  .p1-pila__chip {
+    display: none;
+  }
+
+  .p1-pila__practicas-del-lenguaje {
+    display: none;
+  }
+
+  .p1-pila__chip-2 {
+    display: none;
+  }
+
+  .p1-pila__matematica {
+    display: none;
+  }
+
+  .p1-pila__chip-3 {
+    display: none;
+  }
+
+  .p1-pila__ciencias-naturales {
+    display: none;
+  }
+
+  .p1-pila__chip-4 {
+    display: none;
+  }
+
+  .p1-pila__ciencias-sociales {
+    display: none;
+  }
+
+  .p1-pila__chip-5 {
+    display: none;
+  }
+
+  .p1-pila__ingles {
+    display: none;
+  }
+
+  .p1-pila__chip-6 {
+    display: none;
+  }
+
+  .p1-pila__tareas-y-carpetas {
+    display: none;
+  }
+
+  .p1-pila__docente {
+    display: none;
+  }
+
+  .p1-pila__foto-laura-m {
+    display: none;
+  }
+
+  .p1-pila__t-4 {
+    display: none;
+  }
+
+  .p1-pila__laura-m {
+    display: none;
+  }
+
+  .p1-pila__docente-2 {
+    display: none;
+  }
+
+  .p1-pila__matematica-y-fisica {
+    display: none;
+  }
+
+  .p1-pila__arriba-2 {
+    display: none;
+  }
+
+  .p1-pila__color-2 {
+    display: none;
+  }
+
+  .p1-pila__matematica-y-fisica-2 {
+    display: none;
+  }
+
+  .p1-pila__de-1-ano-al-ingreso {
+    display: none;
+  }
+
+  .p1-pila__materias-2 {
+    display: none;
+  }
+
+  .p1-pila__chip-7 {
+    display: none;
+  }
+
+  .p1-pila__matematica-2 {
+    display: none;
+  }
+
+  .p1-pila__chip-8 {
+    display: none;
+  }
+
+  .p1-pila__algebra {
+    display: none;
+  }
+
+  .p1-pila__chip-9 {
+    display: none;
+  }
+
+  .p1-pila__analisis-matematico-i {
+    display: none;
+  }
+
+  .p1-pila__chip-10 {
+    display: none;
+  }
+
+  .p1-pila__fisica {
+    display: none;
+  }
+
+  .p1-pila__chip-11 {
+    display: none;
+  }
+
+  .p1-pila__estadistica {
+    display: none;
+  }
+
+  .p1-pila__chip-12 {
+    display: none;
+  }
+
+  .p1-pila__geometria {
+    display: none;
+  }
+
+  .p1-pila__docente-3 {
+    display: none;
+  }
+
+  .p1-pila__foto-carolina-t {
+    display: none;
+  }
+
+  .p1-pila__t-5 {
+    display: none;
+  }
+
+  .p1-pila__carolina-t {
+    display: none;
+  }
+
+  .p1-pila__docente-4 {
+    display: none;
+  }
+
+  .p1-pila__biologia-y-ciencias-naturales {
+    display: none;
+  }
+
+  .p1-pila__arriba-3 {
+    display: none;
+  }
+
+  .p1-pila__color-3 {
+    display: none;
+  }
+
+  .p1-pila__biologia-y-ciencias-naturales-2 {
+    display: none;
+  }
+
+  .p1-pila__de-secundaria-al-ingreso-a-vet {
+    display: none;
+  }
+
+  .p1-pila__materias-3 {
+    display: none;
+  }
+
+  .p1-pila__chip-13 {
+    display: none;
+  }
+
+  .p1-pila__biologia {
+    display: none;
+  }
+
+  .p1-pila__chip-14 {
+    display: none;
+  }
+
+  .p1-pila__quimica {
+    display: none;
+  }
+
+  .p1-pila__chip-15 {
+    display: none;
+  }
+
+  .p1-pila__biologia-celular {
+    display: none;
+  }
+
+  .p1-pila__chip-16 {
+    display: none;
+  }
+
+  .p1-pila__anatomia-basica {
+    display: none;
+  }
+
+  .p1-pila__chip-17 {
+    display: none;
+  }
+
+  .p1-pila__ingreso-a-veterinaria {
+    display: none;
+  }
+
+  .p1-pila__chip-18 {
+    display: none;
+  }
+
+  .p1-pila__fisicoquimica {
+    display: none;
+  }
+
+  .p1-pila__docente-5 {
+    display: none;
+  }
+
+  .p1-pila__foto-pollo-s {
+    display: none;
+  }
+
+  .p1-pila__t-6 {
+    display: none;
+  }
+
+  .p1-pila__pollo-s {
+    display: none;
+  }
+
+  .p1-pila__docente-6 {
+    display: none;
+  }
+
+  .p1-pila__otras {
+    display: none;
+  }
+
+  .p1-pila__tambien-segun-docentes-dispon {
+    display: none;
+  }
+
+  .p1-pila__chip-19 {
+    display: none;
+  }
+
+  .p1-pila__lengua-y-literatura {
+    display: none;
+  }
+
+  .p1-pila__chip-20 {
+    display: none;
+  }
+
+  .p1-pila__ingles-2 {
+    display: none;
+  }
+
+  .p1-pila__chip-21 {
+    display: none;
+  }
+
+  .p1-pila__historia {
+    display: none;
+  }
+
+  .p1-pila__chip-22 {
+    display: none;
+  }
+
+  .p1-pila__geografia {
+    display: none;
+  }
+
+  .p1-pila__chip-23 {
+    display: none;
+  }
+
+  .p1-pila__tecnicas-de-estudio {
+    display: none;
+  }
+
+  .p1-pila__encabezado-3 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__como-es-una-clase-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .p1-pila__tres-momentos-siempre-los-mis-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-pila__asi-trabajamos-en-cualquier-ni-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-pila__momentos-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__entender-que-pasa-3 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__foto-apuntes-y-carpeta-2 {
+    display: block;
+    height: 277px;
+    flex-shrink: 0;
+    align-self: stretch;
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--hoja-cartulina);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .p1-pila__renglones-5 {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    background-image: url(/img/img-8e534bfdc6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 189.586%;
+    background-position: 0% 35.803%;
+  }
+
+  .p1-pila__t-7 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__n01-2 {
+    display: block;
+    white-space: nowrap;
+    opacity: 0.25;
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 29px;
+    line-height: 1;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-pila__entender-que-pasa-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-pila__el-docente-mira-la-carpeta-la-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-pila__primero-escuchar-2 {
+    display: block;
+    white-space: nowrap;
+    transform: rotate(2deg);
+    font-family: "Kalam";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.35;
+    color: var(--hoja-lapiz-rojo);
+    margin: 2.1px 0.36px;
+  }
+
+  .p1-pila__practicar-juntos-3 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__foto-docente-con-alumnos-en-la-mesa-2 {
+    display: block;
+    height: 277px;
+    flex-shrink: 0;
+    align-self: stretch;
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--hoja-cartulina);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .p1-pila__renglones-6 {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    background-image: url(/img/img-f0ea60f7a2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .p1-pila__t-8 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__n02-2 {
+    display: block;
+    white-space: nowrap;
+    opacity: 0.25;
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 29px;
+    line-height: 1;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-pila__practicar-juntos-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-pila__ejercicios-lectura-o-repaso-c-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-pila__sin-verguenza-2 {
+    display: block;
+    white-space: nowrap;
+    transform: rotate(2deg);
+    font-family: "Kalam";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.35;
+    color: var(--hoja-lapiz-rojo);
+    margin: 1.69px 0.37px;
+  }
+
+  .p1-pila__salir-con-un-plan-3 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__foto-alumna-con-su-prueba-2 {
+    display: block;
+    height: 277px;
+    flex-shrink: 0;
+    align-self: stretch;
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--hoja-cartulina);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+
+  .p1-pila__renglones-7 {
+    display: block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-sizing: border-box;
+    background-image: url(/img/img-b9aa96e1c0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .p1-pila__t-9 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: flex-end;
+    box-sizing: border-box;
+  }
+
+  .p1-pila__n03-2 {
+    display: block;
+    white-space: nowrap;
+    opacity: 0.25;
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 29px;
+    line-height: 1;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-pila__salir-con-un-plan-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-pila__te-llevas-que-repasar-en-casa-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-pila__y-con-la-nota-2 {
+    display: block;
+    white-space: nowrap;
+    transform: rotate(2deg);
+    font-family: "Kalam";
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.35;
+    color: var(--hoja-lapiz-rojo);
+    margin: 2.05px 0.37px;
+  }
+}
+
+
+/* pila-2 */
+.p1-pila-2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  --solape: -28px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__precios {
+  align-self: stretch;
+  display: flex;
+  gap: 64px;
+  padding: 97px 128px 95px 128px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+}
+
+.p1-pila-2__texto {
+  width: 520px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__precios-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p1-pila-2__un-solo-precio-sin-sorpresas {
+  width: 500px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__la-hora-de-clase-cuesta-lo-mis {
+  width: 500px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__tarjeta-precio {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 40px 40px 40px;
+  align-items: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border: 1px solid var(--base-tinta);
+  border-radius: 20px;
+}
+
+.p1-pila-2__monto {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p1-pila-2__n40-000 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 76px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__la-hora {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__sena-para-reservar-50 {
+  align-self: stretch;
+  display: flex;
+  padding: 12px 0px 12px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+  position: relative;
+}
+
+.p1-pila-2__sena-para-reservar-50-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__n20-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__en-el-instituto-el-dia-de-la-clase {
+  align-self: stretch;
+  display: flex;
+  padding: 12px 0px 12px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+  position: relative;
+}
+
+.p1-pila-2__en-el-instituto-el-dia-de-la {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__n20-000-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__clase-de-90-minutos {
+  align-self: stretch;
+  display: flex;
+  padding: 12px 0px 12px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+  position: relative;
+}
+
+.p1-pila-2__clase-de-90-minutos-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__n60-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__lugar-guardado-mientras-pagas {
+  align-self: stretch;
+  display: flex;
+  padding: 12px 0px 12px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+  position: relative;
+}
+
+.p1-pila-2__lugar-guardado-mientras-pagas-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__n20-minutos {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__nota-adhesiva {
+  position: absolute;
+  left: 450px;
+  top: -50px;
+  width: 200px;
+  height: 114px;
+  display: flex;
+  flex-direction: column;
+  gap: 14.4px;
+  padding: 24px 19.2px 17.6px 19.2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--hoja-nota-amarilla);
+  box-shadow: 0px 8px 14.4px -3.2px rgb(23 20 15 / 0.16), 0px 0.8px 1.6px 0px rgb(23 20 15 / 0.08);
+  transform: rotate(-5deg);
+  transform-origin: 0 0;
+}
+
+.p1-pila-2__texto-2 {
+  align-self: stretch;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.p1-pila-2__pie {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p1-pila-2__aviso-nov {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 9.6px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__reserva {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 13.6px;
+  line-height: 1.35;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.p1-pila-2__chinche {
+  position: absolute;
+  left: 93.6px;
+  top: 6.4px;
+  width: 12.8px;
+  height: 12.8px;
+  box-sizing: border-box;
+  background-image: radial-gradient(#FF7A8F 0%, #C7293D 60%, #9C1C2E 100%);
+  box-shadow: 0.8px 2.4px 2.4px 0px rgb(0 0 0 / 0.3);
+  border-radius: 50%;
+}
+
+.p1-pila-2__modalidades {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  padding: 54px 128px 91px 128px;
+  align-items: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 26px 26px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.p1-pila-2__renglones {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0.17px;
+  bottom: -0.17px;
+  box-sizing: border-box;
+  background-image: url(/img/img-059d4638fa.png);
+  background-repeat: repeat;
+  background-size: 24px 24px;
+}
+
+.p1-pila-2__encabezado {
+  height: 51px;
+  flex-shrink: 0;
+  width: 720px;
+  max-width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__modalidades-2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p1-pila-2__en-el-instituto-o-desde-tu-cas {
+  position: absolute;
+  left: 0px;
+  top: 30px;
+  width: 720px;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__grilla {
+  height: 495px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p1-pila-2__presencial {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 16px 16px 16px 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 20px;
+}
+
+.p1-pila-2__foto-grupo-estudiando-en-la-mesa {
+  height: 320px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.p1-pila-2__renglones-2 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-4b2ddbcc69.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 228.256%;
+  background-position: 0% 40.897%;
+}
+
+.p1-pila-2__texto-3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px 12px 12px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__t {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__presencial-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__insignia {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 999px;
+}
+
+.p1-pila-2__punto {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border-radius: 50%;
+}
+
+.p1-pila-2__presencial-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__en-el-instituto-en-tandil-me {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__online {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 16px 16px 16px 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 20px;
+}
+
+.p1-pila-2__foto-estudiante-con-la-compu {
+  height: 320px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.p1-pila-2__renglones-3 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-56276b8e79.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 211.325%;
+  background-position: 0% 56.742%;
+}
+
+.p1-pila-2__texto-4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px 12px 12px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__t-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__online-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__insignia-2 {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--apoyo-celeste);
+  border-radius: 999px;
+}
+
+.p1-pila-2__punto-2 {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--base-tinta-azul);
+  border-radius: 50%;
+}
+
+.p1-pila-2__online-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--base-tinta-azul);
+  margin: 0;
+}
+
+.p1-pila-2__por-videollamada-con-pantalla {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__tipos {
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p1-pila-2__en-grupo {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 26px 24px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid var(--base-tinta);
+  border-radius: 16px;
+}
+
+.p1-pila-2__en-grupo-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__hasta-6-estudiantes-del-mismo {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__individual {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px 26px 24px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border: 1px solid var(--base-tinta);
+  border-radius: 16px;
+}
+
+.p1-pila-2__individual-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p1-pila-2__uno-a-uno-con-el-docente-para {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p1-pila-2__cierre {
+  align-self: stretch;
+  display: flex;
+  gap: 48px;
+  padding: 88px 128px 88px 128px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-tinta-azul);
+  border-radius: 26px 26px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.p1-pila-2__t-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__proximo-paso {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--acento-resaltador);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p1-pila-2__reserva-una-clase-o-escribinos {
+  width: 620px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.p1-pila-2__que-no-te-quede-nada-en-el-ti {
+  display: none;
+}
+
+.p1-pila-2__botones {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p1-pila-2__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.p1-pila-2__boton-sobre-oscuro {
+  display: flex;
+}
+
+.p1-pila-2 > * + * {
+  margin-top: var(--solape);
+}
+
+@media (max-width: 1023px) {
+  .p1-pila-2 {
+    --solape: -26px;
+    order: 3;
+  }
+
+  .p1-pila-2__precios {
+    gap: 32px;
+    padding: 29px 20px 82px 20px;
+    align-items: flex-start;
+    height: 755px;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+
+  .p1-pila-2__texto {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__un-solo-precio-sin-sorpresas {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__la-hora-de-clase-cuesta-lo-mis {
+    width: unset;
+    max-width: unset;
+    font-size: 16px;
+    line-height: 1.65;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__tarjeta-precio {
+    flex: unset;
+    min-width: unset;
+    padding: 40px 24px 40px 24px;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__n40-000 {
+    font-size: 50px;
+  }
+
+  .p1-pila-2__la-hora {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  .p1-pila-2__sena-para-reservar-50 {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .p1-pila-2__sena-para-reservar-50-2 {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .p1-pila-2__en-el-instituto-el-dia-de-la-clase {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .p1-pila-2__en-el-instituto-el-dia-de-la {
+    white-space: unset;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .p1-pila-2__clase-de-90-minutos {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .p1-pila-2__clase-de-90-minutos-2 {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .p1-pila-2__lugar-guardado-mientras-pagas {
+    align-items: center;
+    gap: 12px;
+  }
+
+  .p1-pila-2__lugar-guardado-mientras-pagas-2 {
+    white-space: unset;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .p1-pila-2__nota-adhesiva {
+    left: 228px;
+    top: -53.84px;
+    width: 128px;
+    height: 73.84px;
+    gap: 9.22px;
+    padding: 15.36px 12.29px 11.26px 12.29px;
+    box-shadow: 0px 5.12px 9.22px -2.05px rgb(23 20 15 / 0.16), 0px 0.51px 1.02px 0px rgb(23 20 15 / 0.08);
+  }
+
+  .p1-pila-2__texto-2 {
+    font-size: 10.24px;
+  }
+
+  .p1-pila-2__aviso-nov {
+    font-size: 6.14px;
+  }
+
+  .p1-pila-2__reserva {
+    font-size: 8.7px;
+  }
+
+  .p1-pila-2__chinche {
+    left: 59.9px;
+    top: 4.1px;
+    width: 8.19px;
+    height: 8.19px;
+    box-shadow: 0.51px 1.54px 1.54px 0px rgb(0 0 0 / 0.3);
+  }
+
+  .p1-pila-2__modalidades {
+    gap: 32px;
+    padding: 30px 20px 42px 20px;
+    background-color: var(--base-hoja);
+    box-shadow: 0px -12px 36px 0px rgb(0 0 0 / 0.1);
+    height: 1368px;
+    flex-shrink: 0;
+  }
+
+  .p1-pila-2__renglones {
+    top: 0px;
+    bottom: 0px;
+    background-color: var(--base-papel);
+    border-radius: 26px 26px 0px 0px;
+  }
+
+  .p1-pila-2__encabezado {
+    height: unset;
+    flex-shrink: unset;
+    width: unset;
+    max-width: unset;
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .p1-pila-2__modalidades-2 {
+    position: unset;
+    left: unset;
+    top: unset;
+  }
+
+  .p1-pila-2__en-el-instituto-o-desde-tu-cas {
+    position: unset;
+    left: unset;
+    top: unset;
+    width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__grilla {
+    height: unset;
+    flex-shrink: unset;
+    flex-direction: column;
+  }
+
+  .p1-pila-2__presencial {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__foto-grupo-estudiando-en-la-mesa {
+    height: 204px;
+  }
+
+  .p1-pila-2__presencial-2 {
+    font-size: 25px;
+  }
+
+  .p1-pila-2__online {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__foto-estudiante-con-la-compu {
+    height: 204px;
+  }
+
+  .p1-pila-2__online-2 {
+    font-size: 25px;
+  }
+
+  .p1-pila-2__tipos {
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px rgb(0 0 0 / 0.25);
+  }
+
+  .p1-pila-2__en-grupo {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__individual {
+    flex: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__cierre {
+    gap: 32px;
+    padding: 40px 20px 40px 20px;
+    justify-content: unset;
+    align-items: flex-start;
+    box-shadow: 0px -12px 36px 0px rgb(0 0 0 / 0.1);
+    flex-direction: column;
+  }
+
+  .p1-pila-2__t-3 {
+    align-self: stretch;
+  }
+
+  .p1-pila-2__reserva-una-clase-o-escribinos {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__que-no-te-quede-nada-en-el-ti {
+    display: block;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: var(--apoyo-celeste);
+    margin: 0;
+  }
+
+  .p1-pila-2__botones {
+    align-self: stretch;
+    flex-direction: column;
+  }
+
+  .p1-pila-2__boton {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p1-pila-2__boton-sobre-oscuro {
+    align-self: stretch;
+  }
+}
+
+
+/* materias-y-docentes */
+.p1-materias-y-docentes {
+  display: none;
+}
+
+.p1-materias-y-docentes__encabezado {
+  display: none;
+}
+
+.p1-materias-y-docentes__materias-y-docentes {
+  display: none;
+}
+
+.p1-materias-y-docentes__cada-materia-con-quien-la-sab {
+  display: none;
+}
+
+.p1-materias-y-docentes__estas-son-las-materias-de-la-r {
+  display: none;
+}
+
+.p1-materias-y-docentes__grilla {
+  display: none;
+}
+
+.p1-materias-y-docentes__primaria {
+  display: none;
+}
+
+.p1-materias-y-docentes__arriba {
+  display: none;
+}
+
+.p1-materias-y-docentes__color {
+  display: none;
+}
+
+.p1-materias-y-docentes__primaria-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__todas-las-materias-del-grado {
+  display: none;
+}
+
+.p1-materias-y-docentes__materias {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip {
+  display: none;
+}
+
+.p1-materias-y-docentes__practicas-del-lenguaje {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__matematica {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-3 {
+  display: none;
+}
+
+.p1-materias-y-docentes__ciencias-naturales {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-4 {
+  display: none;
+}
+
+.p1-materias-y-docentes__ciencias-sociales {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-5 {
+  display: none;
+}
+
+.p1-materias-y-docentes__ingles {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-6 {
+  display: none;
+}
+
+.p1-materias-y-docentes__tareas-y-carpetas {
+  display: none;
+}
+
+.p1-materias-y-docentes__docente {
+  display: none;
+}
+
+.p1-materias-y-docentes__foto-laura-m {
+  display: none;
+}
+
+.p1-materias-y-docentes__t {
+  display: none;
+}
+
+.p1-materias-y-docentes__laura-m {
+  display: none;
+}
+
+.p1-materias-y-docentes__docente-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__matematica-y-fisica {
+  display: none;
+}
+
+.p1-materias-y-docentes__arriba-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__color-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__matematica-y-fisica-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__de-1-ano-al-ingreso {
+  display: none;
+}
+
+.p1-materias-y-docentes__materias-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-7 {
+  display: none;
+}
+
+.p1-materias-y-docentes__matematica-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-8 {
+  display: none;
+}
+
+.p1-materias-y-docentes__algebra {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-9 {
+  display: none;
+}
+
+.p1-materias-y-docentes__analisis-matematico-i {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-10 {
+  display: none;
+}
+
+.p1-materias-y-docentes__fisica {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-11 {
+  display: none;
+}
+
+.p1-materias-y-docentes__estadistica {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-12 {
+  display: none;
+}
+
+.p1-materias-y-docentes__geometria {
+  display: none;
+}
+
+.p1-materias-y-docentes__docente-3 {
+  display: none;
+}
+
+.p1-materias-y-docentes__foto-carolina-t {
+  display: none;
+}
+
+.p1-materias-y-docentes__t-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__carolina-t {
+  display: none;
+}
+
+.p1-materias-y-docentes__docente-4 {
+  display: none;
+}
+
+.p1-materias-y-docentes__biologia-y-ciencias-naturales {
+  display: none;
+}
+
+.p1-materias-y-docentes__arriba-3 {
+  display: none;
+}
+
+.p1-materias-y-docentes__color-3 {
+  display: none;
+}
+
+.p1-materias-y-docentes__biologia-y-ciencias-naturales-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__de-secundaria-al-ingreso-a-vet {
+  display: none;
+}
+
+.p1-materias-y-docentes__materias-3 {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-13 {
+  display: none;
+}
+
+.p1-materias-y-docentes__biologia {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-14 {
+  display: none;
+}
+
+.p1-materias-y-docentes__quimica {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-15 {
+  display: none;
+}
+
+.p1-materias-y-docentes__biologia-celular {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-16 {
+  display: none;
+}
+
+.p1-materias-y-docentes__anatomia-basica {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-17 {
+  display: none;
+}
+
+.p1-materias-y-docentes__ingreso-a-veterinaria {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-18 {
+  display: none;
+}
+
+.p1-materias-y-docentes__fisicoquimica {
+  display: none;
+}
+
+.p1-materias-y-docentes__docente-5 {
+  display: none;
+}
+
+.p1-materias-y-docentes__foto-pollo-s {
+  display: none;
+}
+
+.p1-materias-y-docentes__t-3 {
+  display: none;
+}
+
+.p1-materias-y-docentes__pollo-s {
+  display: none;
+}
+
+.p1-materias-y-docentes__docente-6 {
+  display: none;
+}
+
+.p1-materias-y-docentes__otras {
+  display: none;
+}
+
+.p1-materias-y-docentes__tambien-segun-docentes-dispon {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-19 {
+  display: none;
+}
+
+.p1-materias-y-docentes__lengua-y-literatura {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-20 {
+  display: none;
+}
+
+.p1-materias-y-docentes__ingles-2 {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-21 {
+  display: none;
+}
+
+.p1-materias-y-docentes__historia {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-22 {
+  display: none;
+}
+
+.p1-materias-y-docentes__geografia {
+  display: none;
+}
+
+.p1-materias-y-docentes__chip-23 {
+  display: none;
+}
+
+.p1-materias-y-docentes__tecnicas-de-estudio {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .p1-materias-y-docentes {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    gap: 32px;
+    padding: 24px 20px 56px 20px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-papel);
+    order: 2;
+  }
+
+  .p1-materias-y-docentes__encabezado {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__materias-y-docentes {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__cada-materia-con-quien-la-sab {
+    display: block;
+    align-self: stretch;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__estas-son-las-materias-de-la-r {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__grilla {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__primaria {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    padding: 28px 26px 28px 26px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border-radius: 16px;
+    box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  }
+
+  .p1-materias-y-docentes__arriba {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__color {
+    display: flex;
+    width: 14px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--hoja-nota-rosa);
+    border-radius: 999px;
+  }
+
+  .p1-materias-y-docentes__primaria-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__todas-las-materias-del-grado {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__materias {
+    display: flex;
+    align-self: stretch;
+    flex-wrap: wrap;
+    row-gap: 6px;
+    column-gap: 6px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__chip {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__practicas-del-lenguaje {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__matematica {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__ciencias-naturales {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__ciencias-sociales {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-5 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__ingles {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-6 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__tareas-y-carpetas {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__docente {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    padding: 14px 0px 0px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid var(--borde-suave);
+  }
+
+  .p1-materias-y-docentes__foto-laura-m {
+    display: flex;
+    width: 40px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(/img/img-88f2e622f0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 999px;
+  }
+
+  .p1-materias-y-docentes__t {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__laura-m {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__docente-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__matematica-y-fisica {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    padding: 28px 26px 28px 26px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border-radius: 16px;
+    box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  }
+
+  .p1-materias-y-docentes__arriba-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__color-2 {
+    display: flex;
+    width: 14px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--apoyo-menta);
+    border-radius: 999px;
+  }
+
+  .p1-materias-y-docentes__matematica-y-fisica-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__de-1-ano-al-ingreso {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__materias-2 {
+    display: flex;
+    align-self: stretch;
+    flex-wrap: wrap;
+    row-gap: 6px;
+    column-gap: 6px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__chip-7 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__matematica-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-8 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__algebra {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-9 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__analisis-matematico-i {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-10 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__fisica {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-11 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__estadistica {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-12 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__geometria {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__docente-3 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    padding: 14px 0px 0px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid var(--borde-suave);
+  }
+
+  .p1-materias-y-docentes__foto-carolina-t {
+    display: flex;
+    width: 40px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(/img/img-8843ffa355.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 999px;
+  }
+
+  .p1-materias-y-docentes__t-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__carolina-t {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__docente-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__biologia-y-ciencias-naturales {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    padding: 28px 26px 28px 26px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border-radius: 16px;
+    box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  }
+
+  .p1-materias-y-docentes__arriba-3 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__color-3 {
+    display: flex;
+    width: 14px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--apoyo-celeste);
+    border-radius: 999px;
+  }
+
+  .p1-materias-y-docentes__biologia-y-ciencias-naturales-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__de-secundaria-al-ingreso-a-vet {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__materias-3 {
+    display: flex;
+    align-self: stretch;
+    flex-wrap: wrap;
+    row-gap: 6px;
+    column-gap: 6px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__chip-13 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__biologia {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-14 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__quimica {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-15 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__biologia-celular {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-16 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__anatomia-basica {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-17 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__ingreso-a-veterinaria {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-18 {
+    display: flex;
+    flex-direction: column;
+    padding: 6px 11px 6px 11px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador-suave);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__fisicoquimica {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--acento-oliva);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__docente-5 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    padding: 14px 0px 0px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid var(--borde-suave);
+  }
+
+  .p1-materias-y-docentes__foto-pollo-s {
+    display: flex;
+    width: 40px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(/img/img-a71f7146f8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 999px;
+  }
+
+  .p1-materias-y-docentes__t-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__pollo-s {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__docente-6 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__otras {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .p1-materias-y-docentes__tambien-segun-docentes-dispon {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .p1-materias-y-docentes__chip-19 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 8px 14px 8px 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__lengua-y-literatura {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-20 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 8px 14px 8px 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__ingles-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-21 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 8px 14px 8px 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__historia {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-22 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 8px 14px 8px 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__geografia {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .p1-materias-y-docentes__chip-23 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 8px 14px 8px 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 4px;
+  }
+
+  .p1-materias-y-docentes__tecnicas-de-estudio {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+}

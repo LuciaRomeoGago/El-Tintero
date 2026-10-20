@@ -1,0 +1,304 @@
+/* renglones */
+.t6-renglones {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+  height: 909.84px;
+}
+
+@media (max-width: 1023px) {
+  .t6-renglones {
+    height: 1219.84px;
+    order: 0;
+  }
+}
+
+
+/* margen */
+.t6-margen {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+  height: 909.84px;
+}
+
+@media (max-width: 1023px) {
+  .t6-margen {
+    height: 1219.84px;
+    order: 1;
+  }
+}
+
+
+/* cuerpo */
+.t6-cuerpo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 72px;
+  padding: 60px 128px 60px 128px;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t6-cuerpo__texto {
+  width: 560px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 329.38px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.t6-cuerpo__listo {
+  position: absolute;
+  left: 0px;
+  top: 22.38px;
+  width: 45px;
+  height: 46px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.t6-cuerpo__listo-ana {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.t6-cuerpo__titulo {
+  position: absolute;
+  left: 0px;
+  top: 68px;
+  width: 560px;
+  height: 109.21px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0px;
+  column-gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: inherit;
+}
+
+.t6-cuerpo__el-lugar-de-juli-esta {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t6-cuerpo__resaltador {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: linear-gradient(92deg, rgb(204 255 0 / 0) 0%, rgb(204 255 0 / 0.62) 3%, rgb(204 255 0 / 0.5) 6%, rgb(204 255 0 / 0.5) 93%, rgb(204 255 0 / 0.62) 96%, rgb(204 255 0 / 0) 99%);
+  border-radius: 3px;
+  transform: rotate(1.2deg);
+  margin: 1.61px 0.54px;
+}
+
+.t6-cuerpo__confirmado {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t6-cuerpo__te-mandamos-el-detalle-por-wha {
+  position: absolute;
+  left: 0px;
+  top: 193.38px;
+  width: 540px;
+  height: 59.17px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.t6-cuerpo__botones {
+  position: absolute;
+  left: 0px;
+  top: 280.38px;
+  width: 412px;
+  height: 49px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t6-cuerpo__volver-al-inicio {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.t6-cuerpo__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.t6-cuerpo__listo-2 {
+  display: none;
+}
+
+.t6-cuerpo__listo-ana-2 {
+  display: none;
+}
+
+.t6-cuerpo__el-lugar-de-juli-esta-confirma {
+  display: none;
+}
+
+.t6-cuerpo__te-mandamos-el-detalle-por-wha-2 {
+  display: none;
+}
+
+.t6-cuerpo__volver-al-inicio-2 {
+  display: none;
+}
+
+.t6-cuerpo__boton-2 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .t6-cuerpo {
+    gap: 20px;
+    padding: 40px 20px 40px 32px;
+    justify-content: unset;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .t6-cuerpo__texto {
+    display: none;
+  }
+
+  .t6-cuerpo__listo {
+    display: none;
+  }
+
+  .t6-cuerpo__listo-ana {
+    display: none;
+  }
+
+  .t6-cuerpo__titulo {
+    display: none;
+  }
+
+  .t6-cuerpo__el-lugar-de-juli-esta {
+    display: none;
+  }
+
+  .t6-cuerpo__resaltador {
+    display: none;
+  }
+
+  .t6-cuerpo__confirmado {
+    display: none;
+  }
+
+  .t6-cuerpo__te-mandamos-el-detalle-por-wha {
+    display: none;
+  }
+
+  .t6-cuerpo__botones {
+    display: none;
+  }
+
+  .t6-cuerpo__volver-al-inicio {
+    display: none;
+  }
+
+  .t6-cuerpo__boton {
+    display: none;
+  }
+
+  .t6-cuerpo__listo-2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .t6-cuerpo__listo-ana-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.15;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .t6-cuerpo__el-lugar-de-juli-esta-confirma {
+    display: block;
+    align-self: stretch;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .t6-cuerpo__te-mandamos-el-detalle-por-wha-2 {
+    display: flex;
+    height: 70.2px;
+    flex-shrink: 0;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--texto-secundario);
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .t6-cuerpo__volver-al-inicio-2 {
+    display: flex;
+    align-self: stretch;
+  }
+
+  .t6-cuerpo__boton-2 {
+    display: flex;
+    align-self: stretch;
+  }
+}

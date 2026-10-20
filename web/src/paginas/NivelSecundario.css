@@ -1,0 +1,1317 @@
+/* pila */
+.p2s-pila {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  --solape: -28px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__nivel-secundaria {
+  align-self: stretch;
+  display: flex;
+  gap: 72px;
+  padding: 55px 128px 75px 128px;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 26px 26px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.p2s-pila__texto {
+  width: 580px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.p2s-pila__t {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p2s-pila__secundaria {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p2s-pila__n02 {
+  white-space: nowrap;
+  opacity: 0.2;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 64px;
+  line-height: 1;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__la-materia-que-se-complico-o {
+  width: 560px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__de-1-a-6-ano-clases-suelt {
+  width: 540px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p2s-pila__lista {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__item-de-lista {
+  align-self: stretch;
+  display: flex;
+  gap: 14px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+}
+
+.p2s-pila__trazo {
+  width: 24px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 26px;
+  position: relative;
+}
+
+.p2s-pila__grupos-de-hasta-6-estudiantes {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__item-de-lista-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 14px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+}
+
+.p2s-pila__trazo-2 {
+  width: 24px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 26px;
+  position: relative;
+}
+
+.p2s-pila__grupos-de-hasta-6-estudiantes-2 {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__item-de-lista-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 14px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+}
+
+.p2s-pila__trazo-3 {
+  width: 24px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 26px;
+  position: relative;
+}
+
+.p2s-pila__grupos-de-hasta-6-estudiantes-3 {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__item-de-lista-4 {
+  align-self: stretch;
+  display: flex;
+  gap: 14px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+}
+
+.p2s-pila__trazo-4 {
+  width: 24px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 26px;
+  position: relative;
+}
+
+.p2s-pila__grupos-de-hasta-6-estudiantes-4 {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__item-de-lista-5 {
+  align-self: stretch;
+  display: flex;
+  gap: 14px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+}
+
+.p2s-pila__trazo-5 {
+  width: 24px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 26px;
+  position: relative;
+}
+
+.p2s-pila__grupos-de-hasta-6-estudiantes-5 {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__docentes {
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  padding: 8px 0px 8px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__carolina-t {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p2s-pila__foto-carolina-t {
+  width: 48px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url(/img/img-8843ffa355.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+}
+
+.p2s-pila__t-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__carolina-t-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__matematica-algebra-y-fisica {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p2s-pila__pollo-s {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p2s-pila__foto-pollo-s {
+  width: 48px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url(/img/img-a71f7146f8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+}
+
+.p2s-pila__t-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__pollo-s-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__biologia-quimica-y-naturales {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p2s-pila__pie {
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.p2s-pila__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.p2s-pila__lun-a-vie-15-00-a-20-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p2s-pila__foto {
+  width: 520px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 620px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p2s-pila__foto-docente-con-alumnos-en-el-pizarron {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 500px;
+  height: 600px;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.p2s-pila__renglones {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-7fca83d33c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.p2s-pila__mesas-de-diciembre {
+  position: absolute;
+  left: 300px;
+  top: 560px;
+  white-space: nowrap;
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.p2s-pila__renglones-2 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  box-sizing: border-box;
+  background-image: url(/img/img-059d4638fa.png);
+  background-repeat: repeat;
+  background-size: 24px 24px;
+}
+
+.p2s-pila__profes-secundaria {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 96px 128px 132px 128px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  overflow: hidden;
+}
+
+.p2s-pila__encabezado {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p2s-pila__secundaria-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p2s-pila__la-materia-que-se-complico-o-2 {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.p2s-pila__tarjetas {
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.p2s-pila__article {
+  width: 580px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #E3DED4;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.p2s-pila__background {
+  height: 300px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  padding: 200.81px 14px 14px 14px;
+  align-items: flex-end;
+  box-sizing: border-box;
+  background-image: url(/img/img-88f2e622f0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 289%;
+  background-position: 0% 23.423%;
+  overflow: hidden;
+}
+
+.p2s-pila__container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 23px 24px 24px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__container-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__heading-3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0.89px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__carolina-t-3 {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 29.9px;
+  letter-spacing: -0.26px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__container-3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0.59px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__profesora-de-matematica-isfd-n-10 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #5C5A54;
+  margin: 0;
+}
+
+.p2s-pila__de-1-a-6-ano-clases-suelt-2 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p2s-pila__container-4 {
+  height: 54.5px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p2s-pila__strong-14 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__container-5 {
+  position: absolute;
+  left: 48px;
+  top: 22px;
+  width: 66.03px;
+  height: 32.5px;
+  box-sizing: border-box;
+}
+
+.p2s-pila__anos-ensenando {
+  position: absolute;
+  left: 0px;
+  top: -0.87px;
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16.25px;
+  color: #5C5A54;
+  margin: 0;
+}
+
+.p2s-pila__container-6 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__background-border {
+  height: 30px;
+  display: flex;
+  padding: 2.92px 12px 4.08px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #F5F2ED;
+  border: 1px solid #E3DED4;
+  border-radius: 999px;
+}
+
+.p2s-pila__matematica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__background-border-2 {
+  height: 30px;
+  display: flex;
+  padding: 2.92px 12px 4.08px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #F5F2ED;
+  border: 1px solid #E3DED4;
+  border-radius: 999px;
+}
+
+.p2s-pila__algebra {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__background-border-3 {
+  height: 30px;
+  display: flex;
+  padding: 2.92px 12px 4.08px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #F5F2ED;
+  border: 1px solid #E3DED4;
+  border-radius: 999px;
+}
+
+.p2s-pila__fisica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__container-7 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0.69px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__lun-a-vie-15-00-a-20-00-2 {
+  width: 180px;
+  max-width: 100%;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p2s-pila__horizontalborder {
+  align-self: stretch;
+  display: flex;
+  gap: 146.85px;
+  padding: 16px 0px 0px 0px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid #E3DED4;
+}
+
+.p2s-pila__container-8 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__presencial-online {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #5C5A54;
+  margin: 0;
+}
+
+.p2s-pila__article-2 {
+  width: 580px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border: 1px solid #E3DED4;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.p2s-pila__background-2 {
+  height: 300px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  padding: 200.81px 14px 14px 14px;
+  align-items: flex-end;
+  box-sizing: border-box;
+  background-image: url(/img/img-356c25baf6.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 289%;
+  background-position: 0% 32.838%;
+  overflow: hidden;
+}
+
+.p2s-pila__container-9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 23px 24px 24px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__container-10 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__heading-3-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0.89px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__pollo-s-3 {
+  align-self: stretch;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 29.9px;
+  letter-spacing: -0.26px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__container-11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0.59px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__lic-en-ciencias-biologicas-unicen {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #5C5A54;
+  margin: 0;
+}
+
+.p2s-pila__de-1-a-6-ano-clases-suelt-3 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.p2s-pila__container-12 {
+  height: 54.5px;
+  flex-shrink: 0;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.p2s-pila__strong-7 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__container-13 {
+  position: absolute;
+  left: 48px;
+  top: 22px;
+  width: 66.03px;
+  height: 32.5px;
+  box-sizing: border-box;
+}
+
+.p2s-pila__anos-ensenando-2 {
+  position: absolute;
+  left: 0px;
+  top: -0.87px;
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16.25px;
+  color: #5C5A54;
+  margin: 0;
+}
+
+.p2s-pila__container-14 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 8px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__background-border-4 {
+  height: 30px;
+  display: flex;
+  padding: 2.92px 12px 4.08px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #F5F2ED;
+  border: 1px solid #E3DED4;
+  border-radius: 999px;
+}
+
+.p2s-pila__biologia {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__background-border-5 {
+  height: 30px;
+  display: flex;
+  padding: 2.92px 12px 4.08px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #F5F2ED;
+  border: 1px solid #E3DED4;
+  border-radius: 999px;
+}
+
+.p2s-pila__quimica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__background-border-6 {
+  height: 30px;
+  display: flex;
+  padding: 2.92px 12px 4.08px 12px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #F5F2ED;
+  border: 1px solid #E3DED4;
+  border-radius: 999px;
+}
+
+.p2s-pila__naturales {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #16150F;
+  margin: 0;
+}
+
+.p2s-pila__container-15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0.69px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__lun-a-vie-15-00-a-20-00-3 {
+  width: 180px;
+  max-width: 100%;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.p2s-pila__horizontalborder-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 146.85px;
+  padding: 16px 0px 0px 0px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid #E3DED4;
+}
+
+.p2s-pila__container-16 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__presencial-online-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20.15px;
+  color: #5C5A54;
+  margin: 0;
+}
+
+.p2s-pila__cierre {
+  align-self: stretch;
+  display: flex;
+  gap: 48px;
+  padding: 88px 128px 88px 128px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-tinta-azul);
+  border-radius: 26px 26px 0px 0px;
+  box-shadow: 0px -16px 50px 0px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.p2s-pila__t-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__proximo-paso {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--acento-resaltador);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.p2s-pila__reserva-una-clase-o-escribinos {
+  width: 620px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.p2s-pila__que-no-te-quede-nada-en-el-ti {
+  display: none;
+}
+
+.p2s-pila__botones {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.p2s-pila__boton-2 {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.p2s-pila__boton-sobre-oscuro {
+  display: flex;
+}
+
+.p2s-pila > * + * {
+  margin-top: var(--solape);
+}
+
+@media (max-width: 1023px) {
+  .p2s-pila {
+    --solape: -26px;
+    order: 1;
+  }
+
+  .p2s-pila__nivel-secundaria {
+    gap: 32px;
+    padding: 56px 20px 56px 20px;
+    align-items: flex-start;
+    box-shadow: 0px -12px 36px 0px rgb(0 0 0 / 0.1);
+    flex-direction: column;
+  }
+
+  .p2s-pila__texto {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__la-materia-que-se-complico-o {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p2s-pila__de-1-a-6-ano-clases-suelt {
+    width: unset;
+    max-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__grupos-de-hasta-6-estudiantes {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__grupos-de-hasta-6-estudiantes-2 {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__grupos-de-hasta-6-estudiantes-3 {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__grupos-de-hasta-6-estudiantes-4 {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__grupos-de-hasta-6-estudiantes-5 {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__docentes {
+    flex-direction: column;
+  }
+
+  .p2s-pila__carolina-t {
+    align-self: stretch;
+  }
+
+  .p2s-pila__pollo-s {
+    align-self: stretch;
+  }
+
+  .p2s-pila__pie {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .p2s-pila__boton {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__lun-a-vie-15-00-a-20-00 {
+    align-self: stretch;
+  }
+
+  .p2s-pila__foto {
+    width: 235.58px;
+    flex-shrink: 0;
+    min-width: unset;
+    height: 417.31px;
+    max-width: 100%;
+  }
+
+  .p2s-pila__foto-docente-con-alumnos-en-el-pizarron {
+    left: 6.73px;
+    top: 6.73px;
+    width: 336.54px;
+    height: 403.85px;
+    border-radius: 13.46px;
+  }
+
+  .p2s-pila__mesas-de-diciembre {
+    left: 201.92px;
+    top: 376.92px;
+    font-size: 17.5px;
+  }
+
+  .p2s-pila__profes-secundaria {
+    gap: 28px;
+    padding: 56px 20px 82px 20px;
+  }
+
+  .p2s-pila__la-materia-que-se-complico-o-2 {
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    white-space: nowrap;
+  }
+
+  .p2s-pila__tarjetas {
+    flex-direction: column;
+  }
+
+  .p2s-pila__article {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__background {
+    height: 240px;
+    flex-shrink: unset;
+    background-size: 100% 235.417%;
+    background-position: 0% 35.562%;
+  }
+
+  .p2s-pila__carolina-t-3 {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__profesora-de-matematica-isfd-n-10 {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__lun-a-vie-15-00-a-20-00-2 {
+    width: unset;
+    max-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__article-2 {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__background-2 {
+    height: 240px;
+    flex-shrink: unset;
+    background-size: 100% 235.417%;
+    background-position: 0% 41.346%;
+  }
+
+  .p2s-pila__pollo-s-3 {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__lic-en-ciencias-biologicas-unicen {
+    white-space: nowrap;
+  }
+
+  .p2s-pila__lun-a-vie-15-00-a-20-00-3 {
+    width: unset;
+    max-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__cierre {
+    gap: 32px;
+    padding: 40px 20px 40px 20px;
+    justify-content: unset;
+    align-items: flex-start;
+    box-shadow: 0px -12px 36px 0px rgb(0 0 0 / 0.1);
+    flex-direction: column;
+  }
+
+  .p2s-pila__t-4 {
+    align-self: stretch;
+  }
+
+  .p2s-pila__reserva-una-clase-o-escribinos {
+    width: unset;
+    max-width: unset;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    align-self: stretch;
+  }
+
+  .p2s-pila__que-no-te-quede-nada-en-el-ti {
+    display: block;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: var(--apoyo-celeste);
+    margin: 0;
+  }
+
+  .p2s-pila__botones {
+    align-self: stretch;
+    flex-direction: column;
+  }
+
+  .p2s-pila__boton-2 {
+    width: unset;
+    flex-shrink: unset;
+    min-width: unset;
+    align-self: stretch;
+  }
+
+  .p2s-pila__boton-sobre-oscuro {
+    align-self: stretch;
+  }
+}
