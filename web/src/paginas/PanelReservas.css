@@ -1,0 +1,2046 @@
+/* pantalla */
+.a5-pantalla {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  overflow: hidden;
+}
+
+.a5-pantalla__lugar-del-menu {
+  width: 248px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a5-pantalla__contenido {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 40px 48px 56px 48px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a5-pantalla__cabecera {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__t {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__reservas {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__periodo {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__dia-o-semana {
+  display: flex;
+  padding: 3px 3px 3px 3px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__dia {
+  display: flex;
+  padding: 7px 16px 7px 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__dia-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__semana {
+  display: flex;
+  padding: 7px 16px 7px 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__semana-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.a5-pantalla__navegacion {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__x {
+  display: flex;
+  padding: 7px 12px 7px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__x-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__semana-del-13-al-17-de-octubre {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__x-3 {
+  display: flex;
+  padding: 7px 12px 7px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__x-4 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__hoy {
+  display: flex;
+  padding: 7px 12px 7px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__hoy-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__filtros {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__filtro-todas {
+  display: flex;
+  padding: 8px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__todas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.a5-pantalla__filtro-esperando-pago-2 {
+  display: flex;
+  padding: 8px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__esperando-pago-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__filtro-confirmadas {
+  display: flex;
+  padding: 8px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__confirmadas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__filtro-canceladas {
+  display: flex;
+  padding: 8px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__canceladas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__filtro-vencidas {
+  display: flex;
+  padding: 8px 14px 8px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__vencidas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__espacio {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__buscar {
+  width: 280px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  gap: 8px;
+  padding: 10px 14px 10px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a5-pantalla__buscar-estudiante {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__tabla {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.a5-pantalla__encabezado-de-tabla {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  padding: 12px 20px 12px 20px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--hoja-cartulina);
+  border-bottom: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__celda {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estudiante {
+  align-self: stretch;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-2 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__clase {
+  align-self: stretch;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-3 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__sena {
+  align-self: stretch;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-4 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__saldo {
+  align-self: stretch;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-5 {
+  width: 140px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__reserva {
+  align-self: stretch;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-6 {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__dia-martes-14 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 16px 20px 6px 20px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__martes-14 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a5-pantalla__n3-reservas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__fila {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px 14px 20px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__celda-7 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__sol-ibarra {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__gabriela-ibarra-whatsapp {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-8 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__tareas-y-carpetas-4-grado {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__mar-14-10-16-00 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-9 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-aprobada {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__aprobada {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a5-pantalla__celda-10 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-cobrado {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__cobrado {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a5-pantalla__celda-11 {
+  width: 140px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__insignia {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+}
+
+.a5-pantalla__punto {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a5-pantalla__confirmada {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a5-pantalla__celda-12 {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__ver {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__fila-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px 14px 20px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__celda-13 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__juli-rios {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__ana-rios-whatsapp {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-14 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__matematica-2-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__mar-14-10-17-00 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-15 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-aprobada-2 {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__aprobada-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a5-pantalla__celda-16 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-por-cobrar {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__por-cobrar {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.a5-pantalla__celda-17 {
+  width: 140px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__insignia-2 {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+}
+
+.a5-pantalla__punto-2 {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a5-pantalla__confirmada-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a5-pantalla__celda-18 {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__ver-2 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__fila-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px 14px 20px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__celda-19 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__lucia-gomez {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__lucia-gomez-whatsapp {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-20 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__fisica-5-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__mar-14-10-18-30 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-21 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-aprobada-3 {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__aprobada-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a5-pantalla__celda-22 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-alias {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__alias {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__celda-23 {
+  width: 140px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__insignia-3 {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+}
+
+.a5-pantalla__punto-3 {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a5-pantalla__confirmada-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a5-pantalla__celda-24 {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__ver-3 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__dia-miercoles-15 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 16px 20px 6px 20px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__miercoles-15 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a5-pantalla__n1-reserva {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__fila-4 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px 14px 20px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__celda-25 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__mateo-perez {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__carla-perez-whatsapp {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-26 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__practicas-del-lenguaje-5-grado {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__mie-15-10-16-00 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-27 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-a-devolver {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-error-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__a-devolver {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-error);
+  margin: 0;
+}
+
+.a5-pantalla__celda-28 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__x-5 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-29 {
+  width: 140px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-cancelada {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__cancelada {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__celda-30 {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__ver-4 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__dia-jueves-16 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 16px 20px 6px 20px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__jueves-16 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a5-pantalla__n1-reserva-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__fila-5 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px 14px 20px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__celda-31 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__bruno-sosa {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__bruno-sosa-whatsapp {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-32 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__biologia-ingreso-a-veterinaria {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__jue-16-10-18-30 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-33 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-pendiente {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__pendiente {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.a5-pantalla__celda-34 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__x-6 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-35 {
+  width: 140px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-vence-en-12-min {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__vence-en-12-min {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.a5-pantalla__celda-36 {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__ver-5 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__dia-viernes-17 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 16px 20px 6px 20px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__viernes-17 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a5-pantalla__n1-reserva-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__fila-6 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  padding: 14px 20px 14px 20px;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__celda-37 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__juan-medina {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__juan-medina-whatsapp {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-38 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__quimica-4-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__vie-17-10-17-30 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-39 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-rechazada {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-error-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__rechazada {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-error);
+  margin: 0;
+}
+
+.a5-pantalla__celda-40 {
+  width: 110px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__x-7 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__celda-41 {
+  width: 140px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__estado-cancelada-2 {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__cancelada-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__celda-42 {
+  width: 40px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__ver-6 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a5-pantalla__las-reservas-esperando-pago-vencen-solas-a-los-20-minutos-un-pago-rechazado-cancela-la-reserva-si-la-familia-reintenta-aparece-como-reserva-nueva {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 248px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 28px 20px 28px 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-right: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a5-pantalla__marca {
+  display: flex;
+  gap: 10px;
+  padding: 0px 0px 24px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__marca-logo {
+  width: 34.64px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 32px;
+  position: relative;
+}
+
+.a5-pantalla__t-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__el-tintero {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__panel {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.a5-pantalla__item-agenda {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a5-pantalla__agenda {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__item-clases {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a5-pantalla__clases {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__item-reservas {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a5-pantalla__reservas-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__estado-2 {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a5-pantalla__n2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.a5-pantalla__item-docentes {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a5-pantalla__docentes {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__espacio-2 {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__usuario {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a5-pantalla__sandra-gago {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a5-pantalla__administracion {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a5-pantalla__salir {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+}

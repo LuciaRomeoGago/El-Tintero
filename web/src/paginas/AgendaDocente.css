@@ -1,0 +1,4155 @@
+/* pantalla */
+.d-pantalla {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  overflow: hidden;
+}
+
+.d-pantalla__lugar-del-menu {
+  width: 248px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__contenido {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 48px 56px 48px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__cabecera {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__semana {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__hola-carolina {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__tu-semana-4-clases-15-alumnos {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__navegacion {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__n13-al-17-de-octubre {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__x {
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.d-pantalla__x-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__hoy {
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.d-pantalla__hoy-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.d-pantalla__x-3 {
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.d-pantalla__x-4 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__columnas {
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__agenda-semana {
+  width: 736px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 880px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 12px;
+  box-shadow: 0px 8px 30px 0px rgb(0 0 0 / 0.06), inset 0 0 0 1px var(--borde-suave);
+  overflow: hidden;
+}
+
+.d-pantalla__renglones {
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  width: 736px;
+  height: 816px;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+}
+
+.d-pantalla__hora {
+  position: absolute;
+  left: 64px;
+  top: 64px;
+  width: 672px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.d-pantalla__hora-2 {
+  position: absolute;
+  left: 64px;
+  top: 224px;
+  width: 672px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.d-pantalla__hora-3 {
+  position: absolute;
+  left: 64px;
+  top: 384px;
+  width: 672px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.d-pantalla__hora-4 {
+  position: absolute;
+  left: 64px;
+  top: 544px;
+  width: 672px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.d-pantalla__hora-5 {
+  position: absolute;
+  left: 64px;
+  top: 704px;
+  width: 672px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.d-pantalla__hora-6 {
+  position: absolute;
+  left: 64px;
+  top: 864px;
+  width: 672px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.d-pantalla__margen {
+  position: absolute;
+  left: 58px;
+  top: 0px;
+  width: 2px;
+  height: 880px;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+}
+
+.d-pantalla__dia {
+  position: absolute;
+  left: 198.4px;
+  top: 64px;
+  width: 1px;
+  height: 800px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.d-pantalla__dia-2 {
+  position: absolute;
+  left: 332.8px;
+  top: 64px;
+  width: 1px;
+  height: 800px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.d-pantalla__dia-3 {
+  position: absolute;
+  left: 467.2px;
+  top: 64px;
+  width: 1px;
+  height: 800px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.d-pantalla__dia-4 {
+  position: absolute;
+  left: 601.6px;
+  top: 64px;
+  width: 1px;
+  height: 800px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.d-pantalla__n15 {
+  position: absolute;
+  left: 18px;
+  top: 68px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__n16 {
+  position: absolute;
+  left: 18px;
+  top: 228px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__n17 {
+  position: absolute;
+  left: 18px;
+  top: 388px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__n18 {
+  position: absolute;
+  left: 18px;
+  top: 548px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__n19 {
+  position: absolute;
+  left: 18px;
+  top: 708px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__cabecera-lun {
+  position: absolute;
+  left: 78px;
+  top: 16px;
+  width: 55px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__lun {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__n13 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__cabecera-mar {
+  position: absolute;
+  left: 212.4px;
+  top: 16px;
+  width: 57px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__mar {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__n14 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__trazo {
+  position: absolute;
+  left: 234.4px;
+  top: 10px;
+  width: 46px;
+  height: 38px;
+}
+
+.d-pantalla__cabecera-mie {
+  position: absolute;
+  left: 346.8px;
+  top: 16px;
+  width: 55px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__mie {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__n15-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__cabecera-jue {
+  position: absolute;
+  left: 481.2px;
+  top: 16px;
+  width: 52px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__jue {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__n16-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__cabecera-vie {
+  position: absolute;
+  left: 615.6px;
+  top: 16px;
+  width: 52px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__vie {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__n17-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__linea-de-cabecera {
+  position: absolute;
+  left: 0px;
+  top: 63px;
+  width: 736px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.d-pantalla__turno-matematica-lun-17-30 {
+  position: absolute;
+  left: 70px;
+  top: 467px;
+  width: 118.4px;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.8deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__arriba {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__n17-30-18-30 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__matematica-3-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.d-pantalla__alumnos {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__alumno-nico-f {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.d-pantalla__nico-f {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-abril-s {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-2 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.d-pantalla__abril-s {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-lola-v {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-3 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.d-pantalla__lola-v {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-inaki-p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-4 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.d-pantalla__inaki-p {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-delfi-c {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-5 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.d-pantalla__delfi-c {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__lugar-libre {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-6 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__cinta {
+  position: absolute;
+  left: 42.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__turno-matematica-mar-17-00 {
+  position: absolute;
+  left: 204.4px;
+  top: 387px;
+  width: 118.4px;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border: 2px solid var(--base-tinta);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(-0.6deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__arriba-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__n17-00-18-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__matematica-2-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.d-pantalla__alumnos-2 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__alumno-juli-r {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-7 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__juli-r {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-valentin-d {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-8 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__valentin-d {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-martina-p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-9 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__martina-p {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__lugar-libre-2 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-10 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__lugar-libre-3 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-11 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__lugar-libre-4 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-12 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__cinta-2 {
+  position: absolute;
+  left: 42.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__turno-fisica-mar-18-30 {
+  position: absolute;
+  left: 204.4px;
+  top: 627px;
+  width: 118.4px;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__arriba-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__n18-30-19-30 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__fisica-5-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.d-pantalla__alumnos-3 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__alumno-lucia-g {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-13 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__lucia-g {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__cinta-3 {
+  position: absolute;
+  left: 42.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__turno-matematica-jue-17-00 {
+  position: absolute;
+  left: 473.2px;
+  top: 387px;
+  width: 118.4px;
+  height: 154px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(-0.9deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__arriba-4 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__n17-00-18-00-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__matematica-1-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.d-pantalla__alumnos-4 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__alumno-lu-p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-14 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__lu-p {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-gael-f {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-15 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__gael-f {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-isa-m {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-16 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__isa-m {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-simon-r {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-17 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__simon-r {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-olivia-k {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-18 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__olivia-k {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__alumno-juana-t {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-19 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__juana-t {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__cinta-4 {
+  position: absolute;
+  left: 42.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__ahora {
+  position: absolute;
+  left: 200.4px;
+  top: 114.33px;
+  width: 130.4px;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador);
+  border-radius: 3px;
+  transform: rotate(-0.5deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__ahora-2 {
+  position: absolute;
+  left: 286.8px;
+  top: 95.33px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__turno-elegido {
+  width: 340px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 24px 24px 24px;
+  align-items: flex-start;
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 4px;
+  box-shadow: 0px 8px 30px 0px rgb(0 0 0 / 0.06);
+  transform: rotate(-0.6deg);
+  margin: 1.77px 2.35px;
+}
+
+.d-pantalla__cinta-5 {
+  position: absolute;
+  left: 138px;
+  top: -8px;
+  width: 64px;
+  height: 16px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.6);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.d-pantalla__martes-14-17-00-a-18-00-presencial {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+  position: relative;
+}
+
+.d-pantalla__matematica-2-ano-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.d-pantalla__n3-de-6-lugares-ocupados-grupo {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+  position: relative;
+}
+
+.d-pantalla__alumnos-5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.d-pantalla__juli-rios {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 9px 0px 9px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--base-tinta);
+  overflow: hidden;
+}
+
+.d-pantalla__punto-20 {
+  width: 11px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 11px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__t {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__juli-rios-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__prueba-de-funciones-lineales {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__valentin-diaz {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 9px 0px 9px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--base-tinta);
+  overflow: hidden;
+}
+
+.d-pantalla__punto-21 {
+  width: 11px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 11px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__t-2 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__valentin-diaz-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__prueba-el-jueves {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.d-pantalla__martina-paz {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 9px 0px 9px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--base-tinta);
+  overflow: hidden;
+}
+
+.d-pantalla__punto-22 {
+  width: 11px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 11px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__t-3 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__martina-paz-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__lugar-libre-5 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 9px 0px 9px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--base-tinta);
+  overflow: hidden;
+}
+
+.d-pantalla__punto-23 {
+  width: 11px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 11px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__t-4 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__lugar-libre-6 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__lugar-libre-7 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 9px 0px 9px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--base-tinta);
+  overflow: hidden;
+}
+
+.d-pantalla__punto-24 {
+  width: 11px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 11px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__t-5 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__lugar-libre-8 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__lugar-libre-9 {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 9px 0px 9px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: 1px solid var(--base-tinta);
+  overflow: hidden;
+}
+
+.d-pantalla__punto-25 {
+  width: 11px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 11px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__t-6 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__lugar-libre-10 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__los-tres-pagaron-la-sena-el-saldo-se-cobra-en-la-sede-al-terminar-la-clase {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--texto-secundario);
+  margin: 0;
+  position: relative;
+}
+
+.d-pantalla__para-cambiar-un-horario-avisale-a-secretaria {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__leyenda {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__saldo-cobrado {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-26 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.d-pantalla__saldo-cobrado-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__sena-pagada-saldo-pendiente {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-27 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__sena-pagada-saldo-pendiente-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__esperando-pago {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-28 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border: 1.5px dashed var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.d-pantalla__esperando-pago-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__lugar-libre-11 {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__punto-29 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.d-pantalla__lugar-libre-12 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 248px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 28px 20px 28px 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-right: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.d-pantalla__marca {
+  display: flex;
+  gap: 10px;
+  padding: 0px 0px 24px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__marca-logo {
+  width: 34.64px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 32px;
+  position: relative;
+}
+
+.d-pantalla__t-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__el-tintero {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__panel {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.d-pantalla__item-mi-agenda {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.d-pantalla__mi-agenda {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__espacio {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__usuario {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.d-pantalla__carolina-t {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.d-pantalla__docente {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.d-pantalla__salir {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+}
+
+.d-pantalla__encabezado {
+  display: none;
+}
+
+.d-pantalla__marca-2 {
+  display: none;
+}
+
+.d-pantalla__marca-logo-2 {
+  display: none;
+}
+
+.d-pantalla__mi-agenda-2 {
+  display: none;
+}
+
+.d-pantalla__carolina-t-2 {
+  display: none;
+}
+
+.d-pantalla__cuerpo {
+  display: none;
+}
+
+.d-pantalla__titulo {
+  display: none;
+  margin: 0;
+  font-weight: inherit;
+}
+
+.d-pantalla__hola-carolina-2 {
+  display: none;
+}
+
+.d-pantalla__martes-14-dos-clases {
+  display: none;
+}
+
+.d-pantalla__semana-2 {
+  display: none;
+}
+
+.d-pantalla__lun-2 {
+  display: none;
+}
+
+.d-pantalla__lun-3 {
+  display: none;
+}
+
+.d-pantalla__n13-2 {
+  display: none;
+}
+
+.d-pantalla__clases {
+  display: none;
+}
+
+.d-pantalla__ellipse {
+  display: none;
+}
+
+.d-pantalla__mar-2 {
+  display: none;
+}
+
+.d-pantalla__mar-3 {
+  display: none;
+}
+
+.d-pantalla__n14-2 {
+  display: none;
+}
+
+.d-pantalla__clases-2 {
+  display: none;
+}
+
+.d-pantalla__ellipse-2 {
+  display: none;
+}
+
+.d-pantalla__ellipse-3 {
+  display: none;
+}
+
+.d-pantalla__mie-2 {
+  display: none;
+}
+
+.d-pantalla__mie-3 {
+  display: none;
+}
+
+.d-pantalla__n15-3 {
+  display: none;
+}
+
+.d-pantalla__clases-3 {
+  display: none;
+}
+
+.d-pantalla__jue-2 {
+  display: none;
+}
+
+.d-pantalla__jue-3 {
+  display: none;
+}
+
+.d-pantalla__n16-3 {
+  display: none;
+}
+
+.d-pantalla__clases-4 {
+  display: none;
+}
+
+.d-pantalla__ellipse-4 {
+  display: none;
+}
+
+.d-pantalla__vie-2 {
+  display: none;
+}
+
+.d-pantalla__vie-3 {
+  display: none;
+}
+
+.d-pantalla__n17-3 {
+  display: none;
+}
+
+.d-pantalla__clases-5 {
+  display: none;
+}
+
+.d-pantalla__ahora-3 {
+  display: none;
+}
+
+.d-pantalla__rectangle {
+  display: none;
+}
+
+.d-pantalla__ahora-son-las-15-20-tu-primera-clase-es-a-las-17-00 {
+  display: none;
+}
+
+.d-pantalla__dia-martes-14 {
+  display: none;
+}
+
+.d-pantalla__renglones-2 {
+  display: none;
+}
+
+.d-pantalla__margen-2 {
+  display: none;
+}
+
+.d-pantalla__hora-7 {
+  display: none;
+}
+
+.d-pantalla__n16-4 {
+  display: none;
+}
+
+.d-pantalla__hora-8 {
+  display: none;
+}
+
+.d-pantalla__n17-4 {
+  display: none;
+}
+
+.d-pantalla__hora-9 {
+  display: none;
+}
+
+.d-pantalla__n18-2 {
+  display: none;
+}
+
+.d-pantalla__hora-10 {
+  display: none;
+}
+
+.d-pantalla__n19-2 {
+  display: none;
+}
+
+.d-pantalla__hora-11 {
+  display: none;
+}
+
+.d-pantalla__turno-matematica-mar-17-00-2 {
+  display: none;
+}
+
+.d-pantalla__arriba-5 {
+  display: none;
+}
+
+.d-pantalla__n17-00-18-00-3 {
+  display: none;
+}
+
+.d-pantalla__matematica-2-ano-3 {
+  display: none;
+}
+
+.d-pantalla__alumnos-6 {
+  display: none;
+}
+
+.d-pantalla__alumno-juli-r-2 {
+  display: none;
+}
+
+.d-pantalla__punto-30 {
+  display: none;
+}
+
+.d-pantalla__juli-r-2 {
+  display: none;
+}
+
+.d-pantalla__alumno-valentin-d-2 {
+  display: none;
+}
+
+.d-pantalla__punto-31 {
+  display: none;
+}
+
+.d-pantalla__valentin-d-2 {
+  display: none;
+}
+
+.d-pantalla__alumno-martina-p-2 {
+  display: none;
+}
+
+.d-pantalla__punto-32 {
+  display: none;
+}
+
+.d-pantalla__martina-p-2 {
+  display: none;
+}
+
+.d-pantalla__lugar-libre-13 {
+  display: none;
+}
+
+.d-pantalla__punto-33 {
+  display: none;
+}
+
+.d-pantalla__lugar-libre-14 {
+  display: none;
+}
+
+.d-pantalla__punto-34 {
+  display: none;
+}
+
+.d-pantalla__lugar-libre-15 {
+  display: none;
+}
+
+.d-pantalla__punto-35 {
+  display: none;
+}
+
+.d-pantalla__cinta-6 {
+  display: none;
+}
+
+.d-pantalla__turno-fisica-mar-18-30-2 {
+  display: none;
+}
+
+.d-pantalla__arriba-6 {
+  display: none;
+}
+
+.d-pantalla__n18-30-19-30-2 {
+  display: none;
+}
+
+.d-pantalla__fisica-5-ano-2 {
+  display: none;
+}
+
+.d-pantalla__alumnos-7 {
+  display: none;
+}
+
+.d-pantalla__alumno-lucia-g-2 {
+  display: none;
+}
+
+.d-pantalla__punto-36 {
+  display: none;
+}
+
+.d-pantalla__lucia-g-2 {
+  display: none;
+}
+
+.d-pantalla__cinta-7 {
+  display: none;
+}
+
+.d-pantalla__leyenda-2 {
+  display: none;
+}
+
+.d-pantalla__saldo-cobrado-3 {
+  display: none;
+}
+
+.d-pantalla__punto-37 {
+  display: none;
+}
+
+.d-pantalla__saldo-cobrado-4 {
+  display: none;
+}
+
+.d-pantalla__sena-pagada-saldo-pendiente-3 {
+  display: none;
+}
+
+.d-pantalla__punto-38 {
+  display: none;
+}
+
+.d-pantalla__sena-pagada-saldo-pendiente-4 {
+  display: none;
+}
+
+.d-pantalla__esperando-pago-3 {
+  display: none;
+}
+
+.d-pantalla__punto-39 {
+  display: none;
+}
+
+.d-pantalla__esperando-pago-4 {
+  display: none;
+}
+
+.d-pantalla__lugar-libre-16 {
+  display: none;
+}
+
+.d-pantalla__punto-40 {
+  display: none;
+}
+
+.d-pantalla__lugar-libre-17 {
+  display: none;
+}
+
+.d-pantalla__toca-una-clase-para-ver-las-notas-de-cada-alumno-para-cambiar-un-horario-avisale-a-secretaria {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .d-pantalla {
+    flex-direction: column;
+  }
+
+  .d-pantalla__lugar-del-menu {
+    display: none;
+  }
+
+  .d-pantalla__contenido {
+    display: none;
+  }
+
+  .d-pantalla__cabecera {
+    display: none;
+  }
+
+  .d-pantalla__semana {
+    display: none;
+  }
+
+  .d-pantalla__hola-carolina {
+    display: none;
+  }
+
+  .d-pantalla__tu-semana-4-clases-15-alumnos {
+    display: none;
+  }
+
+  .d-pantalla__navegacion {
+    display: none;
+  }
+
+  .d-pantalla__n13-al-17-de-octubre {
+    display: none;
+  }
+
+  .d-pantalla__x {
+    display: none;
+  }
+
+  .d-pantalla__x-2 {
+    display: none;
+  }
+
+  .d-pantalla__hoy {
+    display: none;
+  }
+
+  .d-pantalla__hoy-2 {
+    display: none;
+  }
+
+  .d-pantalla__x-3 {
+    display: none;
+  }
+
+  .d-pantalla__x-4 {
+    display: none;
+  }
+
+  .d-pantalla__columnas {
+    display: none;
+  }
+
+  .d-pantalla__agenda-semana {
+    display: none;
+  }
+
+  .d-pantalla__renglones {
+    display: none;
+  }
+
+  .d-pantalla__hora {
+    display: none;
+  }
+
+  .d-pantalla__hora-2 {
+    display: none;
+  }
+
+  .d-pantalla__hora-3 {
+    display: none;
+  }
+
+  .d-pantalla__hora-4 {
+    display: none;
+  }
+
+  .d-pantalla__hora-5 {
+    display: none;
+  }
+
+  .d-pantalla__hora-6 {
+    display: none;
+  }
+
+  .d-pantalla__margen {
+    display: none;
+  }
+
+  .d-pantalla__dia {
+    display: none;
+  }
+
+  .d-pantalla__dia-2 {
+    display: none;
+  }
+
+  .d-pantalla__dia-3 {
+    display: none;
+  }
+
+  .d-pantalla__dia-4 {
+    display: none;
+  }
+
+  .d-pantalla__n15 {
+    display: none;
+  }
+
+  .d-pantalla__n16 {
+    display: none;
+  }
+
+  .d-pantalla__n17 {
+    display: none;
+  }
+
+  .d-pantalla__n18 {
+    display: none;
+  }
+
+  .d-pantalla__n19 {
+    display: none;
+  }
+
+  .d-pantalla__cabecera-lun {
+    display: none;
+  }
+
+  .d-pantalla__lun {
+    display: none;
+  }
+
+  .d-pantalla__n13 {
+    display: none;
+  }
+
+  .d-pantalla__cabecera-mar {
+    display: none;
+  }
+
+  .d-pantalla__mar {
+    display: none;
+  }
+
+  .d-pantalla__n14 {
+    display: none;
+  }
+
+  .d-pantalla__trazo {
+    display: none;
+  }
+
+  .d-pantalla__cabecera-mie {
+    display: none;
+  }
+
+  .d-pantalla__mie {
+    display: none;
+  }
+
+  .d-pantalla__n15-2 {
+    display: none;
+  }
+
+  .d-pantalla__cabecera-jue {
+    display: none;
+  }
+
+  .d-pantalla__jue {
+    display: none;
+  }
+
+  .d-pantalla__n16-2 {
+    display: none;
+  }
+
+  .d-pantalla__cabecera-vie {
+    display: none;
+  }
+
+  .d-pantalla__vie {
+    display: none;
+  }
+
+  .d-pantalla__n17-2 {
+    display: none;
+  }
+
+  .d-pantalla__linea-de-cabecera {
+    display: none;
+  }
+
+  .d-pantalla__turno-matematica-lun-17-30 {
+    display: none;
+  }
+
+  .d-pantalla__arriba {
+    display: none;
+  }
+
+  .d-pantalla__n17-30-18-30 {
+    display: none;
+  }
+
+  .d-pantalla__matematica-3-ano {
+    display: none;
+  }
+
+  .d-pantalla__alumnos {
+    display: none;
+  }
+
+  .d-pantalla__alumno-nico-f {
+    display: none;
+  }
+
+  .d-pantalla__punto {
+    display: none;
+  }
+
+  .d-pantalla__nico-f {
+    display: none;
+  }
+
+  .d-pantalla__alumno-abril-s {
+    display: none;
+  }
+
+  .d-pantalla__punto-2 {
+    display: none;
+  }
+
+  .d-pantalla__abril-s {
+    display: none;
+  }
+
+  .d-pantalla__alumno-lola-v {
+    display: none;
+  }
+
+  .d-pantalla__punto-3 {
+    display: none;
+  }
+
+  .d-pantalla__lola-v {
+    display: none;
+  }
+
+  .d-pantalla__alumno-inaki-p {
+    display: none;
+  }
+
+  .d-pantalla__punto-4 {
+    display: none;
+  }
+
+  .d-pantalla__inaki-p {
+    display: none;
+  }
+
+  .d-pantalla__alumno-delfi-c {
+    display: none;
+  }
+
+  .d-pantalla__punto-5 {
+    display: none;
+  }
+
+  .d-pantalla__delfi-c {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre {
+    display: none;
+  }
+
+  .d-pantalla__punto-6 {
+    display: none;
+  }
+
+  .d-pantalla__cinta {
+    display: none;
+  }
+
+  .d-pantalla__turno-matematica-mar-17-00 {
+    display: none;
+  }
+
+  .d-pantalla__arriba-2 {
+    display: none;
+  }
+
+  .d-pantalla__n17-00-18-00 {
+    display: none;
+  }
+
+  .d-pantalla__matematica-2-ano {
+    display: none;
+  }
+
+  .d-pantalla__alumnos-2 {
+    display: none;
+  }
+
+  .d-pantalla__alumno-juli-r {
+    display: none;
+  }
+
+  .d-pantalla__punto-7 {
+    display: none;
+  }
+
+  .d-pantalla__juli-r {
+    display: none;
+  }
+
+  .d-pantalla__alumno-valentin-d {
+    display: none;
+  }
+
+  .d-pantalla__punto-8 {
+    display: none;
+  }
+
+  .d-pantalla__valentin-d {
+    display: none;
+  }
+
+  .d-pantalla__alumno-martina-p {
+    display: none;
+  }
+
+  .d-pantalla__punto-9 {
+    display: none;
+  }
+
+  .d-pantalla__martina-p {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-2 {
+    display: none;
+  }
+
+  .d-pantalla__punto-10 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-3 {
+    display: none;
+  }
+
+  .d-pantalla__punto-11 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-4 {
+    display: none;
+  }
+
+  .d-pantalla__punto-12 {
+    display: none;
+  }
+
+  .d-pantalla__cinta-2 {
+    display: none;
+  }
+
+  .d-pantalla__turno-fisica-mar-18-30 {
+    display: none;
+  }
+
+  .d-pantalla__arriba-3 {
+    display: none;
+  }
+
+  .d-pantalla__n18-30-19-30 {
+    display: none;
+  }
+
+  .d-pantalla__fisica-5-ano {
+    display: none;
+  }
+
+  .d-pantalla__alumnos-3 {
+    display: none;
+  }
+
+  .d-pantalla__alumno-lucia-g {
+    display: none;
+  }
+
+  .d-pantalla__punto-13 {
+    display: none;
+  }
+
+  .d-pantalla__lucia-g {
+    display: none;
+  }
+
+  .d-pantalla__cinta-3 {
+    display: none;
+  }
+
+  .d-pantalla__turno-matematica-jue-17-00 {
+    display: none;
+  }
+
+  .d-pantalla__arriba-4 {
+    display: none;
+  }
+
+  .d-pantalla__n17-00-18-00-2 {
+    display: none;
+  }
+
+  .d-pantalla__matematica-1-ano {
+    display: none;
+  }
+
+  .d-pantalla__alumnos-4 {
+    display: none;
+  }
+
+  .d-pantalla__alumno-lu-p {
+    display: none;
+  }
+
+  .d-pantalla__punto-14 {
+    display: none;
+  }
+
+  .d-pantalla__lu-p {
+    display: none;
+  }
+
+  .d-pantalla__alumno-gael-f {
+    display: none;
+  }
+
+  .d-pantalla__punto-15 {
+    display: none;
+  }
+
+  .d-pantalla__gael-f {
+    display: none;
+  }
+
+  .d-pantalla__alumno-isa-m {
+    display: none;
+  }
+
+  .d-pantalla__punto-16 {
+    display: none;
+  }
+
+  .d-pantalla__isa-m {
+    display: none;
+  }
+
+  .d-pantalla__alumno-simon-r {
+    display: none;
+  }
+
+  .d-pantalla__punto-17 {
+    display: none;
+  }
+
+  .d-pantalla__simon-r {
+    display: none;
+  }
+
+  .d-pantalla__alumno-olivia-k {
+    display: none;
+  }
+
+  .d-pantalla__punto-18 {
+    display: none;
+  }
+
+  .d-pantalla__olivia-k {
+    display: none;
+  }
+
+  .d-pantalla__alumno-juana-t {
+    display: none;
+  }
+
+  .d-pantalla__punto-19 {
+    display: none;
+  }
+
+  .d-pantalla__juana-t {
+    display: none;
+  }
+
+  .d-pantalla__cinta-4 {
+    display: none;
+  }
+
+  .d-pantalla__ahora {
+    display: none;
+  }
+
+  .d-pantalla__ahora-2 {
+    display: none;
+  }
+
+  .d-pantalla__turno-elegido {
+    display: none;
+  }
+
+  .d-pantalla__cinta-5 {
+    display: none;
+  }
+
+  .d-pantalla__martes-14-17-00-a-18-00-presencial {
+    display: none;
+  }
+
+  .d-pantalla__matematica-2-ano-2 {
+    display: none;
+  }
+
+  .d-pantalla__n3-de-6-lugares-ocupados-grupo {
+    display: none;
+  }
+
+  .d-pantalla__alumnos-5 {
+    display: none;
+  }
+
+  .d-pantalla__juli-rios {
+    display: none;
+  }
+
+  .d-pantalla__punto-20 {
+    display: none;
+  }
+
+  .d-pantalla__t {
+    display: none;
+  }
+
+  .d-pantalla__juli-rios-2 {
+    display: none;
+  }
+
+  .d-pantalla__prueba-de-funciones-lineales {
+    display: none;
+  }
+
+  .d-pantalla__valentin-diaz {
+    display: none;
+  }
+
+  .d-pantalla__punto-21 {
+    display: none;
+  }
+
+  .d-pantalla__t-2 {
+    display: none;
+  }
+
+  .d-pantalla__valentin-diaz-2 {
+    display: none;
+  }
+
+  .d-pantalla__prueba-el-jueves {
+    display: none;
+  }
+
+  .d-pantalla__martina-paz {
+    display: none;
+  }
+
+  .d-pantalla__punto-22 {
+    display: none;
+  }
+
+  .d-pantalla__t-3 {
+    display: none;
+  }
+
+  .d-pantalla__martina-paz-2 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-5 {
+    display: none;
+  }
+
+  .d-pantalla__punto-23 {
+    display: none;
+  }
+
+  .d-pantalla__t-4 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-6 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-7 {
+    display: none;
+  }
+
+  .d-pantalla__punto-24 {
+    display: none;
+  }
+
+  .d-pantalla__t-5 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-8 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-9 {
+    display: none;
+  }
+
+  .d-pantalla__punto-25 {
+    display: none;
+  }
+
+  .d-pantalla__t-6 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-10 {
+    display: none;
+  }
+
+  .d-pantalla__los-tres-pagaron-la-sena-el-saldo-se-cobra-en-la-sede-al-terminar-la-clase {
+    display: none;
+  }
+
+  .d-pantalla__para-cambiar-un-horario-avisale-a-secretaria {
+    display: none;
+  }
+
+  .d-pantalla__leyenda {
+    display: none;
+  }
+
+  .d-pantalla__saldo-cobrado {
+    display: none;
+  }
+
+  .d-pantalla__punto-26 {
+    display: none;
+  }
+
+  .d-pantalla__saldo-cobrado-2 {
+    display: none;
+  }
+
+  .d-pantalla__sena-pagada-saldo-pendiente {
+    display: none;
+  }
+
+  .d-pantalla__punto-27 {
+    display: none;
+  }
+
+  .d-pantalla__sena-pagada-saldo-pendiente-2 {
+    display: none;
+  }
+
+  .d-pantalla__esperando-pago {
+    display: none;
+  }
+
+  .d-pantalla__punto-28 {
+    display: none;
+  }
+
+  .d-pantalla__esperando-pago-2 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-11 {
+    display: none;
+  }
+
+  .d-pantalla__punto-29 {
+    display: none;
+  }
+
+  .d-pantalla__lugar-libre-12 {
+    display: none;
+  }
+
+  .d-pantalla__menu {
+    display: none;
+  }
+
+  .d-pantalla__marca {
+    display: none;
+  }
+
+  .d-pantalla__marca-logo {
+    display: none;
+  }
+
+  .d-pantalla__t-7 {
+    display: none;
+  }
+
+  .d-pantalla__el-tintero {
+    display: none;
+  }
+
+  .d-pantalla__panel {
+    display: none;
+  }
+
+  .d-pantalla__item-mi-agenda {
+    display: none;
+  }
+
+  .d-pantalla__mi-agenda {
+    display: none;
+  }
+
+  .d-pantalla__espacio {
+    display: none;
+  }
+
+  .d-pantalla__usuario {
+    display: none;
+  }
+
+  .d-pantalla__carolina-t {
+    display: none;
+  }
+
+  .d-pantalla__docente {
+    display: none;
+  }
+
+  .d-pantalla__salir {
+    display: none;
+  }
+
+  .d-pantalla__encabezado {
+    display: flex;
+    align-self: stretch;
+    gap: 10px;
+    padding: 14px 20px 14px 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-papel);
+    border-bottom: 1px solid var(--borde-suave);
+    backdrop-filter: blur(6px);
+    overflow: hidden;
+  }
+
+  .d-pantalla__marca-2 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__marca-logo-2 {
+    display: block;
+    width: 32.47px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 30px;
+    position: relative;
+  }
+
+  .d-pantalla__mi-agenda-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__carolina-t-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__cuerpo {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px 20px 32px 20px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__hola-carolina-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .d-pantalla__martes-14-dos-clases {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__semana-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 6px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__lun-2 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 0px 8px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .d-pantalla__lun-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__n13-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__clases {
+    display: flex;
+    gap: 3px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__ellipse {
+    display: block;
+    width: 5px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 5px;
+    box-sizing: border-box;
+    background-color: var(--base-tinta-azul);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__mar-2 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 0px 8px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-tinta);
+    border: 1px solid var(--base-tinta);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .d-pantalla__mar-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: normal;
+    color: var(--acento-resaltador);
+    margin: 0;
+  }
+
+  .d-pantalla__n14-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+
+  .d-pantalla__clases-2 {
+    display: flex;
+    gap: 3px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__ellipse-2 {
+    display: block;
+    width: 5px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 5px;
+    box-sizing: border-box;
+    background-color: var(--apoyo-celeste);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__ellipse-3 {
+    display: block;
+    width: 5px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 5px;
+    box-sizing: border-box;
+    background-color: var(--apoyo-celeste);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__mie-2 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 0px 8px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .d-pantalla__mie-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__n15-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__clases-3 {
+    display: flex;
+    height: 6px;
+    flex-shrink: 0;
+    width: 6px;
+    max-width: 100%;
+    gap: 3px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__jue-2 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 0px 8px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .d-pantalla__jue-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__n16-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__clases-4 {
+    display: flex;
+    gap: 3px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__ellipse-4 {
+    display: block;
+    width: 5px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 5px;
+    box-sizing: border-box;
+    background-color: var(--base-tinta-azul);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__vie-2 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 8px 0px 8px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .d-pantalla__vie-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 500;
+    font-size: 11.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__n17-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: normal;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__clases-5 {
+    display: flex;
+    height: 6px;
+    flex-shrink: 0;
+    width: 6px;
+    max-width: 100%;
+    gap: 3px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__ahora-3 {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__rectangle {
+    display: block;
+    width: 28px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 6px;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador);
+    border-radius: 3px;
+  }
+
+  .d-pantalla__ahora-son-las-15-20-tu-primera-clase-es-a-las-17-00 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__dia-martes-14 {
+    display: block;
+    height: 552px;
+    flex-shrink: 0;
+    width: 350px;
+    max-width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border-radius: 12px;
+    box-shadow: 0px 8px 30px 0px rgb(0 0 0 / 0.06), inset 0 0 0 1px var(--borde-suave);
+    overflow: hidden;
+  }
+
+  .d-pantalla__renglones-2 {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 350px;
+    height: 552px;
+    box-sizing: border-box;
+    background-image: url(/img/img-66d4edddde.png);
+    background-repeat: repeat;
+    background-size: 8px 32px;
+  }
+
+  .d-pantalla__margen-2 {
+    display: block;
+    position: absolute;
+    left: 40px;
+    top: 0px;
+    width: 2px;
+    height: 552px;
+    box-sizing: border-box;
+    background-color: var(--hoja-margen);
+  }
+
+  .d-pantalla__hora-7 {
+    display: block;
+    position: absolute;
+    left: 46px;
+    top: 12px;
+    width: 304px;
+    height: 1px;
+    box-sizing: border-box;
+    background-color: var(--borde-fuerte);
+  }
+
+  .d-pantalla__n16-4 {
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 16px;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .d-pantalla__hora-8 {
+    display: block;
+    position: absolute;
+    left: 46px;
+    top: 144px;
+    width: 304px;
+    height: 1px;
+    box-sizing: border-box;
+    background-color: var(--borde-fuerte);
+  }
+
+  .d-pantalla__n17-4 {
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 148px;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .d-pantalla__hora-9 {
+    display: block;
+    position: absolute;
+    left: 46px;
+    top: 276px;
+    width: 304px;
+    height: 1px;
+    box-sizing: border-box;
+    background-color: var(--borde-fuerte);
+  }
+
+  .d-pantalla__n18-2 {
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 280px;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .d-pantalla__hora-10 {
+    display: block;
+    position: absolute;
+    left: 46px;
+    top: 408px;
+    width: 304px;
+    height: 1px;
+    box-sizing: border-box;
+    background-color: var(--borde-fuerte);
+  }
+
+  .d-pantalla__n19-2 {
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 412px;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .d-pantalla__hora-11 {
+    display: block;
+    position: absolute;
+    left: 46px;
+    top: 540px;
+    width: 304px;
+    height: 1px;
+    box-sizing: border-box;
+    background-color: var(--borde-fuerte);
+  }
+
+  .d-pantalla__turno-matematica-mar-17-00-2 {
+    display: flex;
+    position: absolute;
+    left: 54px;
+    top: 148px;
+    width: 286px;
+    height: 124px;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 8px 8px 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--profe-carolina);
+    border-radius: 2px;
+    box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+    transform: rotate(0.6deg);
+    transform-origin: 0 0;
+  }
+
+  .d-pantalla__arriba-5 {
+    display: flex;
+    align-self: stretch;
+    gap: 6px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .d-pantalla__n17-00-18-00-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__matematica-2-ano-3 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12.5px;
+    line-height: 16px;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .d-pantalla__alumnos-6 {
+    display: flex;
+    align-self: stretch;
+    flex-wrap: wrap;
+    row-gap: 3px;
+    column-gap: 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .d-pantalla__alumno-juli-r-2 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-30 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__juli-r-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 14px;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__alumno-valentin-d-2 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-31 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__valentin-d-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 14px;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__alumno-martina-p-2 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-32 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__martina-p-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 14px;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__lugar-libre-13 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-33 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+  }
+
+  .d-pantalla__lugar-libre-14 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-34 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+  }
+
+  .d-pantalla__lugar-libre-15 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-35 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+  }
+
+  .d-pantalla__cinta-6 {
+    display: block;
+    position: absolute;
+    left: 126px;
+    top: -5px;
+    width: 34px;
+    height: 10px;
+    box-sizing: border-box;
+    background-color: rgb(255 255 255 / 0.55);
+    transform: rotate(3deg);
+    transform-origin: 0 0;
+  }
+
+  .d-pantalla__turno-fisica-mar-18-30-2 {
+    display: flex;
+    position: absolute;
+    left: 54px;
+    top: 346px;
+    width: 286px;
+    height: 124px;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px 8px 8px 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--profe-carolina);
+    border-radius: 2px;
+    box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+    transform: rotate(-0.7deg);
+    transform-origin: 0 0;
+  }
+
+  .d-pantalla__arriba-6 {
+    display: flex;
+    align-self: stretch;
+    gap: 6px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .d-pantalla__n18-30-19-30-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__fisica-5-ano-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12.5px;
+    line-height: 16px;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .d-pantalla__alumnos-7 {
+    display: flex;
+    align-self: stretch;
+    flex-wrap: wrap;
+    row-gap: 3px;
+    column-gap: 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .d-pantalla__alumno-lucia-g-2 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-36 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__lucia-g-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 10.5px;
+    line-height: 14px;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .d-pantalla__cinta-7 {
+    display: block;
+    position: absolute;
+    left: 126px;
+    top: -5px;
+    width: 34px;
+    height: 10px;
+    box-sizing: border-box;
+    background-color: rgb(255 255 255 / 0.55);
+    transform: rotate(3deg);
+    transform-origin: 0 0;
+  }
+
+  .d-pantalla__leyenda-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__saldo-cobrado-3 {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-37 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    background-color: var(--estado-disponible);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__saldo-cobrado-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__sena-pagada-saldo-pendiente-3 {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-38 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__sena-pagada-saldo-pendiente-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__esperando-pago-3 {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-39 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    border: 1.5px dashed var(--estado-pendiente);
+    border-radius: 50%;
+  }
+
+  .d-pantalla__esperando-pago-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__lugar-libre-16 {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .d-pantalla__punto-40 {
+    display: block;
+    width: 9px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 9px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+  }
+
+  .d-pantalla__lugar-libre-17 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12.5px;
+    line-height: normal;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .d-pantalla__toca-una-clase-para-ver-las-notas-de-cada-alumno-para-cambiar-un-horario-avisale-a-secretaria {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+}

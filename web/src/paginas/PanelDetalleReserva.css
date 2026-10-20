@@ -1,0 +1,1039 @@
+/* pantalla */
+.a6-pantalla {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  overflow: hidden;
+}
+
+.a6-pantalla__lugar-del-menu {
+  width: 248px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a6-pantalla__contenido {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 40px 48px 56px 48px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a6-pantalla__reservas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+}
+
+.a6-pantalla__cabecera {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__t {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__reserva-0417 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.a6-pantalla__juli-rios {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__insignia {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+}
+
+.a6-pantalla__punto {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a6-pantalla__confirmada {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a6-pantalla__acciones {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.a6-pantalla__columnas {
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__izquierda {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__datos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 24px 24px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.a6-pantalla__dato-clase {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__clase {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__matematica-2-ano-grupo-reducido {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__dato-cuando {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__cuando {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__martes-14-10-17-00-a-18-00-presencial {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__dato-docente {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__docente {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__carolina-t {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__dato-responsable {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__responsable {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__ana-rios-whatsapp-249-412-3456 {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__dato-notas {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__notas {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__prepara-la-prueba-de-funciones-lineales {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__historial {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 24px 24px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.a6-pantalla__historial-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__evento {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__n11-10-10-42 {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__reserva-creada-lugar-retenido-20-minutos {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__evento-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__n11-10-10-47 {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__mercado-pago-aviso-pago-aprobado-reserva-confirmada {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__evento-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__n11-10-10-47-2 {
+  width: 140px;
+  flex-shrink: 1;
+  min-width: 0;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__whatsapp-de-confirmacion-enviado-a-ana-rios {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__tarjeta-de-mensajes {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 24px 24px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.a6-pantalla__cabecera-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__mensajes-por-whatsapp {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__a-ana-rios-249-412-3456 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__mensaje-confirmacion {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__datos-2 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__confirmacion {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__n11-10-10-47-3 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__estado-entregado {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a6-pantalla__entregado {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: normal;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.a6-pantalla__texto-enviado {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 14px 14px 14px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 4px 12px 12px 12px;
+  overflow: hidden;
+}
+
+.a6-pantalla__hola-ana-la-reserva-de-juli-esta-confirmada-matematica-2-ano-grupo-martes-14-de-octubre-17-00-a-18-00-chacabuco-1180-tandil-docente-carolina-t-sena-pagada-20-000-saldo-el-dia-de-la-clase-20-000-si-cancelas-hasta-el-domingo-12-a-las-17-00-te-devolvemos-la-sena-tu-reserva-enlace {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 21px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__acciones-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__asi-le-llego-el-mensaje-a-la-familia-si-un-envio-falla-o-quedo-en-modo-simulado-se-puede-reenviar-desde-aca {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: 18px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__boton-2 {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.a6-pantalla__pagos {
+  width: 400px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 24px 24px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.a6-pantalla__pagos-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__pago-precio {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__l {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__precio {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__n40-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__pago-sena-mercado-pago {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__l-2 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__sena-mercado-pago {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__operacion-1234567890-aprobada-11-10-10-47 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__n20-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__pago-saldo {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__l-3 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__saldo {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__por-cobrar-el-dia-de-la-clase {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a6-pantalla__n20-000-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__boton-3 {
+  align-self: stretch;
+  display: flex;
+}
+
+.a6-pantalla__boton-4 {
+  align-self: stretch;
+  display: flex;
+}
+
+.a6-pantalla__si-cancela-ahora-faltan-menos-de-48-h-la-sena-queda-para-el-instituto {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 248px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 28px 20px 28px 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-right: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a6-pantalla__marca {
+  display: flex;
+  gap: 10px;
+  padding: 0px 0px 24px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__marca-logo {
+  width: 34.64px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 32px;
+  position: relative;
+}
+
+.a6-pantalla__t-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__el-tintero {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__panel {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.a6-pantalla__item-agenda {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a6-pantalla__agenda {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__item-clases {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a6-pantalla__clases {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__item-reservas {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a6-pantalla__reservas-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__estado-2 {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a6-pantalla__n2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.a6-pantalla__item-docentes {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a6-pantalla__docentes {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__espacio {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__usuario {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a6-pantalla__sandra-gago {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a6-pantalla__administracion {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a6-pantalla__salir {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+}

@@ -1,0 +1,260 @@
+/* pantalla */
+.a1-pantalla {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  overflow: hidden;
+  height: 900px;
+}
+
+.a1-pantalla__hoja {
+  flex: 1 1 0;
+  min-width: 0;
+  align-self: stretch;
+  position: relative;
+  height: 900px;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+  background-color: var(--base-hoja);
+  overflow: hidden;
+}
+
+.a1-pantalla__marca {
+  position: absolute;
+  left: 128px;
+  top: 288.92px;
+  width: 153.3px;
+  height: 40px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a1-pantalla__marca-logo {
+  width: 43.3px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 40px;
+  position: relative;
+}
+
+.a1-pantalla__el-tintero {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a1-pantalla__el-cuaderno-de {
+  position: absolute;
+  left: 128px;
+  top: 366.48px;
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a1-pantalla__resaltador {
+  position: absolute;
+  left: 128.03px;
+  top: 419.92px;
+  width: 193px;
+  height: 49px;
+  box-sizing: border-box;
+  background-image: linear-gradient(92deg, rgb(204 255 0 / 0) 0%, rgb(204 255 0 / 0.62) 3%, rgb(204 255 0 / 0.5) 6%, rgb(204 255 0 / 0.5) 93%, rgb(204 255 0 / 0.62) 96%, rgb(204 255 0 / 0) 99%);
+  border-radius: 3px;
+  transform: rotate(1.2deg);
+  transform-origin: 0 0;
+}
+
+.a1-pantalla__ingreso {
+  position: absolute;
+  left: 9.92px;
+  top: -3.78px;
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a1-pantalla__clases-reservas-saldos-y-docentes-en-un-solo-lugar {
+  position: absolute;
+  left: 127px;
+  top: 484.92px;
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a1-pantalla__panel-interno-solo-administracion-y-docentes {
+  position: absolute;
+  left: 128px;
+  top: 554.92px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a1-pantalla__ingreso-2 {
+  width: 560px;
+  flex-shrink: 1;
+  min-width: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a1-pantalla__formulario {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px 32px 32px 32px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 12px;
+  box-shadow: 0px 8px 30px 0px rgb(0 0 0 / 0.06);
+  overflow: hidden;
+}
+
+.a1-pantalla__ingresa-al-panel {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a1-pantalla__campo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.a1-pantalla__nombre-del-estudiante {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a1-pantalla__caja {
+  align-self: stretch;
+  display: flex;
+  padding: 15px 16px 15px 16px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 4px;
+}
+
+.a1-pantalla__valor {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a1-pantalla__campo-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.a1-pantalla__nombre-del-estudiante-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a1-pantalla__caja-2 {
+  align-self: stretch;
+  display: flex;
+  padding: 15px 16px 15px 16px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 4px;
+}
+
+.a1-pantalla__valor-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a1-pantalla__boton {
+  align-self: stretch;
+  display: flex;
+}
+
+.a1-pantalla__olvide-mi-contrasena {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+}

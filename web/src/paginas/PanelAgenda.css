@@ -1,0 +1,3635 @@
+/* pantalla */
+.a2-pantalla {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  overflow: hidden;
+}
+
+.a2-pantalla__lugar-del-menu {
+  width: 248px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__contenido {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 980px;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__cabecera {
+  position: absolute;
+  left: 48px;
+  right: 48px;
+  top: 40px;
+  height: 65px;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__semana {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__buen-dia-sandra {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a2-pantalla__semana-del-13-al-17-de-octubre {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__navegacion {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__x {
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__x-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__hoy {
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__hoy-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.a2-pantalla__x-3 {
+  display: flex;
+  padding: 9px 14px 9px 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__x-4 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.a2-pantalla__profes-y-avisos {
+  position: absolute;
+  left: 48px;
+  right: 48px;
+  top: 105px;
+  height: 100px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__profe-todos {
+  display: flex;
+  gap: 8px;
+  padding: 7px 14px 7px 10px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1.5px solid var(--base-tinta);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__color {
+  width: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border-radius: 2px;
+  transform: rotate(6deg);
+  margin: 0.69px 0.69px;
+}
+
+.a2-pantalla__todos {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__profe-laura-m {
+  display: flex;
+  gap: 8px;
+  padding: 7px 14px 7px 10px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__color-2 {
+  width: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  box-sizing: border-box;
+  background-color: var(--profe-laura);
+  border-radius: 2px;
+  transform: rotate(6deg);
+  margin: 0.69px 0.69px;
+}
+
+.a2-pantalla__laura-m {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__profe-pollo-s {
+  display: flex;
+  gap: 8px;
+  padding: 7px 14px 7px 10px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__color-3 {
+  width: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  box-sizing: border-box;
+  background-color: var(--profe-pollo);
+  border-radius: 2px;
+  transform: rotate(6deg);
+  margin: 0.69px 0.69px;
+}
+
+.a2-pantalla__pollo-s {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__profe-carolina-t {
+  display: flex;
+  gap: 8px;
+  padding: 7px 14px 7px 10px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__color-4 {
+  width: 14px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 14px;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  transform: rotate(6deg);
+  margin: 0.69px 0.69px;
+}
+
+.a2-pantalla__carolina-t {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 500;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__espacio {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__aviso-1-sena-para-devolver {
+  display: flex;
+  gap: 6px;
+  padding: 7px 12px 7px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-error-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__n1-sena-para-devolver {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--estado-error);
+  margin: 0;
+}
+
+.a2-pantalla__aviso-1-pago-esperando-vence-en-12-min {
+  display: flex;
+  gap: 6px;
+  padding: 7px 12px 7px 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__n1-pago-esperando-vence-en-12-min {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.a2-pantalla__agenda-semana {
+  position: absolute;
+  left: 48px;
+  top: 205px;
+  width: 1096px;
+  height: 704px;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 12px;
+  box-shadow: 0px 8px 30px 0px rgb(0 0 0 / 0.06), inset 0 0 0 1px var(--borde-suave);
+  overflow: hidden;
+}
+
+.a2-pantalla__renglones {
+  position: absolute;
+  left: 0px;
+  top: 64px;
+  width: 1096px;
+  height: 640px;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+}
+
+.a2-pantalla__hora {
+  position: absolute;
+  left: 64px;
+  top: 64px;
+  width: 1032px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__hora-2 {
+  position: absolute;
+  left: 64px;
+  top: 168px;
+  width: 1032px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__hora-3 {
+  position: absolute;
+  left: 64px;
+  top: 272px;
+  width: 1032px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__hora-4 {
+  position: absolute;
+  left: 64px;
+  top: 376px;
+  width: 1032px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__hora-5 {
+  position: absolute;
+  left: 64px;
+  top: 480px;
+  width: 1032px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__hora-6 {
+  position: absolute;
+  left: 64px;
+  top: 584px;
+  width: 1032px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__hora-7 {
+  position: absolute;
+  left: 64px;
+  top: 688px;
+  width: 1032px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__margen {
+  position: absolute;
+  left: 58px;
+  top: 0px;
+  width: 2px;
+  height: 704px;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+}
+
+.a2-pantalla__dia {
+  position: absolute;
+  left: 270.4px;
+  top: 64px;
+  width: 1px;
+  height: 624px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.a2-pantalla__dia-2 {
+  position: absolute;
+  left: 476.8px;
+  top: 64px;
+  width: 1px;
+  height: 624px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.a2-pantalla__dia-3 {
+  position: absolute;
+  left: 683.2px;
+  top: 64px;
+  width: 1px;
+  height: 624px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.a2-pantalla__dia-4 {
+  position: absolute;
+  left: 889.6px;
+  top: 64px;
+  width: 1px;
+  height: 624px;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.a2-pantalla__n15 {
+  position: absolute;
+  left: 18px;
+  top: 68px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a2-pantalla__n16 {
+  position: absolute;
+  left: 18px;
+  top: 172px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a2-pantalla__n17 {
+  position: absolute;
+  left: 18px;
+  top: 276px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a2-pantalla__n18 {
+  position: absolute;
+  left: 18px;
+  top: 380px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a2-pantalla__n19 {
+  position: absolute;
+  left: 18px;
+  top: 484px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a2-pantalla__n20 {
+  position: absolute;
+  left: 18px;
+  top: 588px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.a2-pantalla__cabecera-lun {
+  position: absolute;
+  left: 78px;
+  top: 16px;
+  width: 55px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__lun {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__n13 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__cabecera-mar {
+  position: absolute;
+  left: 284.4px;
+  top: 16px;
+  width: 57px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__mar {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__n14 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__trazo {
+  position: absolute;
+  left: 306.4px;
+  top: 10px;
+  width: 46px;
+  height: 38px;
+}
+
+.a2-pantalla__cabecera-mie {
+  position: absolute;
+  left: 490.8px;
+  top: 16px;
+  width: 55px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__mie {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__n15-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__cabecera-jue {
+  position: absolute;
+  left: 697.2px;
+  top: 16px;
+  width: 52px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__jue {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__n16-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__cabecera-vie {
+  position: absolute;
+  left: 903.6px;
+  top: 16px;
+  width: 52px;
+  height: 34px;
+  display: flex;
+  gap: 6px;
+  align-items: baseline;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__vie {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 13px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__n17-2 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 26px;
+  line-height: normal;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__linea-de-cabecera {
+  position: absolute;
+  left: 0px;
+  top: 63px;
+  width: 1096px;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.a2-pantalla__turno-tareas-y-carpetas-lun-16-00 {
+  position: absolute;
+  left: 70px;
+  top: 171px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-laura);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.8deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n16-00-17-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__laura-m-2 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__tareas-y-carpetas-4-grado {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-sol-i {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__sol-i {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-bruno-a {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-2 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__bruno-a {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-mia-r {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-3 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__mia-r {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-tobias-g {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-4 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__tobias-g {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-5 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-2 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-6 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__cinta {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-matematica-lun-17-30 {
+  position: absolute;
+  left: 70px;
+  top: 327px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(-0.6deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n17-30-18-30 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__carolina-t-2 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__matematica-3-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-2 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-nico-f {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-7 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__nico-f {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-abril-s {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-8 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__abril-s {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-lola-v {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-9 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__lola-v {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-inaki-p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-10 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__inaki-p {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-delfi-c {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-11 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__delfi-c {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre-3 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-12 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__cinta-2 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-tareas-y-carpetas-mar-16-00 {
+  position: absolute;
+  left: 276.4px;
+  top: 171px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-laura);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(-0.6deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-3 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n16-00-17-00-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__laura-m-3 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__tareas-y-carpetas-4-grado-2 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-3 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-sol-i-2 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-13 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__sol-i-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-bruno-a-2 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-14 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__bruno-a-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-mia-r-2 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-15 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__mia-r-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-tobias-g-2 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-16 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__tobias-g-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-emma-l {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-17 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__emma-l {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre-4 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-18 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__cinta-3 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-matematica-mar-17-00 {
+  position: absolute;
+  left: 276.4px;
+  top: 275px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-4 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n17-00-18-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__carolina-t-3 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__matematica-2-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-4 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-juli-r {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-19 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__juli-r {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-valentin-d {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-20 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__valentin-d {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-martina-p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-21 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__martina-p {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre-5 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-22 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-6 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-23 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-7 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-24 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__cinta-4 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-fisica-mar-18-30 {
+  position: absolute;
+  left: 276.4px;
+  top: 431px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(-0.9deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-5 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n18-30-19-30 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__carolina-t-4 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__fisica-5-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-5 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-lucia-g {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-25 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__lucia-g {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__cinta-5 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-biologia-mar-19-30 {
+  position: absolute;
+  left: 276.4px;
+  top: 535px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-pollo);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.6deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-6 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n19-30-20-30 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__pollo-s-2 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__biologia-ingreso {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-6 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-fran-m {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-26 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__fran-m {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-agus-t {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-27 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__agus-t {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre-8 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-28 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-9 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-29 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-10 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-30 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-11 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-31 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__cinta-6 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-practicas-del-lenguaje-mie-16-00 {
+  position: absolute;
+  left: 482.8px;
+  top: 171px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-laura);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.4deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-7 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n16-00-17-00-3 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__laura-m-4 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__practicas-del-lenguaje-5-grado {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-7 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-pilar-n {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-32 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__pilar-n {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-joaquin-b {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-33 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__joaquin-b {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre-12 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-34 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-13 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-35 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__cinta-7 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-quimica-mie-18-00 {
+  position: absolute;
+  left: 482.8px;
+  top: 379px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-pollo);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(-0.9deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-8 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n18-00-19-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__pollo-s-3 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__quimica-3-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-8 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-benja-o {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-36 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__benja-o {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-cata-r {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-37 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__cata-r {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-thiago-m {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-38 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__thiago-m {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-ana-l {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-39 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__ana-l {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre-14 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-40 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-15 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-41 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__cinta-8 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-matematica-jue-17-00 {
+  position: absolute;
+  left: 689.2px;
+  top: 275px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-carolina);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(-0.9deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-9 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n17-00-18-00-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__carolina-t-5 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__matematica-1-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-9 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-lu-p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-42 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__lu-p {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-gael-f {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-43 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__gael-f {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-isa-m {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-44 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__isa-m {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-simon-r {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-45 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__simon-r {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-olivia-k {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-46 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__olivia-k {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-juana-t {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-47 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__juana-t {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__cinta-9 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-biologia-jue-18-30 {
+  position: absolute;
+  left: 689.2px;
+  top: 431px;
+  width: 190.4px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-pollo);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.6deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-10 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n18-30-20-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__pollo-s-4 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__biologia-ingreso-a-veterinaria {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-10 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-bruno-s {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-48 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border: 1.5px dashed var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__bruno-s {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__cinta-10 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-quimica-vie-17-30 {
+  position: absolute;
+  left: 895.6px;
+  top: 327px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--profe-pollo);
+  border-radius: 2px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  transform: rotate(0.6deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-11 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__n17-30-18-30-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__pollo-s-5 {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__quimica-4-ano {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.a2-pantalla__alumnos-11 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.a2-pantalla__alumno-juan-p {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-49 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__juan-p {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-rocio-e {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-50 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__rocio-e {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-lauti-v {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-51 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__lauti-v {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-male-h {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-52 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__male-h {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-facu-z {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-53 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__facu-z {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__alumno-ema-b {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-54 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__ema-b {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: 14px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__cinta-11 {
+  position: absolute;
+  left: 78.2px;
+  top: -5px;
+  width: 34px;
+  height: 10px;
+  box-sizing: border-box;
+  background-color: rgb(255 255 255 / 0.55);
+  transform: rotate(3deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__turno-matematica-vie-19-00 {
+  position: absolute;
+  left: 895.6px;
+  top: 483px;
+  width: 190.4px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 8px 8px 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px dashed var(--borde-fuerte);
+  border-radius: 2px;
+  transform: rotate(0.8deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__arriba-12 {
+  align-self: stretch;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__n19-00-20-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 10.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__borrador {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__matematica-ingreso {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12.5px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.a2-pantalla__alumnos-12 {
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3px;
+  column-gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__lugar-libre-16 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-55 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-17 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-56 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-18 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-57 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-19 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-58 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-20 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-59 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-21 {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-60 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__ahora {
+  position: absolute;
+  left: 272.4px;
+  top: 95.67px;
+  width: 202.4px;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador);
+  border-radius: 3px;
+  transform: rotate(-0.5deg);
+  transform-origin: 0 0;
+}
+
+.a2-pantalla__ahora-2 {
+  position: absolute;
+  left: 430.8px;
+  top: 76.67px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__leyenda {
+  position: absolute;
+  left: 48px;
+  top: 927.92px;
+  width: 531px;
+  height: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__saldo-cobrado {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 99px;
+  height: 15px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-61 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.a2-pantalla__saldo-cobrado-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__sena-pagada-saldo-pendiente {
+  position: absolute;
+  left: 117px;
+  top: 0px;
+  width: 190px;
+  height: 15px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-62 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__sena-pagada-saldo-pendiente-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__esperando-pago {
+  position: absolute;
+  left: 325px;
+  top: 0px;
+  width: 109px;
+  height: 15px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-63 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border: 1.5px dashed var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.a2-pantalla__esperando-pago-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__lugar-libre-22 {
+  position: absolute;
+  left: 452px;
+  top: 0px;
+  width: 79px;
+  height: 15px;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__punto-64 {
+  width: 9px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 9px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.a2-pantalla__lugar-libre-23 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12.5px;
+  line-height: normal;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__menu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 248px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 28px 20px 28px 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-right: 1px solid var(--borde-suave);
+  overflow: hidden;
+}
+
+.a2-pantalla__marca {
+  display: flex;
+  gap: 10px;
+  padding: 0px 0px 24px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__marca-logo {
+  width: 34.64px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 32px;
+  position: relative;
+}
+
+.a2-pantalla__t {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__el-tintero {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__panel {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.a2-pantalla__item-agenda {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a2-pantalla__agenda {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__item-clases {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a2-pantalla__clases {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__item-reservas {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a2-pantalla__reservas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__estado-2 {
+  display: flex;
+  padding: 4px 10px 4px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.a2-pantalla__n2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.a2-pantalla__item-docentes {
+  align-self: stretch;
+  display: flex;
+  gap: 8px;
+  padding: 10px 12px 10px 12px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.a2-pantalla__docentes {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__espacio-2 {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__usuario {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 16px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.a2-pantalla__sandra-gago {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.a2-pantalla__administracion {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.a2-pantalla__salir {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta-azul);
+  margin: 0;
+}
