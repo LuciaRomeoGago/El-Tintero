@@ -1,0 +1,1909 @@
+/* renglones */
+.t1-renglones {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+  height: 1179.84px;
+}
+
+@media (max-width: 1023px) {
+  .t1-renglones {
+    height: 1911.84px;
+    order: 0;
+  }
+}
+
+
+/* margen */
+.t1-margen {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+  height: 1179.84px;
+}
+
+@media (max-width: 1023px) {
+  .t1-margen {
+    height: 1911.84px;
+    order: 1;
+  }
+}
+
+
+/* cuerpo */
+.t1-cuerpo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 72px;
+  padding: 20px 128px 60px 128px;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__texto {
+  width: 560px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 639.38px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__listo {
+  position: absolute;
+  left: 0px;
+  top: 26.38px;
+  width: 235.4px;
+  height: 46px;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__listo-ana {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.15;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.t1-cuerpo__trazo {
+  position: absolute;
+  left: 181px;
+  top: 0.6px;
+  width: 54.4px;
+  height: 44.8px;
+}
+
+.t1-cuerpo__titulo {
+  position: absolute;
+  left: 0px;
+  top: 68px;
+  width: 560px;
+  height: 57.41px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0px;
+  column-gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: inherit;
+}
+
+.t1-cuerpo__el-lugar-de-juli-esta {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__resaltador {
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: linear-gradient(92deg, rgb(204 255 0 / 0) 0%, rgb(204 255 0 / 0.62) 3%, rgb(204 255 0 / 0.5) 6%, rgb(204 255 0 / 0.5) 93%, rgb(204 255 0 / 0.62) 96%, rgb(204 255 0 / 0) 99%);
+  border-radius: 3px;
+  transform: rotate(1.2deg);
+  margin: 2.2px 0.53px;
+}
+
+.t1-cuerpo__confirmado {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__te-mandamos-el-detalle-por-wha {
+  position: absolute;
+  left: 0px;
+  top: 147.41px;
+  width: 540px;
+  height: 142.97px;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.t1-cuerpo__linea-de-tiempo {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 312.38px;
+  height: 256px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 12px;
+  box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+  overflow: hidden;
+}
+
+.t1-cuerpo__en-que-esta-tu-reserva {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.t1-cuerpo__esp {
+  height: 12px;
+  flex-shrink: 0;
+  width: 10px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__paso-reservaste-el-lugar {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__marca {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__ellipse {
+  height: 14px;
+  flex-shrink: 0;
+  width: 14px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.t1-cuerpo__rectangle {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 2px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+}
+
+.t1-cuerpo__t {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 0px 0px 16px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__reservaste-el-lugar {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__sab-11-10-10-42 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: 16px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__paso-sena-aprobada-20-000 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__marca-2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__ellipse-2 {
+  height: 14px;
+  flex-shrink: 0;
+  width: 14px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.t1-cuerpo__rectangle-2 {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 2px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+}
+
+.t1-cuerpo__t-2 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 0px 0px 16px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__sena-aprobada-20-000 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__sab-11-10-10-47 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: 16px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__paso-clase-de-matematica {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__marca-3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__ellipse-3 {
+  height: 14px;
+  flex-shrink: 0;
+  width: 14px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px var(--base-tinta);
+}
+
+.t1-cuerpo__rectangle-3 {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 2px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.t1-cuerpo__t-3 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 0px 0px 16px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__clase-de-matematica {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__mar-14-10-17-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: 16px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__paso-saldo-cobrado-20-000 {
+  align-self: stretch;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__marca-4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__ellipse-4 {
+  height: 14px;
+  flex-shrink: 0;
+  width: 14px;
+  max-width: 100%;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+}
+
+.t1-cuerpo__t-4 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t1-cuerpo__saldo-cobrado-20-000 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__en-la-sede-al-terminar-la-clase {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11.5px;
+  line-height: 16px;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__botones {
+  position: absolute;
+  left: 0px;
+  top: 590.38px;
+  width: 412px;
+  height: 49px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__volver-al-inicio {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.t1-cuerpo__boton {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.t1-cuerpo__ficha {
+  width: 440px;
+  flex-shrink: 1;
+  min-width: 0;
+  height: 520px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__resumen-de-la-reserva {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  width: 380px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 26px 26px 26px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 16px;
+  box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 0.1);
+  transform: rotate(-1.5deg);
+  transform-origin: 0 0;
+}
+
+.t1-cuerpo__arriba {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__tu-reserva {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.t1-cuerpo__insignia {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible-fondo);
+  border-radius: 999px;
+}
+
+.t1-cuerpo__punto {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--estado-disponible);
+  border-radius: 50%;
+}
+
+.t1-cuerpo__confirmada {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.t1-cuerpo__clase {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__matematica-2-ano {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__mar-14-oct-17-00-presencia {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__rectangle-4 {
+  height: 1px;
+  flex-shrink: 0;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.t1-cuerpo__montos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__precio-de-la-clase {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__precio-de-la-clase-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__n8-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__sena-online-50 {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__sena-online-50-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__n4-000-pagado {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__saldo-en-el-instituto {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.t1-cuerpo__saldo-en-el-instituto-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__n4-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.t1-cuerpo__te-mandamos-la-confirmacion-po {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--estado-disponible);
+  margin: 0;
+}
+
+.t1-cuerpo__nota-adhesiva {
+  position: absolute;
+  left: 230px;
+  top: 330px;
+  width: 250px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 30px 24px 22px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--hoja-nota-amarilla);
+  box-shadow: 0px 10px 18px -4px rgb(23 20 15 / 0.16), 0px 1px 2px 0px rgb(23 20 15 / 0.08);
+  transform: rotate(4deg);
+  transform-origin: 0 0;
+}
+
+.t1-cuerpo__texto-2 {
+  align-self: stretch;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--base-tinta);
+  margin: 0;
+  position: relative;
+}
+
+.t1-cuerpo__pie {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.t1-cuerpo__aviso-nov {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.t1-cuerpo__reserva {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.t1-cuerpo__chinche {
+  position: absolute;
+  left: 117px;
+  top: 8px;
+  width: 16px;
+  height: 16px;
+  box-sizing: border-box;
+  background-image: radial-gradient(#FF7A8F 0%, #C7293D 60%, #9C1C2E 100%);
+  box-shadow: 1px 3px 3px 0px rgb(0 0 0 / 0.3);
+  border-radius: 50%;
+}
+
+.t1-cuerpo__listo-2 {
+  display: none;
+}
+
+.t1-cuerpo__listo-ana-2 {
+  display: none;
+}
+
+.t1-cuerpo__trazo-2 {
+  display: none;
+}
+
+.t1-cuerpo__el-lugar-de-juli-esta-confirma {
+  display: none;
+}
+
+.t1-cuerpo__te-mandamos-el-detalle-por-wha-2 {
+  display: none;
+}
+
+.t1-cuerpo__resumen-de-la-reserva-2 {
+  display: none;
+}
+
+.t1-cuerpo__arriba-2 {
+  display: none;
+}
+
+.t1-cuerpo__tu-reserva-2 {
+  display: none;
+}
+
+.t1-cuerpo__insignia-2 {
+  display: none;
+}
+
+.t1-cuerpo__punto-2 {
+  display: none;
+}
+
+.t1-cuerpo__confirmada-2 {
+  display: none;
+}
+
+.t1-cuerpo__clase-2 {
+  display: none;
+}
+
+.t1-cuerpo__matematica-2-ano-2 {
+  display: none;
+}
+
+.t1-cuerpo__mar-14-oct-17-00-presencia-2 {
+  display: none;
+}
+
+.t1-cuerpo__rectangle-5 {
+  display: none;
+}
+
+.t1-cuerpo__montos-2 {
+  display: none;
+}
+
+.t1-cuerpo__precio-de-la-clase-3 {
+  display: none;
+}
+
+.t1-cuerpo__precio-de-la-clase-4 {
+  display: none;
+}
+
+.t1-cuerpo__n8-000-2 {
+  display: none;
+}
+
+.t1-cuerpo__sena-online-50-3 {
+  display: none;
+}
+
+.t1-cuerpo__sena-online-50-4 {
+  display: none;
+}
+
+.t1-cuerpo__n4-000-pagado-2 {
+  display: none;
+}
+
+.t1-cuerpo__saldo-en-el-instituto-3 {
+  display: none;
+}
+
+.t1-cuerpo__saldo-en-el-instituto-4 {
+  display: none;
+}
+
+.t1-cuerpo__n4-000-2 {
+  display: none;
+}
+
+.t1-cuerpo__te-mandamos-la-confirmacion-po-2 {
+  display: none;
+}
+
+.t1-cuerpo__linea-de-tiempo-2 {
+  display: none;
+}
+
+.t1-cuerpo__en-que-esta-tu-reserva-2 {
+  display: none;
+}
+
+.t1-cuerpo__esp-2 {
+  display: none;
+}
+
+.t1-cuerpo__paso-reservaste-el-lugar-2 {
+  display: none;
+}
+
+.t1-cuerpo__marca-5 {
+  display: none;
+}
+
+.t1-cuerpo__ellipse-5 {
+  display: none;
+}
+
+.t1-cuerpo__rectangle-6 {
+  display: none;
+}
+
+.t1-cuerpo__t-5 {
+  display: none;
+}
+
+.t1-cuerpo__reservaste-el-lugar-2 {
+  display: none;
+}
+
+.t1-cuerpo__sab-11-10-10-42-2 {
+  display: none;
+}
+
+.t1-cuerpo__paso-sena-aprobada-20-000-2 {
+  display: none;
+}
+
+.t1-cuerpo__marca-6 {
+  display: none;
+}
+
+.t1-cuerpo__ellipse-6 {
+  display: none;
+}
+
+.t1-cuerpo__rectangle-7 {
+  display: none;
+}
+
+.t1-cuerpo__t-6 {
+  display: none;
+}
+
+.t1-cuerpo__sena-aprobada-20-000-2 {
+  display: none;
+}
+
+.t1-cuerpo__sab-11-10-10-47-2 {
+  display: none;
+}
+
+.t1-cuerpo__paso-clase-de-matematica-2 {
+  display: none;
+}
+
+.t1-cuerpo__marca-7 {
+  display: none;
+}
+
+.t1-cuerpo__ellipse-7 {
+  display: none;
+}
+
+.t1-cuerpo__rectangle-8 {
+  display: none;
+}
+
+.t1-cuerpo__t-7 {
+  display: none;
+}
+
+.t1-cuerpo__clase-de-matematica-2 {
+  display: none;
+}
+
+.t1-cuerpo__mar-14-10-17-00-2 {
+  display: none;
+}
+
+.t1-cuerpo__paso-saldo-cobrado-20-000-2 {
+  display: none;
+}
+
+.t1-cuerpo__marca-8 {
+  display: none;
+}
+
+.t1-cuerpo__ellipse-8 {
+  display: none;
+}
+
+.t1-cuerpo__t-8 {
+  display: none;
+}
+
+.t1-cuerpo__saldo-cobrado-20-000-2 {
+  display: none;
+}
+
+.t1-cuerpo__en-la-sede-al-terminar-la-clase-2 {
+  display: none;
+}
+
+.t1-cuerpo__volver-al-inicio-2 {
+  display: none;
+}
+
+.t1-cuerpo__boton-2 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .t1-cuerpo {
+    gap: 20px;
+    padding: 40px 20px 40px 32px;
+    justify-content: unset;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .t1-cuerpo__texto {
+    display: none;
+  }
+
+  .t1-cuerpo__listo {
+    display: none;
+  }
+
+  .t1-cuerpo__listo-ana {
+    display: none;
+  }
+
+  .t1-cuerpo__trazo {
+    display: none;
+  }
+
+  .t1-cuerpo__titulo {
+    display: none;
+  }
+
+  .t1-cuerpo__el-lugar-de-juli-esta {
+    display: none;
+  }
+
+  .t1-cuerpo__resaltador {
+    display: none;
+  }
+
+  .t1-cuerpo__confirmado {
+    display: none;
+  }
+
+  .t1-cuerpo__te-mandamos-el-detalle-por-wha {
+    display: none;
+  }
+
+  .t1-cuerpo__linea-de-tiempo {
+    display: none;
+  }
+
+  .t1-cuerpo__en-que-esta-tu-reserva {
+    display: none;
+  }
+
+  .t1-cuerpo__esp {
+    display: none;
+  }
+
+  .t1-cuerpo__paso-reservaste-el-lugar {
+    display: none;
+  }
+
+  .t1-cuerpo__marca {
+    display: none;
+  }
+
+  .t1-cuerpo__ellipse {
+    display: none;
+  }
+
+  .t1-cuerpo__rectangle {
+    display: none;
+  }
+
+  .t1-cuerpo__t {
+    display: none;
+  }
+
+  .t1-cuerpo__reservaste-el-lugar {
+    display: none;
+  }
+
+  .t1-cuerpo__sab-11-10-10-42 {
+    display: none;
+  }
+
+  .t1-cuerpo__paso-sena-aprobada-20-000 {
+    display: none;
+  }
+
+  .t1-cuerpo__marca-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__ellipse-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__rectangle-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__t-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__sena-aprobada-20-000 {
+    display: none;
+  }
+
+  .t1-cuerpo__sab-11-10-10-47 {
+    display: none;
+  }
+
+  .t1-cuerpo__paso-clase-de-matematica {
+    display: none;
+  }
+
+  .t1-cuerpo__marca-3 {
+    display: none;
+  }
+
+  .t1-cuerpo__ellipse-3 {
+    display: none;
+  }
+
+  .t1-cuerpo__rectangle-3 {
+    display: none;
+  }
+
+  .t1-cuerpo__t-3 {
+    display: none;
+  }
+
+  .t1-cuerpo__clase-de-matematica {
+    display: none;
+  }
+
+  .t1-cuerpo__mar-14-10-17-00 {
+    display: none;
+  }
+
+  .t1-cuerpo__paso-saldo-cobrado-20-000 {
+    display: none;
+  }
+
+  .t1-cuerpo__marca-4 {
+    display: none;
+  }
+
+  .t1-cuerpo__ellipse-4 {
+    display: none;
+  }
+
+  .t1-cuerpo__t-4 {
+    display: none;
+  }
+
+  .t1-cuerpo__saldo-cobrado-20-000 {
+    display: none;
+  }
+
+  .t1-cuerpo__en-la-sede-al-terminar-la-clase {
+    display: none;
+  }
+
+  .t1-cuerpo__botones {
+    display: none;
+  }
+
+  .t1-cuerpo__volver-al-inicio {
+    display: none;
+  }
+
+  .t1-cuerpo__boton {
+    display: none;
+  }
+
+  .t1-cuerpo__ficha {
+    display: none;
+  }
+
+  .t1-cuerpo__resumen-de-la-reserva {
+    display: none;
+  }
+
+  .t1-cuerpo__arriba {
+    display: none;
+  }
+
+  .t1-cuerpo__tu-reserva {
+    display: none;
+  }
+
+  .t1-cuerpo__insignia {
+    display: none;
+  }
+
+  .t1-cuerpo__punto {
+    display: none;
+  }
+
+  .t1-cuerpo__confirmada {
+    display: none;
+  }
+
+  .t1-cuerpo__clase {
+    display: none;
+  }
+
+  .t1-cuerpo__matematica-2-ano {
+    display: none;
+  }
+
+  .t1-cuerpo__mar-14-oct-17-00-presencia {
+    display: none;
+  }
+
+  .t1-cuerpo__rectangle-4 {
+    display: none;
+  }
+
+  .t1-cuerpo__montos {
+    display: none;
+  }
+
+  .t1-cuerpo__precio-de-la-clase {
+    display: none;
+  }
+
+  .t1-cuerpo__precio-de-la-clase-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__n8-000 {
+    display: none;
+  }
+
+  .t1-cuerpo__sena-online-50 {
+    display: none;
+  }
+
+  .t1-cuerpo__sena-online-50-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__n4-000-pagado {
+    display: none;
+  }
+
+  .t1-cuerpo__saldo-en-el-instituto {
+    display: none;
+  }
+
+  .t1-cuerpo__saldo-en-el-instituto-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__n4-000 {
+    display: none;
+  }
+
+  .t1-cuerpo__te-mandamos-la-confirmacion-po {
+    display: none;
+  }
+
+  .t1-cuerpo__nota-adhesiva {
+    display: none;
+  }
+
+  .t1-cuerpo__texto-2 {
+    display: none;
+  }
+
+  .t1-cuerpo__pie {
+    display: none;
+  }
+
+  .t1-cuerpo__aviso-nov {
+    display: none;
+  }
+
+  .t1-cuerpo__reserva {
+    display: none;
+  }
+
+  .t1-cuerpo__chinche {
+    display: none;
+  }
+
+  .t1-cuerpo__listo-2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .t1-cuerpo__listo-ana-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.15;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .t1-cuerpo__trazo-2 {
+    display: block;
+    width: 44.2px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 36.4px;
+    position: relative;
+  }
+
+  .t1-cuerpo__el-lugar-de-juli-esta-confirma {
+    display: block;
+    align-self: stretch;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .t1-cuerpo__te-mandamos-el-detalle-por-wha-2 {
+    display: flex;
+    height: 102.2px;
+    flex-shrink: 0;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--texto-secundario);
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .t1-cuerpo__resumen-de-la-reserva-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 18px;
+    padding: 26px 26px 26px 26px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 16px;
+    box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 0.1);
+  }
+
+  .t1-cuerpo__arriba-2 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .t1-cuerpo__tu-reserva-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .t1-cuerpo__insignia-2 {
+    display: flex;
+    gap: 6px;
+    padding: 5px 11px 5px 11px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--estado-disponible-fondo);
+    border-radius: 999px;
+  }
+
+  .t1-cuerpo__punto-2 {
+    display: block;
+    width: 6px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 6px;
+    box-sizing: border-box;
+    background-color: var(--estado-disponible);
+    border-radius: 50%;
+  }
+
+  .t1-cuerpo__confirmada-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--estado-disponible);
+    margin: 0;
+  }
+
+  .t1-cuerpo__clase-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .t1-cuerpo__matematica-2-ano-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .t1-cuerpo__mar-14-oct-17-00-presencia-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .t1-cuerpo__rectangle-5 {
+    display: block;
+    height: 1px;
+    flex-shrink: 0;
+    align-self: stretch;
+    box-sizing: border-box;
+    background-color: var(--borde-suave);
+  }
+
+  .t1-cuerpo__montos-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .t1-cuerpo__precio-de-la-clase-3 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .t1-cuerpo__precio-de-la-clase-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .t1-cuerpo__n8-000-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .t1-cuerpo__sena-online-50-3 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .t1-cuerpo__sena-online-50-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .t1-cuerpo__n4-000-pagado-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .t1-cuerpo__saldo-en-el-instituto-3 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .t1-cuerpo__saldo-en-el-instituto-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .t1-cuerpo__n4-000-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .t1-cuerpo__te-mandamos-la-confirmacion-po-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--estado-disponible);
+    margin: 0;
+  }
+
+  .t1-cuerpo__linea-de-tiempo-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 12px;
+    box-shadow: 0px 2px 14px 0px rgb(0 0 0 / 0.04);
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__en-que-esta-tu-reserva-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .t1-cuerpo__esp-2 {
+    display: flex;
+    height: 12px;
+    flex-shrink: 0;
+    width: 10px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__paso-reservaste-el-lugar-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__marca-5 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__ellipse-5 {
+    display: block;
+    height: 14px;
+    flex-shrink: 0;
+    width: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--estado-disponible);
+    border-radius: 50%;
+  }
+
+  .t1-cuerpo__rectangle-6 {
+    display: block;
+    flex: 1 1 0;
+    min-height: 0;
+    width: 2px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--estado-disponible);
+  }
+
+  .t1-cuerpo__t-5 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 1px;
+    padding: 0px 0px 16px 0px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__reservaste-el-lugar-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .t1-cuerpo__sab-11-10-10-42-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 16px;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .t1-cuerpo__paso-sena-aprobada-20-000-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__marca-6 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__ellipse-6 {
+    display: block;
+    height: 14px;
+    flex-shrink: 0;
+    width: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--estado-disponible);
+    border-radius: 50%;
+  }
+
+  .t1-cuerpo__rectangle-7 {
+    display: block;
+    flex: 1 1 0;
+    min-height: 0;
+    width: 2px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--estado-disponible);
+  }
+
+  .t1-cuerpo__t-6 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 1px;
+    padding: 0px 0px 16px 0px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__sena-aprobada-20-000-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .t1-cuerpo__sab-11-10-10-47-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 16px;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .t1-cuerpo__paso-clase-de-matematica-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__marca-7 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__ellipse-7 {
+    display: block;
+    height: 14px;
+    flex-shrink: 0;
+    width: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--acento-resaltador);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px var(--base-tinta);
+  }
+
+  .t1-cuerpo__rectangle-8 {
+    display: block;
+    flex: 1 1 0;
+    min-height: 0;
+    width: 2px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--borde-suave);
+  }
+
+  .t1-cuerpo__t-7 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 1px;
+    padding: 0px 0px 16px 0px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__clase-de-matematica-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .t1-cuerpo__mar-14-10-17-00-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 16px;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .t1-cuerpo__paso-saldo-cobrado-20-000-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__marca-8 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__ellipse-8 {
+    display: block;
+    height: 14px;
+    flex-shrink: 0;
+    width: 14px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1.5px var(--borde-fuerte);
+  }
+
+  .t1-cuerpo__t-8 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 1px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .t1-cuerpo__saldo-cobrado-20-000-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--texto-secundario);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .t1-cuerpo__en-la-sede-al-terminar-la-clase-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 11.5px;
+    line-height: 16px;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .t1-cuerpo__volver-al-inicio-2 {
+    display: flex;
+    align-self: stretch;
+  }
+
+  .t1-cuerpo__boton-2 {
+    display: flex;
+    align-self: stretch;
+  }
+}

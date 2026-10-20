@@ -1,0 +1,2714 @@
+/* renglones */
+.r3-renglones {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(/img/img-059d4638fa.png);
+  background-repeat: repeat;
+  background-size: 24px 24px;
+  height: 1419.46px;
+}
+
+@media (max-width: 1023px) {
+  .r3-renglones {
+    height: 1659.64px;
+    order: 0;
+  }
+}
+
+
+/* pasos */
+.r3-pasos {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  padding: 22px 128px 22px 128px;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--borde-suave);
+}
+
+.r3-pasos__volver {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-pasos__pasos {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-pasos__paso-1 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-pasos__numero {
+  width: 28px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.r3-pasos__x {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-pasos__que-necesitas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-pasos__rectangle {
+  width: 28px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.r3-pasos__paso-2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-pasos__numero-2 {
+  width: 28px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.r3-pasos__x-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-pasos__materia-y-modalidad {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-pasos__rectangle-2 {
+  width: 28px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.r3-pasos__paso-3 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-pasos__numero-3 {
+  width: 28px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border: 1px solid var(--base-tinta);
+  border-radius: 999px;
+}
+
+.r3-pasos__n3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.r3-pasos__horario {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-pasos__rectangle-3 {
+  width: 28px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 1px;
+  box-sizing: border-box;
+  background-color: var(--borde-fuerte);
+}
+
+.r3-pasos__paso-4 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-pasos__numero-4 {
+  width: 28px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 999px;
+}
+
+.r3-pasos__n4 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-pasos__datos-y-sena {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-pasos__reserva-sin-cuenta {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-pasos__t {
+  display: none;
+}
+
+.r3-pasos__volver-2 {
+  display: none;
+}
+
+.r3-pasos__paso-3-de-4-horario {
+  display: none;
+}
+
+.r3-pasos__progreso {
+  display: none;
+}
+
+.r3-pasos__rectangle-4 {
+  display: none;
+}
+
+.r3-pasos__rectangle-5 {
+  display: none;
+}
+
+.r3-pasos__rectangle-6 {
+  display: none;
+}
+
+.r3-pasos__rectangle-7 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .r3-pasos {
+    gap: 10px;
+    padding: 16px 20px 14px 20px;
+    justify-content: unset;
+    align-items: flex-start;
+    flex-direction: column;
+    order: 1;
+  }
+
+  .r3-pasos__volver {
+    display: none;
+  }
+
+  .r3-pasos__pasos {
+    display: none;
+  }
+
+  .r3-pasos__paso-1 {
+    display: none;
+  }
+
+  .r3-pasos__numero {
+    display: none;
+  }
+
+  .r3-pasos__x {
+    display: none;
+  }
+
+  .r3-pasos__que-necesitas {
+    display: none;
+  }
+
+  .r3-pasos__rectangle {
+    display: none;
+  }
+
+  .r3-pasos__paso-2 {
+    display: none;
+  }
+
+  .r3-pasos__numero-2 {
+    display: none;
+  }
+
+  .r3-pasos__x-2 {
+    display: none;
+  }
+
+  .r3-pasos__materia-y-modalidad {
+    display: none;
+  }
+
+  .r3-pasos__rectangle-2 {
+    display: none;
+  }
+
+  .r3-pasos__paso-3 {
+    display: none;
+  }
+
+  .r3-pasos__numero-3 {
+    display: none;
+  }
+
+  .r3-pasos__n3 {
+    display: none;
+  }
+
+  .r3-pasos__horario {
+    display: none;
+  }
+
+  .r3-pasos__rectangle-3 {
+    display: none;
+  }
+
+  .r3-pasos__paso-4 {
+    display: none;
+  }
+
+  .r3-pasos__numero-4 {
+    display: none;
+  }
+
+  .r3-pasos__n4 {
+    display: none;
+  }
+
+  .r3-pasos__datos-y-sena {
+    display: none;
+  }
+
+  .r3-pasos__reserva-sin-cuenta {
+    display: none;
+  }
+
+  .r3-pasos__t {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .r3-pasos__volver-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r3-pasos__paso-3-de-4-horario {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .r3-pasos__progreso {
+    display: flex;
+    align-self: stretch;
+    gap: 4px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r3-pasos__rectangle-4 {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    height: 4px;
+    box-sizing: border-box;
+    background-color: var(--acento-oliva);
+    border-radius: 2px;
+  }
+
+  .r3-pasos__rectangle-5 {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    height: 4px;
+    box-sizing: border-box;
+    background-color: var(--acento-oliva);
+    border-radius: 2px;
+  }
+
+  .r3-pasos__rectangle-6 {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    height: 4px;
+    box-sizing: border-box;
+    background-color: var(--base-tinta);
+    border-radius: 2px;
+  }
+
+  .r3-pasos__rectangle-7 {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    height: 4px;
+    box-sizing: border-box;
+    background-color: var(--borde-fuerte);
+    border-radius: 2px;
+  }
+}
+
+
+/* cuerpo */
+.r3-cuerpo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 64px;
+  padding: 56px 128px 96px 128px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__principal {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__encabezado {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__elegi-un-horario {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__matematica-presencial-en-g {
+  width: 620px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__semana {
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__lun {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 12px;
+}
+
+.r3-cuerpo__lun-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-cuerpo__n13 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__oct {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__mar {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border: 1px solid var(--base-tinta);
+  border-radius: 12px;
+}
+
+.r3-cuerpo__mar-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--acento-resaltador);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-cuerpo__n14 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.r3-cuerpo__oct-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.r3-cuerpo__mie {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 12px;
+}
+
+.r3-cuerpo__mie-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-cuerpo__n15 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__oct-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__jue {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 12px;
+}
+
+.r3-cuerpo__jue-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-cuerpo__n16 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__oct-4 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__vie {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 12px;
+}
+
+.r3-cuerpo__vie-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-cuerpo__n17 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__oct-5 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__sab {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 0px 12px 0px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 12px;
+  opacity: 0.45;
+}
+
+.r3-cuerpo__sab-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-cuerpo__n18 {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__sin-clases {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__martes-14-de-octubre {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__clases {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__clase {
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  padding: 20px 22px 20px 22px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 16px;
+}
+
+.r3-cuerpo__foto {
+  width: 52px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url(/img/img-8843ffa355.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+}
+
+.r3-cuerpo__info {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__matematica-2-ano {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__carolina-t {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__insignia {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 999px;
+}
+
+.r3-cuerpo__punto {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border-radius: 50%;
+}
+
+.r3-cuerpo__presencial {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__insignia-2 {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 999px;
+}
+
+.r3-cuerpo__punto-2 {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--acento-oliva);
+  border-radius: 50%;
+}
+
+.r3-cuerpo__grupal {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.r3-cuerpo__horarios {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__horario {
+  width: 104px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px 12px 16px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border: 1px solid var(--borde-suave);
+  border-radius: 8px;
+}
+
+.r3-cuerpo__n17-00 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--texto-secundario);
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.r3-cuerpo__completo {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__horario-2 {
+  width: 104px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px 12px 16px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border-radius: 8px;
+}
+
+.r3-cuerpo__n17-00-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.r3-cuerpo__elegido {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--acento-resaltador);
+  margin: 0;
+}
+
+.r3-cuerpo__horario-3 {
+  width: 104px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px 12px 16px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 8px;
+}
+
+.r3-cuerpo__n17-00-3 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__n3-de-6-libres {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__clase-2 {
+  align-self: stretch;
+  display: flex;
+  gap: 20px;
+  padding: 20px 22px 20px 22px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 16px;
+}
+
+.r3-cuerpo__foto-2 {
+  width: 52px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-image: url(/img/img-8843ffa355.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 999px;
+}
+
+.r3-cuerpo__info-2 {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__matematica-1-y-2-ano {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__meta-2 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__carolina-t-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__insignia-3 {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-radius: 999px;
+}
+
+.r3-cuerpo__punto-3 {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--base-tinta);
+  border-radius: 50%;
+}
+
+.r3-cuerpo__presencial-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__insignia-4 {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--acento-resaltador-suave);
+  border-radius: 999px;
+}
+
+.r3-cuerpo__punto-4 {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--acento-oliva);
+  border-radius: 50%;
+}
+
+.r3-cuerpo__grupal-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--acento-oliva);
+  margin: 0;
+}
+
+.r3-cuerpo__horarios-2 {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__horario-4 {
+  width: 104px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 16px 12px 16px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-fuerte);
+  border-radius: 8px;
+}
+
+.r3-cuerpo__n17-00-4 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__n3-de-6-libres-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__nota {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__ningun-horario-te-sirve {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__enlace-con-flecha {
+  display: flex;
+}
+
+.r3-cuerpo__acciones {
+  align-self: stretch;
+  display: flex;
+  gap: 24px;
+  padding: 8px 0px 0px 0px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__boton {
+  width: 280px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+}
+
+.r3-cuerpo__lateral {
+  width: 380px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r3-cuerpo__tu-busqueda {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 24px 24px 24px 24px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 16px;
+  box-shadow: 0px 8px 30px 0px rgb(0 0 0 / 0.06);
+}
+
+.r3-cuerpo__tu-busqueda-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r3-cuerpo__nivel {
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px 8px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.r3-cuerpo__nivel-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__secundaria {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__materia {
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px 8px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.r3-cuerpo__materia-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__matematica {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__modalidad {
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px 8px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.r3-cuerpo__modalidad-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__presencial-en-grupo {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__horario-5 {
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px 8px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.r3-cuerpo__horario-6 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__mar-14-oct-17-00 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__docente {
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px 8px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.r3-cuerpo__docente-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__carolina-t-3 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__precio {
+  align-self: stretch;
+  display: flex;
+  padding: 8px 0px 8px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.r3-cuerpo__precio-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r3-cuerpo__n40-000-60-min {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r3-cuerpo__quedan-4-lugares {
+  align-self: stretch;
+  font-family: "Kalam";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.35;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.r3-cuerpo__elegi-un-horario-2 {
+  display: none;
+}
+
+.r3-cuerpo__matematica-presencial-en-g-2 {
+  display: none;
+}
+
+.r3-cuerpo__semana-2 {
+  display: none;
+}
+
+.r3-cuerpo__lun-3 {
+  display: none;
+}
+
+.r3-cuerpo__lun-4 {
+  display: none;
+}
+
+.r3-cuerpo__n13-2 {
+  display: none;
+}
+
+.r3-cuerpo__mar-3 {
+  display: none;
+}
+
+.r3-cuerpo__mar-4 {
+  display: none;
+}
+
+.r3-cuerpo__n14-2 {
+  display: none;
+}
+
+.r3-cuerpo__mie-3 {
+  display: none;
+}
+
+.r3-cuerpo__mie-4 {
+  display: none;
+}
+
+.r3-cuerpo__n15-2 {
+  display: none;
+}
+
+.r3-cuerpo__jue-3 {
+  display: none;
+}
+
+.r3-cuerpo__jue-4 {
+  display: none;
+}
+
+.r3-cuerpo__n16-2 {
+  display: none;
+}
+
+.r3-cuerpo__vie-3 {
+  display: none;
+}
+
+.r3-cuerpo__vie-4 {
+  display: none;
+}
+
+.r3-cuerpo__n17-2 {
+  display: none;
+}
+
+.r3-cuerpo__martes-14-de-octubre-2 {
+  display: none;
+}
+
+.r3-cuerpo__clase-3 {
+  display: none;
+}
+
+.r3-cuerpo__arriba {
+  display: none;
+}
+
+.r3-cuerpo__foto-3 {
+  display: none;
+}
+
+.r3-cuerpo__info-3 {
+  display: none;
+}
+
+.r3-cuerpo__matematica-2-ano-2 {
+  display: none;
+}
+
+.r3-cuerpo__carolina-t-presencial-gru {
+  display: none;
+}
+
+.r3-cuerpo__horarios-3 {
+  display: none;
+}
+
+.r3-cuerpo__horario-7 {
+  display: none;
+}
+
+.r3-cuerpo__n17-00-5 {
+  display: none;
+}
+
+.r3-cuerpo__completo-2 {
+  display: none;
+}
+
+.r3-cuerpo__horario-8 {
+  display: none;
+}
+
+.r3-cuerpo__n17-00-6 {
+  display: none;
+}
+
+.r3-cuerpo__elegido-2 {
+  display: none;
+}
+
+.r3-cuerpo__horario-9 {
+  display: none;
+}
+
+.r3-cuerpo__n17-00-7 {
+  display: none;
+}
+
+.r3-cuerpo__n3-de-6-libres-3 {
+  display: none;
+}
+
+.r3-cuerpo__clase-4 {
+  display: none;
+}
+
+.r3-cuerpo__arriba-2 {
+  display: none;
+}
+
+.r3-cuerpo__foto-4 {
+  display: none;
+}
+
+.r3-cuerpo__info-4 {
+  display: none;
+}
+
+.r3-cuerpo__matematica-1-y-2-ano-2 {
+  display: none;
+}
+
+.r3-cuerpo__carolina-t-presencial-gru-2 {
+  display: none;
+}
+
+.r3-cuerpo__horarios-4 {
+  display: none;
+}
+
+.r3-cuerpo__horario-10 {
+  display: none;
+}
+
+.r3-cuerpo__n17-00-8 {
+  display: none;
+}
+
+.r3-cuerpo__n3-de-6-libres-4 {
+  display: none;
+}
+
+.r3-cuerpo__frame {
+  display: none;
+}
+
+.r3-cuerpo__frame-2 {
+  display: none;
+}
+
+.r3-cuerpo__enlace-con-flecha-2 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .r3-cuerpo {
+    gap: 24px;
+    padding: 28px 20px 28px 20px;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .r3-cuerpo__principal {
+    display: none;
+  }
+
+  .r3-cuerpo__encabezado {
+    display: none;
+  }
+
+  .r3-cuerpo__elegi-un-horario {
+    display: none;
+  }
+
+  .r3-cuerpo__matematica-presencial-en-g {
+    display: none;
+  }
+
+  .r3-cuerpo__semana {
+    display: none;
+  }
+
+  .r3-cuerpo__lun {
+    display: none;
+  }
+
+  .r3-cuerpo__lun-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n13 {
+    display: none;
+  }
+
+  .r3-cuerpo__oct {
+    display: none;
+  }
+
+  .r3-cuerpo__mar {
+    display: none;
+  }
+
+  .r3-cuerpo__mar-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n14 {
+    display: none;
+  }
+
+  .r3-cuerpo__oct-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__mie {
+    display: none;
+  }
+
+  .r3-cuerpo__mie-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n15 {
+    display: none;
+  }
+
+  .r3-cuerpo__oct-3 {
+    display: none;
+  }
+
+  .r3-cuerpo__jue {
+    display: none;
+  }
+
+  .r3-cuerpo__jue-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n16 {
+    display: none;
+  }
+
+  .r3-cuerpo__oct-4 {
+    display: none;
+  }
+
+  .r3-cuerpo__vie {
+    display: none;
+  }
+
+  .r3-cuerpo__vie-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n17 {
+    display: none;
+  }
+
+  .r3-cuerpo__oct-5 {
+    display: none;
+  }
+
+  .r3-cuerpo__sab {
+    display: none;
+  }
+
+  .r3-cuerpo__sab-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n18 {
+    display: none;
+  }
+
+  .r3-cuerpo__sin-clases {
+    display: none;
+  }
+
+  .r3-cuerpo__martes-14-de-octubre {
+    display: none;
+  }
+
+  .r3-cuerpo__clases {
+    display: none;
+  }
+
+  .r3-cuerpo__clase {
+    display: none;
+  }
+
+  .r3-cuerpo__foto {
+    display: none;
+  }
+
+  .r3-cuerpo__info {
+    display: none;
+  }
+
+  .r3-cuerpo__matematica-2-ano {
+    display: none;
+  }
+
+  .r3-cuerpo__meta {
+    display: none;
+  }
+
+  .r3-cuerpo__carolina-t {
+    display: none;
+  }
+
+  .r3-cuerpo__insignia {
+    display: none;
+  }
+
+  .r3-cuerpo__punto {
+    display: none;
+  }
+
+  .r3-cuerpo__presencial {
+    display: none;
+  }
+
+  .r3-cuerpo__insignia-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__punto-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__grupal {
+    display: none;
+  }
+
+  .r3-cuerpo__horarios {
+    display: none;
+  }
+
+  .r3-cuerpo__horario {
+    display: none;
+  }
+
+  .r3-cuerpo__n17-00 {
+    display: none;
+  }
+
+  .r3-cuerpo__completo {
+    display: none;
+  }
+
+  .r3-cuerpo__horario-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n17-00-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__elegido {
+    display: none;
+  }
+
+  .r3-cuerpo__horario-3 {
+    display: none;
+  }
+
+  .r3-cuerpo__n17-00-3 {
+    display: none;
+  }
+
+  .r3-cuerpo__n3-de-6-libres {
+    display: none;
+  }
+
+  .r3-cuerpo__clase-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__foto-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__info-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__matematica-1-y-2-ano {
+    display: none;
+  }
+
+  .r3-cuerpo__meta-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__carolina-t-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__insignia-3 {
+    display: none;
+  }
+
+  .r3-cuerpo__punto-3 {
+    display: none;
+  }
+
+  .r3-cuerpo__presencial-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__insignia-4 {
+    display: none;
+  }
+
+  .r3-cuerpo__punto-4 {
+    display: none;
+  }
+
+  .r3-cuerpo__grupal-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__horarios-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__horario-4 {
+    display: none;
+  }
+
+  .r3-cuerpo__n17-00-4 {
+    display: none;
+  }
+
+  .r3-cuerpo__n3-de-6-libres-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__nota {
+    display: none;
+  }
+
+  .r3-cuerpo__ningun-horario-te-sirve {
+    display: none;
+  }
+
+  .r3-cuerpo__enlace-con-flecha {
+    display: none;
+  }
+
+  .r3-cuerpo__acciones {
+    display: none;
+  }
+
+  .r3-cuerpo__boton {
+    display: none;
+  }
+
+  .r3-cuerpo__lateral {
+    display: none;
+  }
+
+  .r3-cuerpo__tu-busqueda {
+    display: none;
+  }
+
+  .r3-cuerpo__tu-busqueda-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__nivel {
+    display: none;
+  }
+
+  .r3-cuerpo__nivel-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__secundaria {
+    display: none;
+  }
+
+  .r3-cuerpo__materia {
+    display: none;
+  }
+
+  .r3-cuerpo__materia-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__matematica {
+    display: none;
+  }
+
+  .r3-cuerpo__modalidad {
+    display: none;
+  }
+
+  .r3-cuerpo__modalidad-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__presencial-en-grupo {
+    display: none;
+  }
+
+  .r3-cuerpo__horario-5 {
+    display: none;
+  }
+
+  .r3-cuerpo__horario-6 {
+    display: none;
+  }
+
+  .r3-cuerpo__mar-14-oct-17-00 {
+    display: none;
+  }
+
+  .r3-cuerpo__docente {
+    display: none;
+  }
+
+  .r3-cuerpo__docente-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__carolina-t-3 {
+    display: none;
+  }
+
+  .r3-cuerpo__precio {
+    display: none;
+  }
+
+  .r3-cuerpo__precio-2 {
+    display: none;
+  }
+
+  .r3-cuerpo__n40-000-60-min {
+    display: none;
+  }
+
+  .r3-cuerpo__quedan-4-lugares {
+    display: none;
+  }
+
+  .r3-cuerpo__elegi-un-horario-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .r3-cuerpo__matematica-presencial-en-g-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .r3-cuerpo__semana-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 6px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r3-cuerpo__lun-3 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 12px;
+  }
+
+  .r3-cuerpo__lun-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .r3-cuerpo__n13-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__mar-3 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-tinta);
+    border: 1px solid var(--base-tinta);
+    border-radius: 12px;
+  }
+
+  .r3-cuerpo__mar-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--acento-resaltador);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .r3-cuerpo__n14-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+
+  .r3-cuerpo__mie-3 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 12px;
+  }
+
+  .r3-cuerpo__mie-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .r3-cuerpo__n15-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__jue-3 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 12px;
+  }
+
+  .r3-cuerpo__jue-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .r3-cuerpo__n16-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__vie-3 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 12px;
+  }
+
+  .r3-cuerpo__vie-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .r3-cuerpo__n17-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__martes-14-de-octubre-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__clase-3 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 16px 16px 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 16px;
+  }
+
+  .r3-cuerpo__arriba {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .r3-cuerpo__foto-3 {
+    display: flex;
+    width: 44px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(/img/img-8843ffa355.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 999px;
+  }
+
+  .r3-cuerpo__info-3 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r3-cuerpo__matematica-2-ano-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__carolina-t-presencial-gru {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r3-cuerpo__horarios-3 {
+    display: flex;
+    align-self: stretch;
+    gap: 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r3-cuerpo__horario-7 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-papel);
+    border: 1px solid var(--borde-suave);
+    border-radius: 8px;
+  }
+
+  .r3-cuerpo__n17-00-5 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--texto-secundario);
+    text-decoration: line-through;
+    margin: 0;
+  }
+
+  .r3-cuerpo__completo-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r3-cuerpo__horario-8 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-tinta);
+    border-radius: 8px;
+  }
+
+  .r3-cuerpo__n17-00-6 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+
+  .r3-cuerpo__elegido-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--acento-resaltador);
+    margin: 0;
+  }
+
+  .r3-cuerpo__horario-9 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 8px;
+  }
+
+  .r3-cuerpo__n17-00-7 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__n3-de-6-libres-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r3-cuerpo__clase-4 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 16px 16px 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 16px;
+  }
+
+  .r3-cuerpo__arriba-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 12px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .r3-cuerpo__foto-4 {
+    display: flex;
+    width: 44px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 44px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-image: url(/img/img-8843ffa355.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 999px;
+  }
+
+  .r3-cuerpo__info-4 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r3-cuerpo__matematica-1-y-2-ano-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__carolina-t-presencial-gru-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r3-cuerpo__horarios-4 {
+    display: flex;
+    align-self: stretch;
+    gap: 8px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r3-cuerpo__horario-10 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    padding: 12px 16px 12px 16px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-fuerte);
+    border-radius: 8px;
+  }
+
+  .r3-cuerpo__n17-00-8 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-cuerpo__n3-de-6-libres-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r3-cuerpo__frame {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    height: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .r3-cuerpo__frame-2 {
+    display: block;
+    flex: 1 1 0;
+    min-width: 0;
+    height: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .r3-cuerpo__enlace-con-flecha-2 {
+    display: flex;
+  }
+}
+
+
+/* barra-inferior */
+.r3-barra-inferior {
+  display: none;
+}
+
+.r3-barra-inferior__info {
+  display: none;
+}
+
+.r3-barra-inferior__mar-14-oct-17-00 {
+  display: none;
+}
+
+.r3-barra-inferior__n3-de-4 {
+  display: none;
+}
+
+.r3-barra-inferior__siguiente {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .r3-barra-inferior {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding: 14px 20px 20px 20px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    box-shadow: 0px -6px 20px 0px rgb(0 0 0 / 0.08);
+    order: 3;
+  }
+
+  .r3-barra-inferior__info {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .r3-barra-inferior__mar-14-oct-17-00 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r3-barra-inferior__n3-de-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r3-barra-inferior__siguiente {
+    display: flex;
+    align-self: stretch;
+  }
+}

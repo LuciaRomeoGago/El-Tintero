@@ -1,0 +1,1006 @@
+/* renglones */
+.r7-renglones {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+  height: 1118.46px;
+}
+
+@media (max-width: 1023px) {
+  .r7-renglones {
+    height: 1653.64px;
+    order: 0;
+  }
+}
+
+
+/* margen */
+.r7-margen {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+  height: 1117.62px;
+}
+
+@media (max-width: 1023px) {
+  .r7-margen {
+    height: 1653.8px;
+    order: 1;
+  }
+}
+
+
+/* cuerpo */
+.r7-cuerpo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 72px;
+  padding: 88px 128px 112px 128px;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__texto {
+  width: 560px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 5px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__pago-en-revision {
+  width: 159px;
+  max-width: 100%;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: var(--estado-pendiente);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.r7-cuerpo__todavia-no-se-acredito-el-pago {
+  width: 540px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r7-cuerpo__mercado-pago-lo-esta-revisando {
+  height: 103px;
+  flex-shrink: 0;
+  width: 540px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.r7-cuerpo__aviso {
+  align-self: stretch;
+  display: flex;
+  gap: 14px;
+  padding: 16px 18px 16px 18px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 12px;
+}
+
+.r7-cuerpo__icono {
+  width: 22px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 999px;
+}
+
+.r7-cuerpo__x {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.r7-cuerpo__textos {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__el-pago-esta-en-revision {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.r7-cuerpo__guardamos-tu-lugar-hasta-que-s {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r7-cuerpo__botones {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__volver-al-inicio {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.r7-cuerpo__enlace-con-flecha {
+  display: flex;
+}
+
+.r7-cuerpo__resumen {
+  width: 400px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__resumen-de-la-reserva {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 26px 26px 26px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 16px;
+  box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 0.1);
+}
+
+.r7-cuerpo__arriba {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__tu-reserva {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r7-cuerpo__insignia {
+  display: flex;
+  gap: 6px;
+  padding: 5px 11px 5px 11px;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente-fondo);
+  border-radius: 999px;
+}
+
+.r7-cuerpo__punto {
+  width: 6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 6px;
+  box-sizing: border-box;
+  background-color: var(--estado-pendiente);
+  border-radius: 50%;
+}
+
+.r7-cuerpo__pendiente-de-pago {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.r7-cuerpo__clase {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__matematica-2-ano {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r7-cuerpo__mar-14-oct-17-00-presencia {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r7-cuerpo__rectangle {
+  height: 1px;
+  flex-shrink: 0;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.r7-cuerpo__montos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__precio-de-la-clase {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__precio-de-la-clase-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r7-cuerpo__n8-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r7-cuerpo__sena-online-50 {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__sena-online-50-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r7-cuerpo__n4-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r7-cuerpo__saldo-en-el-instituto {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r7-cuerpo__saldo-en-el-instituto-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r7-cuerpo__n4-000-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r7-cuerpo__mercado-pago-todavia-no-confir {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--estado-pendiente);
+  margin: 0;
+}
+
+.r7-cuerpo__pago-en-revision-2 {
+  display: none;
+}
+
+.r7-cuerpo__todavia-no-se-acredito-el-pago-2 {
+  display: none;
+}
+
+.r7-cuerpo__el-lugar-de-juli-sigue-guardad {
+  display: none;
+}
+
+.r7-cuerpo__aviso-2 {
+  display: none;
+}
+
+.r7-cuerpo__icono-2 {
+  display: none;
+}
+
+.r7-cuerpo__x-2 {
+  display: none;
+}
+
+.r7-cuerpo__textos-2 {
+  display: none;
+}
+
+.r7-cuerpo__el-pago-esta-en-revision-2 {
+  display: none;
+}
+
+.r7-cuerpo__guardamos-tu-lugar-hasta-que-s-2 {
+  display: none;
+}
+
+.r7-cuerpo__resumen-de-la-reserva-2 {
+  display: none;
+}
+
+.r7-cuerpo__arriba-2 {
+  display: none;
+}
+
+.r7-cuerpo__tu-reserva-2 {
+  display: none;
+}
+
+.r7-cuerpo__insignia-2 {
+  display: none;
+}
+
+.r7-cuerpo__punto-2 {
+  display: none;
+}
+
+.r7-cuerpo__pendiente-de-pago-2 {
+  display: none;
+}
+
+.r7-cuerpo__clase-2 {
+  display: none;
+}
+
+.r7-cuerpo__matematica-2-ano-2 {
+  display: none;
+}
+
+.r7-cuerpo__mar-14-oct-17-00-presencia-2 {
+  display: none;
+}
+
+.r7-cuerpo__rectangle-2 {
+  display: none;
+}
+
+.r7-cuerpo__montos-2 {
+  display: none;
+}
+
+.r7-cuerpo__precio-de-la-clase-3 {
+  display: none;
+}
+
+.r7-cuerpo__precio-de-la-clase-4 {
+  display: none;
+}
+
+.r7-cuerpo__n8-000-2 {
+  display: none;
+}
+
+.r7-cuerpo__sena-online-50-3 {
+  display: none;
+}
+
+.r7-cuerpo__sena-online-50-4 {
+  display: none;
+}
+
+.r7-cuerpo__n4-000-3 {
+  display: none;
+}
+
+.r7-cuerpo__saldo-en-el-instituto-3 {
+  display: none;
+}
+
+.r7-cuerpo__saldo-en-el-instituto-4 {
+  display: none;
+}
+
+.r7-cuerpo__n4-000-4 {
+  display: none;
+}
+
+.r7-cuerpo__mercado-pago-todavia-no-confir-2 {
+  display: none;
+}
+
+.r7-cuerpo__volver-al-inicio-2 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .r7-cuerpo {
+    gap: 20px;
+    padding: 43px 20px 40px 32px;
+    justify-content: unset;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .r7-cuerpo__texto {
+    display: none;
+  }
+
+  .r7-cuerpo__pago-en-revision {
+    display: none;
+  }
+
+  .r7-cuerpo__todavia-no-se-acredito-el-pago {
+    display: none;
+  }
+
+  .r7-cuerpo__mercado-pago-lo-esta-revisando {
+    display: none;
+  }
+
+  .r7-cuerpo__aviso {
+    display: none;
+  }
+
+  .r7-cuerpo__icono {
+    display: none;
+  }
+
+  .r7-cuerpo__x {
+    display: none;
+  }
+
+  .r7-cuerpo__textos {
+    display: none;
+  }
+
+  .r7-cuerpo__el-pago-esta-en-revision {
+    display: none;
+  }
+
+  .r7-cuerpo__guardamos-tu-lugar-hasta-que-s {
+    display: none;
+  }
+
+  .r7-cuerpo__botones {
+    display: none;
+  }
+
+  .r7-cuerpo__volver-al-inicio {
+    display: none;
+  }
+
+  .r7-cuerpo__enlace-con-flecha {
+    display: none;
+  }
+
+  .r7-cuerpo__resumen {
+    display: none;
+  }
+
+  .r7-cuerpo__resumen-de-la-reserva {
+    display: none;
+  }
+
+  .r7-cuerpo__arriba {
+    display: none;
+  }
+
+  .r7-cuerpo__tu-reserva {
+    display: none;
+  }
+
+  .r7-cuerpo__insignia {
+    display: none;
+  }
+
+  .r7-cuerpo__punto {
+    display: none;
+  }
+
+  .r7-cuerpo__pendiente-de-pago {
+    display: none;
+  }
+
+  .r7-cuerpo__clase {
+    display: none;
+  }
+
+  .r7-cuerpo__matematica-2-ano {
+    display: none;
+  }
+
+  .r7-cuerpo__mar-14-oct-17-00-presencia {
+    display: none;
+  }
+
+  .r7-cuerpo__rectangle {
+    display: none;
+  }
+
+  .r7-cuerpo__montos {
+    display: none;
+  }
+
+  .r7-cuerpo__precio-de-la-clase {
+    display: none;
+  }
+
+  .r7-cuerpo__precio-de-la-clase-2 {
+    display: none;
+  }
+
+  .r7-cuerpo__n8-000 {
+    display: none;
+  }
+
+  .r7-cuerpo__sena-online-50 {
+    display: none;
+  }
+
+  .r7-cuerpo__sena-online-50-2 {
+    display: none;
+  }
+
+  .r7-cuerpo__n4-000 {
+    display: none;
+  }
+
+  .r7-cuerpo__saldo-en-el-instituto {
+    display: none;
+  }
+
+  .r7-cuerpo__saldo-en-el-instituto-2 {
+    display: none;
+  }
+
+  .r7-cuerpo__n4-000-2 {
+    display: none;
+  }
+
+  .r7-cuerpo__mercado-pago-todavia-no-confir {
+    display: none;
+  }
+
+  .r7-cuerpo__pago-en-revision-2 {
+    display: block;
+    width: 159px;
+    max-width: 100%;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 32px;
+    letter-spacing: 0.08em;
+    color: var(--estado-pendiente);
+    text-transform: uppercase;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .r7-cuerpo__todavia-no-se-acredito-el-pago-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r7-cuerpo__el-lugar-de-juli-sigue-guardad {
+    display: flex;
+    height: 74px;
+    flex-shrink: 0;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--texto-secundario);
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .r7-cuerpo__aviso-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 14px;
+    padding: 16px 18px 16px 18px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente-fondo);
+    border-radius: 12px;
+  }
+
+  .r7-cuerpo__icono-2 {
+    display: flex;
+    width: 22px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente);
+    border-radius: 999px;
+  }
+
+  .r7-cuerpo__x-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+
+  .r7-cuerpo__textos-2 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r7-cuerpo__el-pago-esta-en-revision-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--estado-pendiente);
+    margin: 0;
+  }
+
+  .r7-cuerpo__guardamos-tu-lugar-hasta-que-s-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r7-cuerpo__resumen-de-la-reserva-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 18px;
+    padding: 26px 26px 26px 26px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--base-hoja);
+    border: 1px solid var(--borde-suave);
+    border-radius: 16px;
+    box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 0.1);
+  }
+
+  .r7-cuerpo__arriba-2 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .r7-cuerpo__tu-reserva-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .r7-cuerpo__insignia-2 {
+    display: flex;
+    gap: 6px;
+    padding: 5px 11px 5px 11px;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente-fondo);
+    border-radius: 999px;
+  }
+
+  .r7-cuerpo__punto-2 {
+    display: block;
+    width: 6px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 6px;
+    box-sizing: border-box;
+    background-color: var(--estado-pendiente);
+    border-radius: 50%;
+  }
+
+  .r7-cuerpo__pendiente-de-pago-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--estado-pendiente);
+    margin: 0;
+  }
+
+  .r7-cuerpo__clase-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r7-cuerpo__matematica-2-ano-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r7-cuerpo__mar-14-oct-17-00-presencia-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r7-cuerpo__rectangle-2 {
+    display: block;
+    height: 1px;
+    flex-shrink: 0;
+    align-self: stretch;
+    box-sizing: border-box;
+    background-color: var(--borde-suave);
+  }
+
+  .r7-cuerpo__montos-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r7-cuerpo__precio-de-la-clase-3 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r7-cuerpo__precio-de-la-clase-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r7-cuerpo__n8-000-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r7-cuerpo__sena-online-50-3 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r7-cuerpo__sena-online-50-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r7-cuerpo__n4-000-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r7-cuerpo__saldo-en-el-instituto-3 {
+    display: flex;
+    align-self: stretch;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r7-cuerpo__saldo-en-el-instituto-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .r7-cuerpo__n4-000-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .r7-cuerpo__mercado-pago-todavia-no-confir-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--estado-pendiente);
+    margin: 0;
+  }
+
+  .r7-cuerpo__volver-al-inicio-2 {
+    display: flex;
+    align-self: stretch;
+  }
+}

@@ -1,0 +1,686 @@
+/* renglones */
+.r8-renglones {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(/img/img-66d4edddde.png);
+  background-repeat: repeat;
+  background-size: 8px 32px;
+  height: 1056.46px;
+}
+
+@media (max-width: 1023px) {
+  .r8-renglones {
+    height: 1284.64px;
+    order: 0;
+  }
+}
+
+
+/* margen */
+.r8-margen {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: var(--hoja-margen);
+  height: 1055.62px;
+}
+
+@media (max-width: 1023px) {
+  .r8-margen {
+    height: 1284.8px;
+    order: 1;
+  }
+}
+
+
+/* cuerpo */
+.r8-cuerpo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 72px;
+  padding: 88px 128px 112px 128px;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__texto {
+  width: 560px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 5px 0px 0px 0px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__pago-rechazado {
+  width: 145px;
+  max-width: 100%;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 32px;
+  letter-spacing: 0.08em;
+  color: var(--estado-error);
+  text-transform: uppercase;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.r8-cuerpo__el-pago-no-se-pudo-hacer {
+  width: 540px;
+  max-width: 100%;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r8-cuerpo__no-se-cobro-nada-podes-intent {
+  height: 92px;
+  flex-shrink: 0;
+  width: 540px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--texto-secundario);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.r8-cuerpo__aviso {
+  align-self: stretch;
+  display: flex;
+  gap: 14px;
+  padding: 16px 18px 16px 18px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--estado-error-fondo);
+  border-radius: 12px;
+}
+
+.r8-cuerpo__icono {
+  width: 22px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--estado-error);
+  border-radius: 999px;
+}
+
+.r8-cuerpo__x {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.3;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.r8-cuerpo__textos {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__el-pago-fue-rechazado {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--estado-error);
+  margin: 0;
+}
+
+.r8-cuerpo__no-se-cobro-nada-podes-intent-2 {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r8-cuerpo__botones {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__intentar-de-nuevo {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.r8-cuerpo__cambiar-el-horario {
+  width: 200px;
+  flex-shrink: 0;
+  min-width: 0;
+  display: flex;
+}
+
+.r8-cuerpo__resumen {
+  width: 400px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__resumen-de-la-reserva {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 26px 26px 26px 26px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-hoja);
+  border: 1px solid var(--borde-suave);
+  border-radius: 16px;
+  box-shadow: 0px 20px 50px 0px rgb(0 0 0 / 0.1);
+}
+
+.r8-cuerpo__arriba {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__tu-reserva {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.r8-cuerpo__clase {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__matematica-2-ano {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r8-cuerpo__mar-14-oct-17-00-presencia {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r8-cuerpo__rectangle {
+  height: 1px;
+  flex-shrink: 0;
+  align-self: stretch;
+  box-sizing: border-box;
+  background-color: var(--borde-suave);
+}
+
+.r8-cuerpo__montos {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__precio-de-la-clase {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__precio-de-la-clase-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r8-cuerpo__n8-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r8-cuerpo__sena-online-50 {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__sena-online-50-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r8-cuerpo__n4-000 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r8-cuerpo__saldo-en-el-instituto {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.r8-cuerpo__saldo-en-el-instituto-2 {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.r8-cuerpo__n4-000-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.r8-cuerpo__boton {
+  align-self: stretch;
+  display: flex;
+}
+
+.r8-cuerpo__te-guardamos-el-lugar-15-minut {
+  align-self: stretch;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.r8-cuerpo__pago-rechazado-2 {
+  display: none;
+}
+
+.r8-cuerpo__el-pago-no-se-pudo-hacer-2 {
+  display: none;
+}
+
+.r8-cuerpo__no-se-cobro-nada-podes-intent-3 {
+  display: none;
+}
+
+.r8-cuerpo__aviso-2 {
+  display: none;
+}
+
+.r8-cuerpo__icono-2 {
+  display: none;
+}
+
+.r8-cuerpo__x-2 {
+  display: none;
+}
+
+.r8-cuerpo__textos-2 {
+  display: none;
+}
+
+.r8-cuerpo__el-pago-fue-rechazado-2 {
+  display: none;
+}
+
+.r8-cuerpo__no-se-cobro-nada-podes-intent-4 {
+  display: none;
+}
+
+.r8-cuerpo__intentar-de-nuevo-2 {
+  display: none;
+}
+
+.r8-cuerpo__cambiar-el-horario-2 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .r8-cuerpo {
+    gap: 20px;
+    padding: 43px 20px 40px 32px;
+    justify-content: unset;
+    flex-direction: column;
+    order: 2;
+  }
+
+  .r8-cuerpo__texto {
+    display: none;
+  }
+
+  .r8-cuerpo__pago-rechazado {
+    display: none;
+  }
+
+  .r8-cuerpo__el-pago-no-se-pudo-hacer {
+    display: none;
+  }
+
+  .r8-cuerpo__no-se-cobro-nada-podes-intent {
+    display: none;
+  }
+
+  .r8-cuerpo__aviso {
+    display: none;
+  }
+
+  .r8-cuerpo__icono {
+    display: none;
+  }
+
+  .r8-cuerpo__x {
+    display: none;
+  }
+
+  .r8-cuerpo__textos {
+    display: none;
+  }
+
+  .r8-cuerpo__el-pago-fue-rechazado {
+    display: none;
+  }
+
+  .r8-cuerpo__no-se-cobro-nada-podes-intent-2 {
+    display: none;
+  }
+
+  .r8-cuerpo__botones {
+    display: none;
+  }
+
+  .r8-cuerpo__intentar-de-nuevo {
+    display: none;
+  }
+
+  .r8-cuerpo__cambiar-el-horario {
+    display: none;
+  }
+
+  .r8-cuerpo__resumen {
+    display: none;
+  }
+
+  .r8-cuerpo__resumen-de-la-reserva {
+    display: none;
+  }
+
+  .r8-cuerpo__arriba {
+    display: none;
+  }
+
+  .r8-cuerpo__tu-reserva {
+    display: none;
+  }
+
+  .r8-cuerpo__clase {
+    display: none;
+  }
+
+  .r8-cuerpo__matematica-2-ano {
+    display: none;
+  }
+
+  .r8-cuerpo__mar-14-oct-17-00-presencia {
+    display: none;
+  }
+
+  .r8-cuerpo__rectangle {
+    display: none;
+  }
+
+  .r8-cuerpo__montos {
+    display: none;
+  }
+
+  .r8-cuerpo__precio-de-la-clase {
+    display: none;
+  }
+
+  .r8-cuerpo__precio-de-la-clase-2 {
+    display: none;
+  }
+
+  .r8-cuerpo__n8-000 {
+    display: none;
+  }
+
+  .r8-cuerpo__sena-online-50 {
+    display: none;
+  }
+
+  .r8-cuerpo__sena-online-50-2 {
+    display: none;
+  }
+
+  .r8-cuerpo__n4-000 {
+    display: none;
+  }
+
+  .r8-cuerpo__saldo-en-el-instituto {
+    display: none;
+  }
+
+  .r8-cuerpo__saldo-en-el-instituto-2 {
+    display: none;
+  }
+
+  .r8-cuerpo__n4-000-2 {
+    display: none;
+  }
+
+  .r8-cuerpo__boton {
+    display: none;
+  }
+
+  .r8-cuerpo__te-guardamos-el-lugar-15-minut {
+    display: none;
+  }
+
+  .r8-cuerpo__pago-rechazado-2 {
+    display: block;
+    width: 145px;
+    max-width: 100%;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 32px;
+    letter-spacing: 0.08em;
+    color: var(--estado-error);
+    text-transform: uppercase;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .r8-cuerpo__el-pago-no-se-pudo-hacer-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.12;
+    letter-spacing: -0.012em;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .r8-cuerpo__no-se-cobro-nada-podes-intent-3 {
+    display: flex;
+    height: 80px;
+    flex-shrink: 0;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--texto-secundario);
+    margin: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .r8-cuerpo__aviso-2 {
+    display: flex;
+    align-self: stretch;
+    gap: 14px;
+    padding: 16px 18px 16px 18px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    background-color: var(--estado-error-fondo);
+    border-radius: 12px;
+  }
+
+  .r8-cuerpo__icono-2 {
+    display: flex;
+    width: 22px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: var(--estado-error);
+    border-radius: 999px;
+  }
+
+  .r8-cuerpo__x-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.3;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+
+  .r8-cuerpo__textos-2 {
+    display: flex;
+    flex: 1 1 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 2px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .r8-cuerpo__el-pago-fue-rechazado-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--estado-error);
+    margin: 0;
+  }
+
+  .r8-cuerpo__no-se-cobro-nada-podes-intent-4 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .r8-cuerpo__intentar-de-nuevo-2 {
+    display: flex;
+    align-self: stretch;
+  }
+
+  .r8-cuerpo__cambiar-el-horario-2 {
+    display: flex;
+    align-self: stretch;
+  }
+}
