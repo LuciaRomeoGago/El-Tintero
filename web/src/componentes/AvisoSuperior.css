@@ -1,0 +1,322 @@
+.aviso-superior {
+  position: relative;
+  width: 100%;
+  height: 35px;
+  box-sizing: border-box;
+  background-color: var(--base-tinta-azul);
+  overflow: hidden;
+}
+
+.aviso-superior__cinta {
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  width: 3464px;
+  height: 15px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.aviso-superior__inscripciones-abiertas {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__primaria-secundaria-tercia {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__presencial-y-online {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__reserva-con-el-50 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__presencial {
+  display: none;
+}
+
+.aviso-superior__inscripciones-abiertas-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__primaria-secundaria-tercia-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__presencial-y-online-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__reserva-con-el-50-2 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__presencial-2 {
+  display: none;
+}
+
+.aviso-superior__inscripciones-abiertas-3 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__primaria-secundaria-tercia-3 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__presencial-y-online-3 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__reserva-con-el-50-3 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__inscripciones-abiertas-4 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__primaria-secundaria-tercia-4 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__presencial-y-online-4 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__reserva-con-el-50-4 {
+  white-space: nowrap;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  color: var(--base-hoja);
+  margin: 0;
+}
+
+.aviso-superior__presencial-3 {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .aviso-superior {
+    height: 32px;
+  }
+
+  .aviso-superior__cinta {
+    top: 9px;
+    width: 1129px;
+    height: 14px;
+    gap: 14px;
+  }
+
+  .aviso-superior__inscripciones-abiertas {
+    font-size: 10px;
+  }
+
+  .aviso-superior__primaria-secundaria-tercia {
+    display: none;
+  }
+
+  .aviso-superior__presencial-y-online {
+    display: none;
+  }
+
+  .aviso-superior__reserva-con-el-50 {
+    font-size: 10px;
+  }
+
+  .aviso-superior__presencial {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+
+  .aviso-superior__inscripciones-abiertas-2 {
+    font-size: 10px;
+  }
+
+  .aviso-superior__primaria-secundaria-tercia-2 {
+    display: none;
+  }
+
+  .aviso-superior__presencial-y-online-2 {
+    display: none;
+  }
+
+  .aviso-superior__reserva-con-el-50-2 {
+    font-size: 10px;
+  }
+
+  .aviso-superior__presencial-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+
+  .aviso-superior__inscripciones-abiertas-3 {
+    font-size: 10px;
+  }
+
+  .aviso-superior__primaria-secundaria-tercia-3 {
+    display: none;
+  }
+
+  .aviso-superior__presencial-y-online-3 {
+    display: none;
+  }
+
+  .aviso-superior__reserva-con-el-50-3 {
+    font-size: 10px;
+  }
+
+  .aviso-superior__inscripciones-abiertas-4 {
+    display: none;
+  }
+
+  .aviso-superior__primaria-secundaria-tercia-4 {
+    display: none;
+  }
+
+  .aviso-superior__presencial-y-online-4 {
+    display: none;
+  }
+
+  .aviso-superior__reserva-con-el-50-4 {
+    display: none;
+  }
+
+  .aviso-superior__presencial-3 {
+    display: block;
+    white-space: nowrap;
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    letter-spacing: 0.08em;
+    color: var(--base-hoja);
+    margin: 0;
+  }
+}
+

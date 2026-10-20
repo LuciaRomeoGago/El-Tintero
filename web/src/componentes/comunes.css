@@ -1,0 +1,224 @@
+/* Piezas compartidas del sistema de diseño (Figma · Sistema de diseño) y el movimiento de 06 · Movimiento. */
+:root { --curva: cubic-bezier(0.22, 1, 0.36, 1); }
+html { scroll-behavior: smooth; }
+html.sin-scroll { overflow: hidden; }
+body { margin: 0; background: var(--base-papel); color: var(--base-tinta); -webkit-font-smoothing: antialiased; }
+p, h1, h2, h3 { margin: 0; }
+a { color: inherit; text-decoration: none; }
+img { display: block; }
+.pagina { overflow-x: clip; }
+/* Escritorio: siempre el diseño de 1440 de Figma. Entre 1024 y 1440 se achica entero en proporción (--escala la
+   calcula index.html antes de pintar); arriba de 1440 queda centrado. */
+@media (min-width: 1024px) {
+  .pagina { width: 1440px; margin-inline: auto; zoom: var(--escala, 1); }
+}
+/* Celular: el diseño de 390. En pantallas de hasta 1023 se centra en una columna de celular. */
+@media (max-width: 1023px) {
+  .pagina { max-width: 430px; margin-inline: auto; }
+  .pagina > main { display: flex; flex-direction: column; } /* en celular algunas secciones cambian de orden */
+  .menu-celular { left: max(0px, calc(50% - 215px)); right: max(0px, calc(50% - 215px)); }
+}
+
+/* Botón */
+.boton {
+  display: inline-flex; gap: 8px; padding: 15px 28px; justify-content: center; align-items: center; box-sizing: border-box;
+  border-radius: 4px; border: 0; cursor: pointer; white-space: nowrap;
+  font-family: "Public Sans"; font-weight: 600; font-size: 14px; line-height: 1.2;
+  transition: background-color .2s var(--curva), border-color .2s var(--curva), box-shadow .2s var(--curva), transform .2s var(--curva);
+}
+.boton:hover { transform: translateY(-2px); }
+/* hover de Figma: un subrayado rojo a mano que se dibuja debajo del botón */
+.boton { position: relative; }
+.boton::after {
+  content: ""; position: absolute; left: 6px; right: 6px; top: calc(100% + 5px); height: 8px; pointer-events: none;
+  background: url("../assets/subrayado-boton.svg") no-repeat 0 0 / 100% 100%;
+  clip-path: inset(0 100% 0 0); transition: clip-path .35s var(--curva);
+}
+.boton:hover::after { clip-path: inset(0 0 0 0); }
+.boton:disabled::after { display: none; }
+.boton:focus-visible { outline: none; border: 2px solid var(--base-tinta-azul); box-shadow: 0 0 0 5px #CCF2FF; }
+.boton:disabled { opacity: .4; cursor: default; transform: none; }
+.boton--primario { background: var(--base-tinta); color: var(--base-hoja); }
+.boton--primario:hover { background: var(--base-tinta-azul); box-shadow: var(--sombra-suave); }
+.boton--secundario { background: transparent; color: var(--base-tinta); border: 1px solid var(--borde-fuerte); }
+.boton--secundario:hover { background: var(--base-hoja); border-color: var(--base-tinta); }
+.boton--resaltador { background: var(--acento-resaltador); color: var(--base-tinta); }
+.boton--resaltador:hover { box-shadow: 0 10px 28px 0 rgb(174 214 0 / .4); }
+.boton--oscuro { background: transparent; color: var(--base-hoja); border: 1px solid rgb(204 242 255 / .5); }
+.boton--oscuro:hover { background: rgb(255 255 255 / .08); }
+.boton--oscuro:focus-visible { border-color: var(--acento-resaltador); }
+
+/* Enlace con flecha */
+.enlace-flecha {
+  display: inline-flex; gap: 8px; padding: 4px 0; align-items: center; box-sizing: border-box; border-bottom: 1px solid var(--base-tinta);
+  font-family: "Public Sans"; font-weight: 600; font-size: 14px; line-height: 1.2; color: var(--base-tinta); white-space: nowrap;
+}
+.enlace-flecha span:last-child { transition: transform .3s var(--curva); width: 24px; height: 26px; flex-shrink: 0; }
+.enlace-flecha:hover span:last-child { transform: translateX(4px); }
+
+/* Pantallas de reserva: capas que en Figma son absolutas (fondo cuadriculado, margen rojo, pago) */
+.pagina > main { position: relative; isolation: isolate; }
+.pagina > main > section[class$="-renglones"] { position: absolute !important; inset: 0; width: auto !important; height: auto !important; z-index: -1; }
+.pagina > main > section[class$="-margen"] { position: absolute !important; top: 0; bottom: 0; left: 96px; width: 2px !important; height: auto !important; z-index: -1; }
+.pagina > main > section.r5-velo { position: fixed !important; inset: 0; width: auto !important; height: auto !important; z-index: 60; }
+.pagina > main > section.r5-pago {
+  position: fixed !important; z-index: 61; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 460px !important; max-height: calc(100vh - 40px); overflow: auto;
+}
+@media (max-width: 1023px) {
+  .pagina > main > section[class$="-margen"] { left: 16px; }
+  .pagina > main > section.r5-pago { left: 0; right: 0; top: auto; bottom: 0; transform: none; width: auto !important; max-height: 85vh; }
+}
+
+.opcion-elegible { cursor: pointer; transition: background-color .2s var(--curva), border-color .2s var(--curva), transform .2s var(--curva); }
+.opcion-elegible:hover { transform: translateY(-1px); }
+.opcion-elegible:focus-visible { outline: 2px solid var(--base-tinta-azul); outline-offset: 2px; }
+[aria-disabled="true"][class*="__"] { cursor: not-allowed; }
+.campo-real { border: 0; background: transparent; padding: 0; margin: 0; width: 100%; min-width: 0; font: inherit; color: inherit; outline: none; }
+[class*="__caja"]:focus-within { outline: 2px solid var(--base-tinta-azul); outline-offset: 2px; }
+
+/* Pantallas que en Figma solo están en celular: en escritorio van en una columna centrada */
+@media (min-width: 1024px) {
+  .pagina > main > :is(.t2-cuerpo, .t3-cuerpo, .t7-pasos, .t7-cuerpo, .t7-barra-inferior) { max-width: 640px; margin-inline: auto; }
+}
+
+/* Panel (solo diseñado para escritorio): se ve siempre a 1440 escalado al ancho de la pantalla */
+.pagina.pagina--panel { width: 1440px; max-width: none; margin: 0; zoom: var(--escala-panel, 1); }
+/* Menú lateral del panel: del alto de la ventana y fijo arriba mientras se baja (sticky) */
+.pagina { --zoom: 1; }
+@media (min-width: 1024px) { .pagina { --zoom: var(--escala, 1); } }
+.pagina.pagina--panel { --zoom: var(--escala-panel, 1); }
+.pagina > main > section[class$="-pantalla"] { min-height: calc(100vh / var(--zoom)); overflow: clip !important; }
+.pagina > main > section[class$="-pantalla"] > [class$="pantalla__lugar-del-menu"] { display: none; }
+.pagina > main > section[class$="-pantalla"] > [class$="pantalla__menu"] {
+  position: sticky !important; top: 0; order: -1; flex-shrink: 0; align-self: flex-start;
+  height: calc(100vh / var(--zoom)) !important; bottom: auto;
+}
+select.campo-real { cursor: pointer; }
+
+/* Carrusel (Quiénes enseñan) */
+.carrusel { overflow-x: auto !important; scroll-snap-type: x mandatory; scroll-behavior: smooth; scrollbar-width: none; }
+.carrusel::-webkit-scrollbar { display: none; }
+.carrusel > * { flex-shrink: 0 !important; scroll-snap-align: start; }
+.carrusel__boton { cursor: pointer; transition: border-color .2s var(--curva), opacity .2s var(--curva), transform .2s var(--curva); }
+.carrusel__boton:hover { border-color: var(--base-tinta) !important; transform: translateY(-2px); }
+.carrusel__boton:focus-visible { outline: 2px solid var(--base-tinta-azul); outline-offset: 2px; }
+.carrusel__boton[aria-disabled="true"] { opacity: .35; cursor: default; transform: none; }
+@media (prefers-reduced-motion: reduce) { .carrusel { scroll-behavior: auto; } }
+
+/* Logo y trazos */
+.logo { object-fit: contain; }
+.trazo { display: block; }
+.trazo svg { display: block; width: 100%; height: 100%; overflow: visible; }
+
+/* Encabezado fijo: papel translúcido con desenfoque */
+.pagina .encabezado { position: sticky; top: 0; z-index: 50; } /* más específico que el CSS generado, que lo deja relative */
+.encabezado__navegacion > a { position: relative; }
+.encabezado__navegacion > a::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -2px; height: 6px; background: var(--acento-resaltador); z-index: -1;
+  transform: scaleX(0); transform-origin: left; transition: transform .3s var(--curva);
+}
+.encabezado__navegacion > a:hover::after, .encabezado__navegacion > a[aria-current="page"]::after { transform: scaleX(1); }
+.encabezado__menu { display: none; background: none; border: 0; cursor: pointer; }
+.encabezado__menu span { display: block; transition: transform .3s var(--curva), opacity .2s; }
+@media (max-width: 1023px) {
+  .encabezado__menu { display: flex; }
+  .encabezado--abierto { background-color: var(--base-papel); }
+  .encabezado--abierto .encabezado__rectangle { transform: translateY(6.6px) rotate(45deg); }
+  .encabezado--abierto .encabezado__rectangle-2 { transform: translateY(0) rotate(-45deg); }
+  .encabezado--abierto .encabezado__rectangle-3 { opacity: 0; }
+}
+
+/* Menú abierto · celular */
+.menu-celular {
+  position: fixed; inset: 64px 0 0 0; z-index: 49; background: var(--base-papel); box-sizing: border-box;
+  display: flex; flex-direction: column; gap: 32px; padding: 24px 20px 32px; overflow-y: auto;
+}
+.menu-celular[hidden] { display: none; }
+.menu-celular__navegacion { display: flex; flex-direction: column; }
+.menu-celular__enlace {
+  display: flex; justify-content: space-between; align-items: center; padding: 18px 0; border-bottom: 1px solid var(--borde-suave);
+  font-family: "EB Garamond"; font-weight: 500; font-size: 30px; line-height: 1.12; letter-spacing: -0.015em; color: var(--base-tinta);
+}
+.menu-celular__enlace span:last-child { width: 24px; height: 26px; flex-shrink: 0; }
+.menu-celular__boton { width: 100%; }
+.menu-celular__contacto { margin-top: auto; display: flex; flex-direction: column; gap: 10px; }
+.menu-celular__frase { font-family: "Kalam"; font-weight: 700; font-size: 20px; color: var(--hoja-lapiz-rojo); }
+.menu-celular__datos { font-family: "Lexend Mega"; font-weight: 500; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--texto-secundario); }
+@media (min-width: 1024px) { .menu-celular { display: none !important; } }
+
+/* Aviso superior: cinta que corre */
+.aviso-superior__cinta { width: max-content; animation: cinta 40s linear infinite; }
+@keyframes cinta { to { transform: translateX(-50%); } }
+
+/* Entrada de contenido: sube 18 px y aparece (0,7 s) */
+.mov-entra { opacity: 0; translate: 0 18px; transition: opacity .7s var(--curva), translate .7s var(--curva); }
+.mov-entra.visto { opacity: 1; translate: 0 0; }
+/* Trazos rojos que se dibujan solos (0,9 s) */
+.mov-trazo path { stroke-dasharray: 1; stroke-dashoffset: 1; transition: stroke-dashoffset .9s var(--curva); }
+.mov-trazo.visto path { stroke-dashoffset: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .mov-entra { opacity: 1; translate: none; }
+  .mov-trazo path { stroke-dashoffset: 0; }
+}
+
+/* ===== Movimiento de las piezas (06 · Movimiento). Se reconocen por el nombre de la capa en Figma. ===== */
+@media (prefers-reduced-motion: no-preference) {
+  /* Cinta de materias: 55 s por vuelta, se frena al pasar el mouse */
+  .mov-pista { width: max-content; align-self: flex-start; animation: cinta 55s linear infinite; } /* arranca del borde: si queda centrada, al final de la vuelta sobra media pantalla vacía */
+  .mov-pista:hover { animation-play-state: paused; }
+
+  /* Resaltador que pinta de izquierda a derecha (0,6 s) */
+  .mov-resaltador {
+    background-color: transparent !important;
+    background-image: linear-gradient(var(--acento-resaltador), var(--acento-resaltador));
+    background-repeat: no-repeat; background-size: 0% 100%;
+    transition: background-size .6s var(--curva) .2s;
+  }
+  .mov-resaltador.visto { background-size: 100% 100%; }
+
+  /* Gotas de tinta del hero: caen en 2,4 s; después el arte sigue suave al mouse */
+  .mov-gota { animation: gota 2.4s var(--curva) both; }
+  @keyframes gota { from { translate: 0 -48px; opacity: 0; } to { translate: 0 0; opacity: 1; } }
+
+  /* Fichas: entran giradas y se enderezan al pasar el mouse (0,5 s) */
+  .mov-ficha { animation: ficha .7s var(--curva) backwards; transition: transform .5s var(--curva), translate .8s var(--curva); }
+  .mov-ficha:hover { transform: none; }
+  @keyframes ficha { from { translate: -24px 16px; opacity: 0; } to { translate: 0 0; opacity: 1; } }
+
+  /* Notas de la cartelera: aparecen escalonadas (0,08 s) y se levantan 6 px */
+  .mov-nota { opacity: 0; scale: .9; transition: opacity .45s var(--curva), scale .45s var(--curva), translate .2s var(--curva); }
+  .mov-nota.visto { opacity: 1; scale: 1; }
+  .mov-nota:hover { translate: 0 -6px; }
+
+  /* Puntito que late (1,6 s) */
+  .mov-late { animation: late 1.6s ease-out infinite; }
+  @keyframes late { 0% { box-shadow: 0 0 0 0 currentColor; } 70%, 100% { box-shadow: 0 0 0 6px transparent; } }
+
+  /* Tarjetas que se levantan al pasar el mouse (0,2 s) */
+  .mov-levanta { transition: translate .2s var(--curva), box-shadow .2s var(--curva); }
+  .mov-levanta:hover { translate: 0 -4px; box-shadow: var(--sombra-elevada); }
+
+  /* Mazo de clases que rota cada 4 s */
+  .mov-mazo > * { transition: left .6s var(--curva), top .6s var(--curva), width .6s var(--curva), opacity .6s var(--curva), transform .6s var(--curva); }
+}
+/* Carruseles de celular: se deslizan con el dedo */
+@media (max-width: 1023px) {
+  [class*="__carrusel"] { overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; }
+  [class*="__carrusel"] > * { scroll-snap-align: start; }
+}
+
+/* Textos que en celular cambian (otros cortes de línea): van los dos y se muestra uno */
+.solo-celular { display: none; }
+@media (max-width: 1023px) {
+  .solo-escritorio { display: none; }
+  .solo-celular { display: inline; }
+}
+
+/* Preguntas frecuentes: la respuesta se despliega en 0,45 s */
+.acordeon__caja { display: grid; grid-template-rows: 0fr; align-self: stretch; transition: grid-template-rows .45s var(--curva), margin-top .45s var(--curva); }
+.acordeon__caja--abierta { grid-template-rows: 1fr; }
+.acordeon__interior { min-height: 0; overflow: hidden; }
+.acordeon__interior > *, .acordeon__interior p { height: auto !important; }

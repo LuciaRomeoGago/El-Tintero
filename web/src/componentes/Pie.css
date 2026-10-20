@@ -1,0 +1,782 @@
+.pie {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 80px 128px 40px 128px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-color: var(--base-papel);
+  border-top: 1px solid var(--borde-suave);
+}
+
+.pie__grilla {
+  align-self: stretch;
+  display: flex;
+  gap: 64px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.pie__marca {
+  width: 380px;
+  flex-shrink: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.pie__logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.pie__marca-logo {
+  width: 75.6px;
+  flex-shrink: 0;
+  min-width: 0;
+  height: 69.84px;
+  position: relative;
+}
+
+.pie__el-tintero {
+  white-space: nowrap;
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__apoyo-escolar-en-tandil-desde {
+  width: 340px;
+  max-width: 100%;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.pie__no-te-lleves-materias {
+  white-space: nowrap;
+  font-family: "Kalam";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  color: var(--hoja-lapiz-rojo);
+  margin: 0;
+}
+
+.pie__propuesta {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.pie__propuesta-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.pie__niveles {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__materias {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__modalidades {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__clases-con-lugar {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__instituto {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.pie__instituto-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.pie__historia {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__equipo {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__avisos {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__preguntas {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__contacto {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.pie__contacto-2 {
+  white-space: nowrap;
+  font-family: "Lexend Mega";
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 1.3;
+  letter-spacing: 0.08em;
+  color: var(--texto-secundario);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.pie__whatsapp {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__instagram {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__facebook {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__tandil-buenos-aires {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--base-tinta);
+  margin: 0;
+}
+
+.pie__marca-2 {
+  display: none;
+}
+
+.pie__logo-2 {
+  display: none;
+}
+
+.pie__marca-logo-2 {
+  display: none;
+}
+
+.pie__el-tintero-2 {
+  display: none;
+}
+
+.pie__apoyo-escolar-en-tandil-desde-2 {
+  display: none;
+}
+
+.pie__no-te-lleves-materias-2 {
+  display: none;
+}
+
+.pie__columnas {
+  display: none;
+}
+
+.pie__propuesta-3 {
+  display: none;
+}
+
+.pie__propuesta-4 {
+  display: none;
+}
+
+.pie__niveles-2 {
+  display: none;
+}
+
+.pie__materias-2 {
+  display: none;
+}
+
+.pie__modalidades-2 {
+  display: none;
+}
+
+.pie__clases-con-lugar-2 {
+  display: none;
+}
+
+.pie__instituto-3 {
+  display: none;
+}
+
+.pie__instituto-4 {
+  display: none;
+}
+
+.pie__historia-2 {
+  display: none;
+}
+
+.pie__equipo-2 {
+  display: none;
+}
+
+.pie__avisos-2 {
+  display: none;
+}
+
+.pie__preguntas-2 {
+  display: none;
+}
+
+.pie__contacto-3 {
+  display: none;
+}
+
+.pie__contacto-4 {
+  display: none;
+}
+
+.pie__whatsapp-2 {
+  display: none;
+}
+
+.pie__instagram-2 {
+  display: none;
+}
+
+.pie__facebook-2 {
+  display: none;
+}
+
+.pie__tandil-buenos-aires-2 {
+  display: none;
+}
+
+.pie__legal {
+  align-self: stretch;
+  display: flex;
+  padding: 20px 0px 0px 0px;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  border-top: 1px solid var(--borde-suave);
+}
+
+.pie__n2026-el-tintero-tandil-bu {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+.pie__diseno-y-desarrollo-lucia-rom {
+  white-space: nowrap;
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--texto-secundario);
+  margin: 0;
+}
+
+@media (max-width: 1023px) {
+  .pie {
+    gap: 28px;
+    padding: 48px 20px 32px 20px;
+  }
+
+  .pie__grilla {
+    display: none;
+  }
+
+  .pie__marca {
+    display: none;
+  }
+
+  .pie__logo {
+    display: none;
+  }
+
+  .pie__marca-logo {
+    display: none;
+  }
+
+  .pie__el-tintero {
+    display: none;
+  }
+
+  .pie__apoyo-escolar-en-tandil-desde {
+    display: none;
+  }
+
+  .pie__no-te-lleves-materias {
+    display: none;
+  }
+
+  .pie__propuesta {
+    display: none;
+  }
+
+  .pie__propuesta-2 {
+    display: none;
+  }
+
+  .pie__niveles {
+    display: none;
+  }
+
+  .pie__materias {
+    display: none;
+  }
+
+  .pie__modalidades {
+    display: none;
+  }
+
+  .pie__clases-con-lugar {
+    display: none;
+  }
+
+  .pie__instituto {
+    display: none;
+  }
+
+  .pie__instituto-2 {
+    display: none;
+  }
+
+  .pie__historia {
+    display: none;
+  }
+
+  .pie__equipo {
+    display: none;
+  }
+
+  .pie__avisos {
+    display: none;
+  }
+
+  .pie__preguntas {
+    display: none;
+  }
+
+  .pie__contacto {
+    display: none;
+  }
+
+  .pie__contacto-2 {
+    display: none;
+  }
+
+  .pie__whatsapp {
+    display: none;
+  }
+
+  .pie__instagram {
+    display: none;
+  }
+
+  .pie__facebook {
+    display: none;
+  }
+
+  .pie__tandil-buenos-aires {
+    display: none;
+  }
+
+  .pie__marca-2 {
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .pie__logo-2 {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .pie__marca-logo-2 {
+    display: block;
+    width: 75.6px;
+    flex-shrink: 0;
+    min-width: 0;
+    height: 69.84px;
+    position: relative;
+  }
+
+  .pie__el-tintero-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.12;
+    letter-spacing: -0.015em;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__apoyo-escolar-en-tandil-desde-2 {
+    display: block;
+    align-self: stretch;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--texto-secundario);
+    margin: 0;
+  }
+
+  .pie__no-te-lleves-materias-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Kalam";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: var(--hoja-lapiz-rojo);
+    margin: 0;
+  }
+
+  .pie__columnas {
+    display: flex;
+    align-self: stretch;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 16px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .pie__propuesta-3 {
+    display: flex;
+    width: 160px;
+    flex-shrink: 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .pie__propuesta-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .pie__niveles-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__materias-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__modalidades-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__clases-con-lugar-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__instituto-3 {
+    display: flex;
+    width: 160px;
+    flex-shrink: 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .pie__instituto-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .pie__historia-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__equipo-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__avisos-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__preguntas-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__contacto-3 {
+    display: flex;
+    width: 160px;
+    flex-shrink: 0;
+    min-width: 0;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+
+  .pie__contacto-4 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Lexend Mega";
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.08em;
+    color: var(--texto-secundario);
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .pie__whatsapp-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__instagram-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__facebook-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__tandil-buenos-aires-2 {
+    display: block;
+    white-space: nowrap;
+    font-family: "Public Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--base-tinta);
+    margin: 0;
+  }
+
+  .pie__legal {
+    padding: 16px 0px 0px 0px;
+    justify-content: unset;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
+

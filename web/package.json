@@ -1,0 +1,20 @@
+{
+  "name": "el-tintero-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite-react-ssg dev",
+    "build": "vite-react-ssg build && node -e \"require('fs').copyFileSync('dist/404/index.html','dist/404.html')\"",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.28.0",
+    "vite-react-ssg": "0.8.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11"
+  }
+}
