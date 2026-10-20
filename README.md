@@ -36,11 +36,11 @@ Web con turnero para El Tintero. Es una demo de portfolio: el pago y los WhatsAp
 
 ## Etapas
 
-1. Base (esta): Docker, modelos, migración inicial, datos de la demo y tokens. ✔
-2. Sitio público: Home, P1–P5 y Contacto, iguales a Figma y pre-renderizados. ✔
-3. Reserva simulada (sin base de datos, para la demo): pantallas R1–R8 de Figma, opciones que se eligen, campos editables y lugar guardado 20 minutos. ✔
-4. Pago simulado: aprobado / pendiente / rechazado (sin guardar nada). ✔
-5. Tu reserva y cancelación (pantallas T1–T3, ejemplo con devolución) y página 404. ✔
+1. Base (esta): Docker, modelos, migración inicial, datos de la demo y tokens. (Listo)
+2. Sitio público: Home, P1–P5 y Contacto, iguales a Figma y pre-renderizados. (Listo)
+3. Reserva simulada (sin base de datos, para la demo): pantallas R1–R8 de Figma, opciones que se eligen, campos editables y lugar guardado 20 minutos. (Listo)
+4. Pago simulado: aprobado / pendiente / rechazado (sin guardar nada). (Listo)
+5. Tu reserva y cancelación (pantallas T1–T3, ejemplo con devolución) y página 404. (Listo)
 6. Panel: ingreso con cookie de sesión, clases, reservas, docentes y agenda docente.
 7. Publicación de la demo.
 
