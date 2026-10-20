@@ -194,8 +194,10 @@ select.campo-real { cursor: pointer; }
   .mov-nota:hover { translate: 0 -6px; }
 
   /* Puntito que late (1,6 s) */
-  .mov-late { animation: late 1.6s ease-out infinite; }
-  @keyframes late { 0% { box-shadow: 0 0 0 0 currentColor; } 70%, 100% { box-shadow: 0 0 0 6px transparent; } }
+  /* el anillo es una capa aparte que crece y se apaga (transform + opacity): no repinta la página en cada cuadro */
+  .mov-late { position: relative; }
+  .mov-late::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: inherit; animation: late 1.6s ease-out infinite; }
+  @keyframes late { 0% { transform: scale(1); opacity: .6; } 70%, 100% { transform: scale(3); opacity: 0; } }
 
   /* Tarjetas que se levantan al pasar el mouse (0,2 s) */
   .mov-levanta { transition: translate .2s var(--curva), box-shadow .2s var(--curva); }

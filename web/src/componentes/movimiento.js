@@ -54,9 +54,11 @@ export function activarMovimiento(raiz) {
   }, { rootMargin: "0px 0px -8% 0px" });
   limpiar.push(() => io.disconnect());
   const visible = (el) => el.offsetParent !== null;
+  // primero se mide todo y después se cambian las clases: medir y cambiar intercalado obliga a recalcular la página entera cada vez
+  const cambios = [];
   const observar = (el, cls, esconderArriba = true) => {
     if (!visible(el)) return;
-    if (esconderArriba === false || el.getBoundingClientRect().top > alto * 0.92) { el.classList.add(cls); io.observe(el); }
+    if (esconderArriba === false || el.getBoundingClientRect().top > alto * 0.92) cambios.push(() => { el.classList.add(cls); io.observe(el); });
   };
 
   // Entrada de contenido: sube 18 px y aparece (solo lo que está más abajo de la primera pantalla)
@@ -68,6 +70,7 @@ export function activarMovimiento(raiz) {
   q(raiz, ".trazo").forEach((el) => observar(el, "mov-trazo", false));
   // Resaltador
   q(raiz, "[class*='__resaltador']").forEach((el) => observar(el, "mov-resaltador", false));
+  cambios.forEach((f) => f());
 
   // Cinta de materias: se duplica el contenido para que la vuelta no tenga corte
   q(raiz, "[class*='__pista']").forEach((pista) => {
@@ -115,7 +118,10 @@ export function activarMovimiento(raiz) {
     const fin = +m[1], suf = m[2];
     p.addEventListener("visto", () => {
       const t0 = performance.now();
-      const paso = (t) => { const k = Math.min(1, (t - t0) / 1200); const e = 1 - Math.pow(1 - k, 3); p.textContent = Math.round(fin * e) + suf; if (k < 1) requestAnimationFrame(paso); };
+      // mientras cuenta, la caja queda fija y aislada: cambiar el número no obliga a recalcular toda la página
+      p.style.width = `${p.offsetWidth}px`; p.style.height = `${p.offsetHeight}px`; p.style.contain = "strict";
+      const listo = () => { p.style.width = ""; p.style.height = ""; p.style.contain = ""; };
+      const paso = (t) => { const k = Math.min(1, (t - t0) / 1200); const e = 1 - Math.pow(1 - k, 3); p.textContent = Math.round(fin * e) + suf; if (k < 1) requestAnimationFrame(paso); else listo(); };
       requestAnimationFrame(paso);
     }, { once: true });
     io.observe(p);
@@ -134,7 +140,11 @@ export function activarMovimiento(raiz) {
       k = (k + 1) % n;
       cartas.forEach((c, j) => { const l = (j + k) % n; c.style.zIndex = l; Object.assign(c.style, lugares[l]); });
     };
-    const id = setInterval(rotar, 4000); limpiar.push(() => clearInterval(id));
+    // solo gira mientras se ve: fuera de pantalla no gasta (mueve posición y tamaño, que recalculan la página)
+    let id = null;
+    const ojo = new IntersectionObserver(([e]) => { if (e.isIntersecting && !id) id = setInterval(rotar, 4000); else if (!e.isIntersecting && id) { clearInterval(id); id = null; } });
+    ojo.observe(v);
+    limpiar.push(() => { ojo.disconnect(); clearInterval(id); });
   });
 
   // Hojas apiladas: en escritorio cada hoja queda pegada abajo del encabezado mientras pasa la siguiente
