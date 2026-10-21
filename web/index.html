@@ -13,9 +13,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- las tipografías no frenan el primer dibujo: se cargan aparte y se cambian al llegar (display=swap) -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&family=Kalam:wght@400;700&family=Lexend+Mega:wght@500&family=Public+Sans:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&family=Kalam:wght@400;700&family=Lexend+Mega:wght@500&family=Public+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    <!-- las tipografías se cargan antes del primer dibujo: cargarlas aparte movía el título al llegar (CLS 0,6) -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&family=Kalam:wght@400;700&family=Lexend+Mega:wght@500&family=Public+Sans:wght@400;500;600;700&display=swap" />
     <script>
       // El diseño de escritorio mide 1440: entre 1024 y 1440 se escala para que entre igual que en Figma.
       (function () {
