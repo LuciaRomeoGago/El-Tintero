@@ -11,10 +11,13 @@
     <meta property="og:description" content="Primaria, secundaria, terciario e ingreso. Reservá tu clase online." />
     <meta property="og:image" content="%VITE_SITIO%/og.png" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <!-- las tipografías se cargan antes del primer dibujo: cargarlas aparte movía el título al llegar (CLS 0,6) -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500&family=Kalam:wght@400;700&family=Lexend+Mega:wght@500&family=Public+Sans:wght@400;500;600;700&display=swap" />
+    <!-- las tipografías de la primera pantalla se piden ya: cada una que llega tarde obliga a volver a acomodar la página entera -->
+    <link rel="preload" href="/fuentes/eb-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fuentes/public-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fuentes/eb-garamond-latin-400-italic.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fuentes/lexend-mega-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fuentes/public-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fuentes/ibm-plex-mono-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
     <script>
       // El diseño de escritorio mide 1440: entre 1024 y 1440 se escala para que entre igual que en Figma.
       (function () {

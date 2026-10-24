@@ -1,4 +1,5 @@
 import { ViteReactSSG } from "vite-react-ssg";
+import "./fuentes.css";
 import "./tokens.css";
 import "./componentes/comunes.css";
 import { rutas } from "./rutas.jsx";

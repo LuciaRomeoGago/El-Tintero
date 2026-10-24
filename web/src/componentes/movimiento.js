@@ -165,7 +165,9 @@ export function activarMovimiento(raiz) {
     limpiar.push(() => window.removeEventListener("resize", pegar));
   }
 
-  funciones(raiz, limpiar);
+  // en otra tarea: juntas con lo de arriba hacían una sola tarea larga que traba la página
+  const t = setTimeout(() => funciones(raiz, limpiar), 0);
+  limpiar.push(() => clearTimeout(t));
 
   return () => limpiar.forEach((f) => f());
 }

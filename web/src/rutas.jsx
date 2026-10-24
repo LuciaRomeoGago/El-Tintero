@@ -5,14 +5,21 @@ import Marco from "./componentes/Marco.jsx";
 
 // Cada página se carga aparte (su HTML ya viene pre-renderizado), lleva su título y activa el movimiento
 // recién cuando su contenido está en pantalla.
-const pagina = (cargar, titulo, privada = false) => async () => {
+const pagina = (cargar, titulo, privada = false) => Object.assign(async () => {
   const { default: Pagina } = await cargar();
   const Component = () => {
-    useEffect(() => { const fin = activarMovimiento(document.querySelector(".pagina")); return () => { if (typeof fin === "function") fin(); }; }, []);
+    useEffect(() => {
+      // el movimiento arranca después de pintar: así no se suma a la tarea larga de hidratar la página
+      let fin;
+      const id = setTimeout(() => { fin = activarMovimiento(document.querySelector(".pagina")); }, 0);
+      return () => { clearTimeout(id); if (typeof fin === "function") fin(); };
+    }, []);
     return <><Head><title>{titulo}</title>{privada && <meta name="robots" content="noindex, nofollow" />}</Head><Pagina /></>;
   };
   return { Component };
-};
+// vite-react-ssg busca el import() en el texto de `lazy` para poner el CSS de la página en el HTML;
+// sin esto el CSS llega después por JavaScript y la página se dibuja dos veces.
+}, { toString: () => cargar.toString() });
 
 export const rutas = [
   {
