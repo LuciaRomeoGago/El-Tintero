@@ -20,7 +20,7 @@ export default function Profesores() {
                   <p className="p5-hero__docentes">Docentes</p>
                 </div>
                 <div className="p5-hero__container-7">
-                  <p className="p5-hero__n3">3</p>
+                  <p className="p5-hero__n3">6</p>
                 </div>
               </div>
               <div className="p5-hero__container-8">
@@ -66,7 +66,7 @@ export default function Profesores() {
                   <p className="p5-hero__docentes-2">Docentes</p>
                 </div>
                 <div className="p5-hero__container-20">
-                  <p className="p5-hero__n3-3">3</p>
+                  <p className="p5-hero__n3-3">6</p>
                 </div>
               </div>
               <div className="p5-hero__container-21">
@@ -159,7 +159,7 @@ export default function Profesores() {
               </div>
               <div className="p5-section__item-2">
                 <div className="p5-section__container-14">
-                  <p className="p5-section__n2008">2008</p>
+                  <p className="p5-section__n2008">2009</p>
                 </div>
                 <div className="p5-section__container-15">
                   <p className="p5-section__el-instituto-se-muda-a-chacabuco-1163-entre-montevideo-y-las-heras"><span className="solo-escritorio">El instituto se muda a Chacabuco 1163, entre Montevideo y Las Heras.</span><span className="solo-celular">El instituto se muda a Chacabuco<br />1163, entre Montevideo y Las<br />Heras.</span></p>
@@ -167,7 +167,7 @@ export default function Profesores() {
               </div>
               <div className="p5-section__item-3">
                 <div className="p5-section__container-16">
-                  <p className="p5-section__n2014">2014</p>
+                  <p className="p5-section__n2014">2017</p>
                 </div>
                 <div className="p5-section__container-17">
                   <p className="p5-section__nueva-mudanza-enfrente-chacabuco-1180"><span className="solo-escritorio">Nueva mudanza, enfrente: Chacabuco 1180.</span><span className="solo-celular">Nueva mudanza, enfrente:<br />Chacabuco 1180.</span></p>
